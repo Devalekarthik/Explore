@@ -6,10 +6,10 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import Typography from "@mui/material/Typography";
+// import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import Data from "../../Data/data.json";
-// import LinkedIn from "@mui/icons-material/LinkedIn";
+import LinkedIn from "@mui/icons-material/LinkedIn";
 
 const Portfolio = () => {
   const accordion = (title, details) => {
