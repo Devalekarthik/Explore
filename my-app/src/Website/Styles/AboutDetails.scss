@@ -1,0 +1,16 @@
+.about {
+    margin: 4rem 6rem;
+    text-align: start;
+
+    @media (max-width: 850px) {
+        margin: 4rem 2rem;
+    }
+
+    h1 {
+        padding-bottom: 1rem;
+    }
+
+    p {
+        padding-bottom: 2rem;
+    }
+}

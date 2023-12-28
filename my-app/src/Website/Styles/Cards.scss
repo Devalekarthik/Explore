@@ -1,0 +1,133 @@
+.cardPlaces {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    // justify-content: space-around;
+    gap: 20px;
+    width: auto;
+    flex-wrap: wrap;
+    position: relative;
+
+    // @media (max-width: 1200px) {
+    //     justify-content: center;
+    // }
+
+    .cards {
+        position: relative;
+        overflow: hidden;
+        border-radius: 1rem;
+        width: 400px;
+        height: 250px;
+        cursor: pointer;
+
+        .cardsImg {
+            position: relative;
+            height: 100%;
+            width: 100%;
+
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: fill;
+                transition: all .3s ease-in-out;
+            }
+
+            .cardsInfo {
+                position: absolute;
+                z-index: 3;
+                bottom: 0;
+                width: 100%;
+                justify-content: space-between;
+                padding: 10px;
+                color: white;
+                // background-color: red;
+                // height: 100%;
+
+                .InfoPlacement {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    font-size: 20px;
+
+                    .placelocation {
+                        text-align: left;
+                        display: flex;
+                        align-items: center;
+
+                        svg {
+                            font-size: 1.1rem;
+                        }
+                    }
+
+                    .rating {
+                        // border: 1px solid black;
+                        padding: 10px;
+                        border-radius: 15px;
+                        // background-color:gray;
+                        // color: black;
+                        font-size: 20px;
+                    }
+                }
+            }
+
+            .cardsHover {
+                position: absolute;
+                z-index: -1;
+                bottom: 0;
+                background-color: black;
+                opacity: 0.8;
+                color: white;
+
+                // button {
+                //     padding: 10px 30px ;
+                //     background: orange;
+                //     border: none;
+                //     color: white;
+                //     border-radius: 50px;
+                //     position: relative;
+                //     top: 50%;
+                //     opacity: 1;
+                //     font-size: 14px;
+                //     font-weight: 600;
+                //     cursor: pointer;
+                // }
+
+            }
+            button {
+                padding: 10px 30px ;
+                background: orange;
+                border: none;
+                color: white;
+                border-radius: 50px;
+                position: relative;
+                top: 50%;
+                opacity: 1;
+                font-size: 14px;
+                font-weight: 600;
+                cursor: pointer;
+                z-index: -1;
+            }
+
+
+            &:hover {
+                .cardsHover {
+                    z-index: 2;
+                    width: 100%;
+                    height: 100%;
+                    transition: all .5s ease-in-out;
+                    top: 50%;
+                    // opacity: 0.8;
+                    transform: translateY((-50%));
+
+                    button {
+                        z-index: 4;
+                    }
+                }
+
+                img {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}

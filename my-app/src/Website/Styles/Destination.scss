@@ -1,0 +1,148 @@
+.destination {
+    margin-top: 20px;
+
+    .dest-Title {
+        font-size: 50px;
+        margin: 0;
+        font-weight: 600;
+
+        @media (max-width:400px) {
+            font-size: 32px;
+        }
+    }
+
+    .dest-Subtitle {
+        font-size: 30px;
+
+        @media (max-width:400px) {
+            font-size: 18px;
+        }
+    }
+
+    .search {
+        text-align: start;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        flex-wrap: wrap;
+        margin-top: 30px;
+
+        .css-b62m3t-container,
+        .css-3iigni-container {
+
+            // min-width: 350px;
+            width: 50%;
+            height: 30px;
+
+            @media (max-width: 850px) {
+                width: 80%;
+            }
+
+        }
+
+        .css-13cymwt-control,
+        .css-t3ipsp-control,
+        .css-16xfy0z-control,
+        .css-1n6sfyn-MenuList {
+            border-radius: 10px;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        .css-tr4s17-option,
+        .css-d7l1ni-option {
+            cursor: pointer;
+        }
+
+        // .css-16xfy0z-control {
+        //     cursor: default;
+        // }
+
+        .css-1u9des2-indicatorSeparator {
+            width: 0;
+        }
+
+        .css-1nmdiq5-menu {
+            margin-top: 15px;
+            // width: 30%;
+            border-radius: 10px;
+            z-index: 10;
+        }
+
+        .searchBtn {
+            width: 20%;
+            min-width: 200px;
+            height: 38px;
+            border-radius: 10px;
+            background: orange;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border: 1px solid lightgrey;
+            font-size: 18px;
+
+            &:hover {
+                // box-shadow: 0 0.3125rem 1.5625rem 0.125rem rgba(0, 0, 0, 0.11);
+                // box-shadow: 2px;
+                border: 1px solid hsl(0, 0%, 70%);
+            }
+        }
+
+        .disabledBtn {
+            background: lightgray;
+            color: rgb(151, 140, 140);
+
+            &:hover {
+                border: none;
+                cursor: default;
+            }
+        }
+    }
+
+    .cardsNavbar {
+        display: flex;
+        justify-content: start;
+        margin: 30px 0px;
+        flex-wrap: wrap;
+        gap: 20px;
+
+        @media (max-width: 850px) {
+            justify-content: space-around;
+        }
+
+        button {
+            // margin-right: 30px;
+            display: flex;
+            justify-content: center;
+            border: 2px solid transparent;
+            background: transparent;
+            padding: 7px;
+            border-radius: 50px;
+            min-width: 70px;
+            font-size: 15px;
+            cursor: pointer;
+
+            &:hover {
+                border: 2px solid orange;
+            }
+
+            &:focus {
+                background-color: orange;
+                color: white;
+            }
+        }
+
+        .selectedButton {
+            background-color: orange;
+            color: white;
+        }
+    }
+
+    .cards {
+        max-height: 538px;
+        overflow: auto;
+        // overflow-y: scroll;
+        scroll-behavior: auto;
+
+    }
+}

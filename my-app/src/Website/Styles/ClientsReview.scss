@@ -1,0 +1,110 @@
+.clients {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    // gap: 40px;
+
+    .clientsDetails {
+        width: 50%;
+        text-align: left;
+        // border: 1px solid black;
+        border-radius: 40px;
+        padding: 8px;
+        max-height: 368px;
+        scroll-behavior: smooth;
+        overflow-y: scroll;
+        scroll-behavior: auto;
+
+        &::-webkit-scrollbar {
+            width: 0px;
+            background: transparent;
+        }
+
+        .accordian {
+
+            .selectedCard {
+                background-color: lightblue;
+            }
+
+            .profileImg {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 5px;
+            }
+
+            .stars {
+                .css-i4bv87-MuiSvgIcon-root {
+                    font-size: 16px;
+                }
+
+                h3 {
+                    margin-left: 0.1875rem;
+                }
+            }
+
+            //css name align at center in accordian
+            .css-o4b71y-MuiAccordionSummary-content {
+                align-items: center;
+            }
+
+            //accordian shape and size
+            .css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+                border-radius: 40px;
+                margin-bottom: 10px;
+
+                &::before {
+                    height: 0px;
+                }
+
+                &:hover {
+                    background-color: lightblue;
+
+                }
+            }
+        }
+    }
+
+    .clientsImg {
+        width: 50%;
+
+        img {
+            width: 450px;
+            height: 250px;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+.checkwatermark {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 600px;
+    height: auto;
+    // border: 1px solid black;
+
+    .watermark {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: url("../Images/bg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    ::before {
+        content: '';
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: url("../Images/splash.jpg");
+        background-size: 100%;
+        background-position: center;
+        mix-blend-mode: screen;
+
+    }
+}

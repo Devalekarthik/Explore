@@ -1,0 +1,130 @@
+.navbarItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.875rem;
+    background-color: white;
+    box-shadow: 0 0.3125rem 0.9375rem 0 rgba($color: #000000, $alpha: 0.25);
+    width: 95%;
+    height: 5rem;
+    border-radius: 0.9375rem;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate((-50%));
+    z-index: 12;
+    gap: 10px;
+    overflow: hidden;
+
+    @media (max-width: 850px) {
+        position: absolute;
+        overflow: visible;
+    }
+
+    .navbarLogo {
+        color: black;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+
+    .navMenu {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 20px;
+        justify-content: space-around;
+        z-index: -1;
+        background-color: white;
+        border-radius: 15px;
+        cursor: pointer;
+        height: 5rem;
+
+        @media (max-width: 850px) {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: center;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: -150%;
+            opacity: 1;
+            align-items: stretch;
+            padding: 65px 0 10px 0;
+            margin: 0;
+            transition: 0.2s ease-in-out;
+            gap: 0px;
+        }
+
+        .navLink {
+            font-size: 17px;
+            font-weight: 600;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: auto;
+            height: 5rem;
+            text-align: center;
+            justify-content: center;
+
+            @media (max-width: 850px) {
+                width: 100%;
+                font-size: 1.2rem;
+                padding: 20px 0;
+            }
+
+            &:hover {
+                border-bottom: 5px solid #01959a;
+                color: #01959a;
+                transition: 0.2s ease-in-out;
+
+                @media (max-width: 850px) {
+                    background-color: #01959a;
+                    color: white;
+                    border-radius: 0.3rem;
+                    border-bottom: 0px;
+                }
+            }
+        }
+    }
+
+    .mobile {
+        @media (max-width: 850px) {
+            left: 0;
+            opacity: 1;
+            transition: 0.2s ease-in-out;
+        }
+    }
+
+    .menuIcon {
+        cursor: pointer;
+
+        @media (min-width: 851px) {
+            transition: 2s ease-out;
+            display: none;
+        }
+    }
+
+    .signUpButton {
+        padding: 8px 16px;
+        white-space: nowrap;
+        border-radius: 0.3rem;
+        font-size: 17px;
+        font-weight: 600;
+        border: none;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+
+        @media (max-width: 850px) {
+            width: 100%;
+            font-size: 1.2rem;
+            padding: 20px 0;
+        }
+    }
+}

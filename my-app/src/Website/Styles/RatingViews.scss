@@ -1,0 +1,46 @@
+.RatingContainer {
+    border: 1px solid black;
+    border-radius: 50px;
+    // margin-top: 50px;
+    margin-bottom: 50px;
+
+    .viewGrid {
+        padding: 3rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+
+        @media (max-width: 700px) {
+            justify-content: center;
+        }
+
+        .viewBlock {
+            display: flex;
+            gap: 15px;
+            width: 16.0rem;
+            align-items: center;
+
+            @media (max-width: 700px) {
+                width: 100%;
+                justify-content: center;
+            }
+
+
+            h2 {
+                margin: 0;
+
+                @media (max-width: 700px) {
+                    width: 60px;
+                }
+            }
+
+            p {
+                margin: 0;
+                font-size: 18px;
+                // display: flex;
+                // align-items: center;
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+.modal {
+    overflow: auto !important;
+
+    .modal-dialog {
+        width: auto;
+
+        @media (min-width: 576px) {
+            max-width: 560px;
+        }
+
+        .modal-header {
+            button {
+                font-size: 24px;
+                border: none;
+                background: transparent;
+                cursor: pointer;
+            }
+        }
+
+        .detailsBlock {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            border: 1px solid lightgray;
+            padding: 10px;
+            flex-direction: column;
+            text-align: left;
+
+            .detailsBox {
+                position: relative;
+                overflow: hidden;
+                border-radius: 1rem;
+                width: auto;
+                height: 250px;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+
+                .detailsImg {
+                    position: relative;
+                    height: 100%;
+                    width: 100%;
+
+                    img {
+                        height: 100%;
+                        width: 100%;
+                        object-fit: fill;
+                        transition: all .3s ease-in-out;
+
+                        &:hover {
+                            transform: scale(1.2);
+                        }
+                    }
+                }
+            }
+
+            .detailsInfo {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h2 {
+                    margin: 3px 0px;
+                }
+
+                h4 {
+                    margin: 0;
+
+                    .css-i4bv87-MuiSvgIcon-root {
+                        position: relative;
+                        bottom: 3px;
+                    }
+                }
+
+            }
+
+            .alertMessage {
+                color: red;
+            }
+
+        }
+
+        .form-Details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            row-gap: 20px;
+            justify-content: space-between;
+
+            @media (max-width: 850px) {
+                flex-direction: column;
+            }
+
+            div {
+                min-width: 200px;
+                width: 48%;
+
+                @media (max-width: 850px) {
+                    width: 100%;
+                }
+
+                input {
+                    // max-width: 500px;
+                    width: 100%;
+                    padding: 8px;
+                    border-radius: 20px;
+                    border: 1px solid lightgray;
+                    color: gray;
+
+                    &:focus {
+                        border: 2px solid orange;
+                        outline: 0;
+                        color: black;
+                    }
+                }
+
+                input::-webkit-outer-spin-button,
+                input::-webkit-inner-spin-button {
+                    -webkit-appearance: none;
+                    margin: 0;
+                }
+
+                input[type=number] {
+                    -moz-appearance: textfield;
+                }
+
+                p {
+                    font-size: 12px;
+                    text-align: left;
+                    padding-left: 5px;
+                    color: red;
+                    margin: 0px;
+
+                    .css-i4bv87-MuiSvgIcon-root {
+                        font-size: 12px;
+                        position: relative;
+                        bottom: 1px;
+                    }
+                }
+            }
+
+            .errorvarify {
+                font-size: 18px;
+                text-align: left;
+                padding-left: 5px;
+                color: red;
+                margin: 0px;
+
+                .css-i4bv87-MuiSvgIcon-root {
+                    font-size: 18px;
+                    position: relative;
+                    bottom: 2px;
+                }
+            }
+
+            .successvarify {
+                font-size: 18px;
+                text-align: left;
+                padding-left: 5px;
+                color: green;
+                margin: 0px;
+
+                .css-i4bv87-MuiSvgIcon-root {
+                    font-size: 18px;
+                    position: relative;
+                    bottom: 2px;
+                }
+            }
+
+            textarea {
+                width: 100%;
+                padding: 8px;
+                border-radius: 20px;
+                min-height: 120px;
+                border: 1px solid lightgray;
+                color: gray;
+
+                &:focus {
+                    border: 2px solid orange;
+                    outline: 0;
+                    color: black;
+                }
+            }
+        }
+
+        .note-info {
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        .modal3 {
+            display: flex;
+            justify-content: right;
+            border-bottom: 0;
+        }
+
+        .book-hotelBtn {
+            // margin-top: 30px;
+            font-weight: 600;
+        }
+    }
+}
