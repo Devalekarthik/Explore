@@ -18,7 +18,7 @@ const ClientsReview = () => {
   const [cardIndex, setCardIndex] = useState(null);
 
   let clientData = Data.clientReview.sort((a, b) => b.stars - a.stars);
-  
+
   let stars = (star) => {
     return (
       <div>
@@ -37,7 +37,7 @@ const ClientsReview = () => {
       <div className="clients">
         <div className="clientsDetails">
           <div className="accordian">
-            {clientData.map((item,index) => {
+            {clientData.map((item, index) => {
               return (
                 <div>
                   <Accordion
@@ -51,12 +51,15 @@ const ClientsReview = () => {
                       aria-controls="panel1a-content"
                       id="panel1a-header"
                     >
-                      <div>
-                        <img src={item.profileImg} className="profileImg" />
-                      </div>
-                      <div className="stars">
-                        <h3>{item.Name}</h3>
-                        {stars(item.stars)}
+                      <div className="review-title">
+                        <div>
+                          <img src={item.profileImg} className="profileImg" />
+                        </div>
+                        <div className="review-name">
+                          <h3>{item.Name}</h3>
+                          {stars(item.stars)}
+                        </div>
+                        <div className="review-email">karthikdevale@gmail.com</div>
                       </div>
                     </AccordionSummary>
                     <AccordionDetails>

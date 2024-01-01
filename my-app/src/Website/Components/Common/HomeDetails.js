@@ -114,7 +114,7 @@ const HomeDetails = () => {
 
       <ChooseUs />
       {/* <Blog /> */}
-      {/* <ClientsReview /> */}
+      <ClientsReview />
       <Portfolio Data={revisedData} />
     </div>
   );
