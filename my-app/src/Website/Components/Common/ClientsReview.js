@@ -15,10 +15,9 @@ const ClientsReview = () => {
   const [groupImg, setGroupImg] = useState(
     "https://i.ytimg.com/vi/-FBekwrstic/maxresdefault.jpg"
   );
-  const [cardIndex, setCardIndex] = useState(null);
 
   let clientData = Data.clientReview.sort((a, b) => b.stars - a.stars);
-  
+
   let stars = (star) => {
     return (
       <div>
@@ -32,31 +31,47 @@ const ClientsReview = () => {
     );
   };
 
+  const [selectedAccordion, setSelectedAccordion] = useState(0);
+
+  const handleChange = (accordionIndex) => {
+    setSelectedAccordion(
+      accordionIndex === selectedAccordion ? accordionIndex + 1 : accordionIndex
+    );
+  };
+
   return (
     <>
       <div className="clients">
         <div className="clientsDetails">
           <div className="accordian">
-            {clientData.map((item,index) => {
+            {clientData.map((item, index) => {
               return (
                 <div>
                   <Accordion
-                    defaultExpanded={index === 0 ? true : false}
+                    expanded={selectedAccordion === index}
+                    defaultExpanded={selectedAccordion === 0 ? true : false}
                     onClick={() => setGroupImg(item.groupImg)}
-                    onChange={() => setCardIndex(index)}
-                    className={cardIndex === index ? "selectedCard" : ""}
+                    onChange={() => handleChange(index)}
+                    className={
+                      selectedAccordion === index ? "selectedCard" : ""
+                    }
                   >
                     <AccordionSummary
                       expandIcon={<ExpandMoreIcon />}
                       aria-controls="panel1a-content"
                       id="panel1a-header"
                     >
-                      <div>
-                        <img src={item.profileImg} className="profileImg" />
-                      </div>
-                      <div className="stars">
-                        <h3>{item.Name}</h3>
-                        {stars(item.stars)}
+                      <div className="review-title">
+                        <div>
+                          <img src={item.profileImg} className="profileImg" />
+                        </div>
+                        <div className="review-name">
+                          <h3>{item.Name}</h3>
+                          {stars(item.stars)}
+                        </div>
+                        <div className="review-email">
+                          karthikdevale@gmail.com
+                        </div>
                       </div>
                     </AccordionSummary>
                     <AccordionDetails>
@@ -69,7 +84,8 @@ const ClientsReview = () => {
           </div>
         </div>
         <div className="clientsImg">
-          <img src={groupImg} />
+          {/* <img src={groupImg} /> */}
+          <img src="./Client Review.jpg" />
         </div>
       </div>
       {/* <div className="checkwatermark">
