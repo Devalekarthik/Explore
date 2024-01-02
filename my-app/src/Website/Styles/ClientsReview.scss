@@ -1,21 +1,22 @@
 .clients {
     display: flex;
-    margin-top: 50px;
+    // margin-top: 50px;
     justify-content: center;
-    gap: 40px;
+    gap: 10px;
 
     @media (max-width:850px) {
         flex-direction: column-reverse;
         align-items: center;
+        gap: 10px;
     }
 
     .clientsDetails {
-        width: 50%;
+        width: 55%;
         text-align: left;
         // border: 1px solid black;
         border-radius: 40px;
         padding: 8px;
-        max-height: 368px;
+        max-height: 480px;
         scroll-behavior: smooth;
         overflow-y: scroll;
         scroll-behavior: auto;
@@ -38,18 +39,22 @@
             .review-title {
                 display: flex;
                 flex-wrap: wrap;
-                gap: 10px;
+                // gap: 10px;
 
                 .profileImg {
                     width: 60px;
                     height: 60px;
                     border-radius: 50%;
-                    // margin-right: 5px;
+                    margin-right: 10px;
                 }
 
                 .review-name {
+                    margin-top: 5px;
+
                     .css-i4bv87-MuiSvgIcon-root {
-                        font-size: 16px;
+                        font-size: 18px;
+                        position: relative;
+                        bottom: 5px;
                     }
 
                     h3 {
@@ -59,6 +64,8 @@
                 }
 
                 .review-email {
+                    margin-top: 7px;
+                    margin-left: 5px;
                     position: relative;
                     top: 5px;
                     color: gray;
@@ -81,24 +88,37 @@
                 }
 
                 &:hover {
-                    background-color: lightblue;
-
+                    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
                 }
+            }
+
+            .css-o4b71y-MuiAccordionSummary-content {
+                margin: 8px 0;
             }
         }
     }
 
     .clientsImg {
-        width: 50%;
+        width: 45%;
+        // border: 1px solid black;
+        text-align: center;
 
         @media (max-width:850px) {
             width: 100%;
         }
 
         img {
-            width: 450px;
-            height: 250px;
-            border-radius: 10px;
+            height: 500px;
+            width: 90%;
+
+            @media (max-width:850px) {
+                width: 85%;
+                height: 400px;
+            }
+
+            @media (max-width:500px) {
+                width: 100%;
+            }
         }
     }
 }
