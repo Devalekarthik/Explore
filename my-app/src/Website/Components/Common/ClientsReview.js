@@ -12,10 +12,6 @@ import Data from "../../Data/data.json";
 import { useState } from "react";
 
 const ClientsReview = () => {
-  const [groupImg, setGroupImg] = useState(
-    "https://i.ytimg.com/vi/-FBekwrstic/maxresdefault.jpg"
-  );
-
   let clientData = Data.clientReview.sort((a, b) => b.stars - a.stars);
 
   let stars = (star) => {
@@ -32,10 +28,26 @@ const ClientsReview = () => {
   };
 
   const [selectedAccordion, setSelectedAccordion] = useState(0);
+  const [groupImg, setGroupImg] = useState(clientData[0].groupImg);
 
   const handleChange = (accordionIndex) => {
     setSelectedAccordion(
-      accordionIndex === selectedAccordion ? accordionIndex + 1 : accordionIndex
+      clientData.length - 1 === selectedAccordion
+        ? 0
+        : accordionIndex === selectedAccordion
+        ? accordionIndex + 1
+        : accordionIndex
+    );
+    setGroupImg(
+      clientData.length - 1 === selectedAccordion
+        ? clientData[0].groupImg
+        : clientData[accordionIndex].groupImg === groupImg
+        ? clientData[
+            clientData.length === accordionIndex + 1
+              ? accordionIndex
+              : accordionIndex + 1
+          ]?.groupImg
+        : clientData[accordionIndex].groupImg
     );
   };
 
@@ -50,7 +62,19 @@ const ClientsReview = () => {
                   <Accordion
                     expanded={selectedAccordion === index}
                     defaultExpanded={selectedAccordion === 0 ? true : false}
-                    onClick={() => setGroupImg(item.groupImg)}
+                    // onClick={() =>
+                    //   setGroupImg(
+                    //     clientData.length - 1 === selectedAccordion
+                    //       ? clientData[0].groupImg
+                    //       : item.groupImg === groupImg
+                    //       ? clientData[
+                    //           clientData.length === index + 1
+                    //             ? index
+                    //             : index + 1
+                    //         ]?.groupImg
+                    //       : item.groupImg
+                    //   )
+                    // }
                     onChange={() => handleChange(index)}
                     className={
                       selectedAccordion === index ? "selectedCard" : ""
@@ -84,8 +108,8 @@ const ClientsReview = () => {
           </div>
         </div>
         <div className="clientsImg">
-          {/* <img src={groupImg} /> */}
-          <img src="./Client Review.jpg" />
+          <img src={groupImg} className="client-pic" />
+          <img src="./Client Review.jpg" className="client-bgPic" />
         </div>
       </div>
       {/* <div className="checkwatermark">
