@@ -12,31 +12,29 @@ import Data from "../../Data/data.json";
 import { useState } from "react";
 
 const ClientsReview = () => {
-  const [groupImg, setGroupImg] = useState(
-    "https://i.ytimg.com/vi/-FBekwrstic/maxresdefault.jpg"
-  );
-
   let clientData = Data.clientReview.sort((a, b) => b.stars - a.stars);
 
   let stars = (star) => {
     return (
-      <div>
+      <span className="review-stars">
         {[...Array(star)].map(() => (
           <StarRoundedIcon />
         ))}
         {[...Array(5 - star)].map(() => (
           <StarOutlineRoundedIcon />
         ))}
-      </div>
+      </span>
     );
   };
 
   const [selectedAccordion, setSelectedAccordion] = useState(0);
+  const [groupImg, setGroupImg] = useState(clientData[0].groupImg);
 
   const handleChange = (accordionIndex) => {
     setSelectedAccordion(
-      accordionIndex === selectedAccordion ? accordionIndex + 1 : accordionIndex
+      accordionIndex === selectedAccordion ? null : accordionIndex
     );
+    setGroupImg(clientData[accordionIndex].groupImg);
   };
 
   return (
@@ -50,7 +48,6 @@ const ClientsReview = () => {
                   <Accordion
                     expanded={selectedAccordion === index}
                     defaultExpanded={selectedAccordion === 0 ? true : false}
-                    onClick={() => setGroupImg(item.groupImg)}
                     onChange={() => handleChange(index)}
                     className={
                       selectedAccordion === index ? "selectedCard" : ""
@@ -66,11 +63,12 @@ const ClientsReview = () => {
                           <img src={item.profileImg} className="profileImg" />
                         </div>
                         <div className="review-name">
-                          <h3>{item.Name}</h3>
-                          {stars(item.stars)}
-                        </div>
-                        <div className="review-email">
-                          karthikdevale@gmail.com
+                          <span>
+                            {item.Name} {stars(item.stars)}
+                          </span>
+                          <div className="review-email">
+                            karthikdevale@gmail.com
+                          </div>
                         </div>
                       </div>
                     </AccordionSummary>
@@ -84,8 +82,8 @@ const ClientsReview = () => {
           </div>
         </div>
         <div className="clientsImg">
-          {/* <img src={groupImg} /> */}
-          <img src="./Client Review.jpg" />
+          <img src={groupImg} className="client-pic" />
+          <img src="./Client Review.jpg" className="client-bgPic" />
         </div>
       </div>
       {/* <div className="checkwatermark">
