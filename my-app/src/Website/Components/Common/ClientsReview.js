@@ -16,14 +16,14 @@ const ClientsReview = () => {
 
   let stars = (star) => {
     return (
-      <div>
+      <span className="review-stars">
         {[...Array(star)].map(() => (
           <StarRoundedIcon />
         ))}
         {[...Array(5 - star)].map(() => (
           <StarOutlineRoundedIcon />
         ))}
-      </div>
+      </span>
     );
   };
 
@@ -32,23 +32,9 @@ const ClientsReview = () => {
 
   const handleChange = (accordionIndex) => {
     setSelectedAccordion(
-      clientData.length - 1 === selectedAccordion
-        ? 0
-        : accordionIndex === selectedAccordion
-        ? accordionIndex + 1
-        : accordionIndex
+      accordionIndex === selectedAccordion ? null : accordionIndex
     );
-    setGroupImg(
-      clientData.length - 1 === selectedAccordion
-        ? clientData[0].groupImg
-        : clientData[accordionIndex].groupImg === groupImg
-        ? clientData[
-            clientData.length === accordionIndex + 1
-              ? accordionIndex
-              : accordionIndex + 1
-          ]?.groupImg
-        : clientData[accordionIndex].groupImg
-    );
+    setGroupImg(clientData[accordionIndex].groupImg);
   };
 
   return (
@@ -62,19 +48,6 @@ const ClientsReview = () => {
                   <Accordion
                     expanded={selectedAccordion === index}
                     defaultExpanded={selectedAccordion === 0 ? true : false}
-                    // onClick={() =>
-                    //   setGroupImg(
-                    //     clientData.length - 1 === selectedAccordion
-                    //       ? clientData[0].groupImg
-                    //       : item.groupImg === groupImg
-                    //       ? clientData[
-                    //           clientData.length === index + 1
-                    //             ? index
-                    //             : index + 1
-                    //         ]?.groupImg
-                    //       : item.groupImg
-                    //   )
-                    // }
                     onChange={() => handleChange(index)}
                     className={
                       selectedAccordion === index ? "selectedCard" : ""
@@ -90,11 +63,12 @@ const ClientsReview = () => {
                           <img src={item.profileImg} className="profileImg" />
                         </div>
                         <div className="review-name">
-                          <h3>{item.Name}</h3>
-                          {stars(item.stars)}
-                        </div>
-                        <div className="review-email">
-                          karthikdevale@gmail.com
+                          <span>
+                            {item.Name} {stars(item.stars)}
+                          </span>
+                          <div className="review-email">
+                            karthikdevale@gmail.com
+                          </div>
                         </div>
                       </div>
                     </AccordionSummary>
