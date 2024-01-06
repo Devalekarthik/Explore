@@ -59,11 +59,20 @@
             margin-bottom: 5px;
         }
     }
+
     .form-control {
         option {
             &:hover {
                 background-color: lightblue;
             }
         }
+    }
+
+    .contact-error {
+        color: red;
+    }
+
+    .contact-success {
+        color: green;
     }
 }

@@ -3,6 +3,8 @@ import ReadMoreandLess from "./ReadMoreandLess";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Link } from "react-scroll";
+import Data from "../../Data/data.json";
+import Select from "react-select";
 
 const MoreDetails = ({
   selectedCard,
@@ -12,7 +14,6 @@ const MoreDetails = ({
 }) => {
   const [inputData, setInputData] = useState({
     Fname: "",
-    Lname: "",
     Email: "",
     MobileNo: "",
     TDate: "",
@@ -29,17 +30,38 @@ const MoreDetails = ({
     });
   };
 
+  const [detailsCountry, setDetailsCountry] = useState("");
+
+  const AllCountry = Data.PhoneNoValidation.sort((a, b) =>
+    a.Country.localeCompare(b.Country)
+  );
+
+  const AllCountryOption = AllCountry.map((item) => ({
+    label: item.Country,
+    value: item.Country,
+  }));
+
   const dataValidation = () => {
     const redgeEmail = /^[a-z0-9A-Z]+@[a-z]+\.[a-z]{2,3}$/;
 
     const currentDate = new Date();
     const selectedDate = new Date(inputData.TDate);
+    const PhoneNoLength = AllCountry.filter(
+      (item) => item.Country === detailsCountry
+    )[0]?.["PhoneNo Length"];
+
+    console.log("PhoneNoLength", PhoneNoLength);
 
     const error = {
       Fname: inputData.Fname === "" ? "Please Enter Your First Name" : "",
-      Lname: inputData.Lname === "" ? "Please Enter Your Last Name" : "",
       Email: !redgeEmail.test(inputData.Email) ? "Invalid Email" : "",
-      MobileNo: inputData.MobileNo?.length === 10 ? "" : "Invalid Number",
+      Country: detailsCountry === "" ? "Please Select Your Country" : "",
+      MobileNo:
+        detailsCountry === ""
+          ? "Select Country to varify Mobile number"
+          : inputData.MobileNo?.length === Number(PhoneNoLength)
+          ? ""
+          : "Invalid Number",
       TDate:
         inputData.TDate === ""
           ? "Please Enter Date of Trip"
@@ -52,8 +74,8 @@ const MoreDetails = ({
 
     if (
       error.Fname === "" &&
-      error.Lname === "" &&
       error.Email === "" &&
+      error.Country === "" &&
       error.MobileNo === "" &&
       error.TDate === "" &&
       (id === "places" ? error.Members : error.Rooms) === ""
@@ -212,7 +234,7 @@ const MoreDetails = ({
             </div>
             <div class="modal-body">
               <div className="form-Details">
-                <div>
+                <div className="form-input">
                   <input
                     type="text"
                     placeholder="First Name"
@@ -228,23 +250,7 @@ const MoreDetails = ({
                     </p>
                   )}
                 </div>
-                <div>
-                  <input
-                    type="text"
-                    placeholder="Last Name"
-                    name="Lname"
-                    value={inputData.Lname}
-                    onChange={handleData}
-                    disabled={!varified ? false : true}
-                  />
-                  {error?.Lname && (
-                    <p>
-                      <StarRoundedIcon />
-                      {error?.Lname}
-                    </p>
-                  )}
-                </div>
-                <div>
+                <div className="form-input">
                   <input
                     type="email"
                     placeholder="email Id"
@@ -260,7 +266,21 @@ const MoreDetails = ({
                     </p>
                   )}
                 </div>
-                <div>
+                <div className="form-input">
+                  <Select
+                    placeholder="Select Country..."
+                    isSearchable={true}
+                    options={AllCountryOption}
+                    onChange={(e) => setDetailsCountry(e.value)}
+                  />
+                  {error?.Country && (
+                    <p>
+                      <StarRoundedIcon />
+                      {error?.Country}
+                    </p>
+                  )}
+                </div>
+                <div className="form-input">
                   <input
                     type="number"
                     placeholder="Phone Number"
@@ -276,7 +296,7 @@ const MoreDetails = ({
                     </p>
                   )}
                 </div>
-                <div>
+                <div className="form-input">
                   <input
                     type="date"
                     placeholder="Date of Travel"
@@ -292,7 +312,7 @@ const MoreDetails = ({
                     </p>
                   )}
                 </div>
-                <div>
+                <div className="form-input">
                   <input
                     type="number"
                     placeholder={
