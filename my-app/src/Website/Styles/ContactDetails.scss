@@ -51,28 +51,58 @@
 // }
 
 .Contact {
-    .form-group {
-        text-align: left;
 
-        label {
-            margin-top: 10px;
-            margin-bottom: 5px;
+    margin-top: 30px;
+
+    .contact-details {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        .contact-img {
+            width: 50%;
+
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
         }
-    }
 
-    .form-control {
-        option {
-            &:hover {
-                background-color: lightblue;
+        .conatct-form {
+
+            h1 {
+                text-align: left;
+            }
+
+            width: 50%;
+            border: 1px solid black;
+            padding: 20px;
+
+            .form-group {
+                text-align: left;
+
+                label {
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+            }
+
+            .form-control {
+                option {
+                    &:hover {
+                        background-color: lightblue;
+                    }
+                }
+            }
+
+            .contact-error {
+                color: red;
+                margin-bottom: 0;
+            }
+
+            .contact-success {
+                color: green;
+                margin-bottom: 0;
             }
         }
-    }
-
-    .contact-error {
-        color: red;
-    }
-
-    .contact-success {
-        color: green;
     }
 }
