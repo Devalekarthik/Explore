@@ -8,6 +8,7 @@ import ClientsReview from "./ClientsReview";
 import Destination from "./Destination";
 import Hotels from "./Hotels";
 import Portfolio from "./Portfolio";
+import ContactDetails from "./ContactDetails";
 
 const HomeDetails = () => {
   // let revisedData = Data.Destination.places.sort((a, b) => b.rating - a.rating);
@@ -116,6 +117,7 @@ const HomeDetails = () => {
       {/* <Blog /> */}
       <ClientsReview />
       <Portfolio Data={revisedData} />
+      <ContactDetails />
     </div>
   );
 };
