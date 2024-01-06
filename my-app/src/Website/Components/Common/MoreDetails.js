@@ -221,7 +221,7 @@ const MoreDetails = ({
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id={`${id}Label2`}>
-                Form
+                Client Details
               </h1>
               <button
                 type="button"
