@@ -509,23 +509,33 @@
                 "hotels": [
                     {
                         "place": "Radisson Blu Plaza Hotel, Mysore",
-                        "Img": "https://a.mktgcdn.com/p/obnIIHzr00Rm0kl_oYf-6S0LrMqCeFrt8lmqWafB_Gk/3839x2559.jpg"
+                        "Img": "https://a.mktgcdn.com/p/obnIIHzr00Rm0kl_oYf-6S0LrMqCeFrt8lmqWafB_Gk/3839x2559.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "9,000"
                     },
                     {
                         "place": "Ginger Mysore",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/47782076.jpg?k=7584d6be74bc7ab00432734e852c3e73af227ec3f1de9f19c0bbeb29bb1058db&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/47782076.jpg?k=7584d6be74bc7ab00432734e852c3e73af227ec3f1de9f19c0bbeb29bb1058db&o=",
+                        "Rating": 3.8,
+                        "Avg-Cost": "3,500"
                     },
                     {
                         "place": "Hotel Lok Sagar",
-                        "Img": "https://i.travelapi.com/hotels/24000000/23940000/23938500/23938493/7abc018d_z.jpg"
+                        "Img": "https://i.travelapi.com/hotels/24000000/23940000/23938500/23938493/7abc018d_z.jpg",
+                        "Rating": 4.6,
+                        "Avg-Cost": "5,000"
                     },
                     {
                         "place": "Sandesh The Prince",
-                        "Img": "https://media.hrs.com/media/image/31/40/b2/Sandesh_the_Prince-Mysore-Hotel_outdoor_area-217877_600x600.jpg"
+                        "Img": "https://media.hrs.com/media/image/31/40/b2/Sandesh_the_Prince-Mysore-Hotel_outdoor_area-217877_600x600.jpg",
+                        "Rating": 4.1,
+                        "Avg-Cost": "3,000"
                     },
                     {
                         "place": "Hotel Southern Star Mysuru",
-                        "Img": "https://i.travelapi.com/lodging/1000000/10000/3400/3385/94458451_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/1000000/10000/3400/3385/94458451_z.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "5,000"
                     }
                 ]
             },
@@ -539,19 +549,27 @@
                 "hotels": [
                     {
                         "place": "Umaid Residency - A Regal Heritage Home",
-                        "Img": "https://i.travelapi.com/lodging/8000000/7500000/7495500/7495463/b421ebad_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/8000000/7500000/7495500/7495463/b421ebad_z.jpg",
+                        "Rating": 4.1,
+                        "Avg-Cost": "3,500"
                     },
                     {
                         "place": "Hotel Amer View",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/101039565.jpg?k=f3bb3fdbdf472f989af740adceedf39cd085ebb2bb118677a4dc2dbfe1723ea0&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/101039565.jpg?k=f3bb3fdbdf472f989af740adceedf39cd085ebb2bb118677a4dc2dbfe1723ea0&o=",
+                        "Rating": 4.1,
+                        "Avg-Cost": "2,500"
                     },
                     {
                         "place": "Amer Valley",
-                        "Img": "https://m.weddingz.in/wedz-img/images/bac2777cc8ea6d26cb72a488243a5b62/park-regis-park-regis.jpg?imwidth=300"
+                        "Img": "https://m.weddingz.in/wedz-img/images/bac2777cc8ea6d26cb72a488243a5b62/park-regis-park-regis.jpg?imwidth=300",
+                        "Rating": 3.9,
+                        "Avg-Cost": "2,000"
                     },
                     {
                         "place": "Trident Jaipur",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/32617580.jpg?k=e26294a2cfbc4aa416f1118f7986fbd3060c6cf54b9f589df44a5f247cb0a90b&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/32617580.jpg?k=e26294a2cfbc4aa416f1118f7986fbd3060c6cf54b9f589df44a5f247cb0a90b&o=",
+                        "Rating": 4.4,
+                        "Avg-Cost": "8,000"
                     }
                 ]
             },
@@ -565,23 +583,33 @@
                 "hotels": [
                     {
                         "place": "Kyriad Prestige Calangute Goa by OTHPL",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/202993107.jpg?k=cb10aae3ce523377c8e4fa2e8ce444d4a10d9a7f70d385b98d7fbc4cda51b0e9&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/202993107.jpg?k=cb10aae3ce523377c8e4fa2e8ce444d4a10d9a7f70d385b98d7fbc4cda51b0e9&o=",
+                        "Rating": 4.1,
+                        "Avg-Cost": "7,500"
                     },
                     {
                         "place": "Acron Waterfront Resort",
-                        "Img": "https://cdn0.weddingwire.in/vendor/8936/3_2/960/jpg/22282073-1080633492040137-5856632465356605451-n_15_78936.webp"
+                        "Img": "https://cdn0.weddingwire.in/vendor/8936/3_2/960/jpg/22282073-1080633492040137-5856632465356605451-n_15_78936.webp",
+                        "Rating": 4.3,
+                        "Avg-Cost": "8,000"
                     },
                     {
                         "place": "DoubleTree by Hilton Hotel Goa - Arpora - Baga",
-                        "Img": "https://im.whatshot.in/img/2020/Jul/maxresdefault-1594906339.jpg"
+                        "Img": "https://im.whatshot.in/img/2020/Jul/maxresdefault-1594906339.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "15,000"
                     },
                     {
                         "place": "Resort Rio, Goa",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/94162918.jpg?k=2fd5032751981a332ef9288f34be55ada020c9387abe8fd250d5167983e84e60&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/94162918.jpg?k=2fd5032751981a332ef9288f34be55ada020c9387abe8fd250d5167983e84e60&o=",
+                        "Rating": 4.4,
+                        "Avg-Cost": "10,000"
                     },
                     {
                         "place": "Paparazzi Resort",
-                        "Img": "https://i.travelapi.com/lodging/12000000/11530000/11529100/11529092/b1ee4d1f_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/12000000/11530000/11529100/11529092/b1ee4d1f_z.jpg",
+                        "Rating": 3.2,
+                        "Avg-Cost": "4,500"
                     }
                 ]
             },
@@ -595,23 +623,33 @@
                 "hotels": [
                     {
                         "place": "Mercure Roma Centro Colosseo",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/5/0/89/577/470/2909_ho_04_p_3000x2250_S.jpg"
+                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/5/0/89/577/470/2909_ho_04_p_3000x2250_S.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "10,000"
                     },
                     {
                         "place": "Hotel Centro Cavour Roma",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/45069050.jpg?k=de3dba8c70413e9cbc50ba7f0d5730efbd201025761f593366c97d322b686635&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/45069050.jpg?k=de3dba8c70413e9cbc50ba7f0d5730efbd201025761f593366c97d322b686635&o=",
+                        "Rating": 4.5,
+                        "Avg-Cost": "11,500"
                     },
                     {
                         "place": "Hotel Majestic Roma",
-                        "Img": "https://hotelmajestic.com/app/uploads/2018/06/FacciataNotte-1024x683.jpg"
+                        "Img": "https://hotelmajestic.com/app/uploads/2018/06/FacciataNotte-1024x683.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "Hotel Diocleziano",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max500/74502213.jpg?k=1a6c8f4cabe03f6b7894d6b4839eb01e7f6c6abb49d75ffe6c76cc399bf91a05&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max500/74502213.jpg?k=1a6c8f4cabe03f6b7894d6b4839eb01e7f6c6abb49d75ffe6c76cc399bf91a05&o=",
+                        "Rating": 4.6,
+                        "Avg-Cost": "13,500"
                     },
                     {
                         "place": "Hotel Grifo",
-                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/20/33/62/c6/hotel-grifo.jpg"
+                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/20/33/62/c6/hotel-grifo.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "7,500"
                     }
                 ]
             },
@@ -625,23 +663,33 @@
                 "hotels": [
                     {
                         "place": "Rome Cavalieri, A Waldorf Astoria Hotel",
-                        "Img": "https://bing.com/th?id=OLC.M1J%2fUO%2fRS3MAnA480x360&w=500&h=350&p=0"
+                        "Img": "https://bing.com/th?id=OLC.M1J%2fUO%2fRS3MAnA480x360&w=500&h=350&p=0",
+                        "Rating": 4.2,
+                        "Avg-Cost": "10,500"
                     },
                     {
                         "place": "Canal Grande",
-                        "Img": "https://i.travelapi.com/lodging/3000000/2930000/2921400/2921301/970ea3b2_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/3000000/2930000/2921400/2921301/970ea3b2_z.jpg",
+                        "Rating": 4.7,
+                        "Avg-Cost": "24,000"
                     },
                     {
                         "place": "Hotel Carlton On The Grand Canal",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/86632178.jpg?k=4a350a14c1d4149265c4fd6cf2badff05ff2abcd0a90c0fe9fd547abdb07f26b&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/86632178.jpg?k=4a350a14c1d4149265c4fd6cf2badff05ff2abcd0a90c0fe9fd547abdb07f26b&o=",
+                        "Rating": 4.3,
+                        "Avg-Cost": "13,000"
                     },
                     {
                         "place": "BW Premier Collection CHC Continental",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/163768902.jpg?k=61c834de0aeb1e047fce4bd066002b481e45e0e16fa10c680b6a12ae0bd85c99&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/163768902.jpg?k=61c834de0aeb1e047fce4bd066002b481e45e0e16fa10c680b6a12ae0bd85c99&o=",
+                        "Rating": 4.0,
+                        "Avg-Cost": "8,500"
                     },
                     {
                         "place": "Palazzetto Madonna",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/19817988.jpg?k=a3fd5b4d43cf6a9f91c3d32fa9a8e8fbf9c9015a9940a7027bd4d37d0c4da85a&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/19817988.jpg?k=a3fd5b4d43cf6a9f91c3d32fa9a8e8fbf9c9015a9940a7027bd4d37d0c4da85a&o=",
+                        "Rating": 4.5,
+                        "Avg-Cost": "14,000"
                     }
                 ]
             },
@@ -655,23 +703,33 @@
                 "hotels": [
                     {
                         "place": "Hotel Diana",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/19380448.jpg?k=ab3f89c0bdfb00b2cf00f690e8051386f4cfd79c472da045d1b8c58f7558679d&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/19380448.jpg?k=ab3f89c0bdfb00b2cf00f690e8051386f4cfd79c472da045d1b8c58f7558679d&o=",
+                        "Rating": 3.3,
+                        "Avg-Cost": "7,500"
                     },
                     {
                         "place": "Hotel del Sole",
-                        "Img": "https://hotel-del-sole-pompei.hotelmix.it/data/Photos/OriginalPhoto/7687/768751/768751273/Hotel-Del-Sole-Pompei-Exterior.JPEG"
+                        "Img": "https://hotel-del-sole-pompei.hotelmix.it/data/Photos/OriginalPhoto/7687/768751/768751273/Hotel-Del-Sole-Pompei-Exterior.JPEG",
+                        "Rating": 4.1,
+                        "Avg-Cost": "8,000"
                     },
                     {
                         "place": "Hotel Miramare Stabia",
-                        "Img": "https://img.restaurantguru.com/r8a7-Terrazza-Mirari-facade.jpg"
+                        "Img": "https://img.restaurantguru.com/r8a7-Terrazza-Mirari-facade.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "13,000"
                     },
                     {
                         "place": "Hotel Degli Amici",
-                        "Img": "https://media-cdn.tripadvisor.com/media/photo-o/07/c8/36/cf/hotel-degli-amici.jpg"
+                        "Img": "https://media-cdn.tripadvisor.com/media/photo-o/07/c8/36/cf/hotel-degli-amici.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "8,000"
                     },
                     {
                         "place": "Caruso, A Belmond Hotel, Amalfi Coast",
-                        "Img": "https://d1rioy1v9s51jr.cloudfront.net/pics/21341/450x270/belmond-hotel-caruso_58fe7f83072b4.jpg"
+                        "Img": "https://d1rioy1v9s51jr.cloudfront.net/pics/21341/450x270/belmond-hotel-caruso_58fe7f83072b4.jpg",
+                        "Rating": 4.7,
+                        "Avg-Cost": "22,000"
                     }
                 ]
             },
@@ -685,23 +743,33 @@
                 "hotels": [
                     {
                         "place": "Grand Hotel Bonanno",
-                        "Img": "http://images.trvl-media.com/hotels/2000000/1400000/1391600/1391564/272c4d9d_z.jpg"
+                        "Img": "http://images.trvl-media.com/hotels/2000000/1400000/1391600/1391564/272c4d9d_z.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "7,000"
                     },
                     {
                         "place": "B&B IL TOSCANO",
-                        "Img": "https://i.travelapi.com/hotels/21000000/20420000/20418100/20418056/ddf5b9b5_z.jpg"
+                        "Img": "https://i.travelapi.com/hotels/21000000/20420000/20418100/20418056/ddf5b9b5_z.jpg",
+                        "Rating": 4.1,
+                        "Avg-Cost": "4,500"
                     },
                     {
                         "place": "Hotel Bologna",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/67271731.jpg?k=c3d21411a38a44abe2fb3e3d54ee83cf4dc31b1c5ec7f4fea8c4b30533842318&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/67271731.jpg?k=c3d21411a38a44abe2fb3e3d54ee83cf4dc31b1c5ec7f4fea8c4b30533842318&o=",
+                        "Rating": 4.6,
+                        "Avg-Cost": "9,000"
                     },
                     {
                         "place": "Hotel Alessandro Della Spina",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/226748252.jpg?k=5fc4051806a3afd55497a378256a79f80a142ee7bdbc72b7ab875b5a50d8f476&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/226748252.jpg?k=5fc4051806a3afd55497a378256a79f80a142ee7bdbc72b7ab875b5a50d8f476&o=",
+                        "Rating": 4.3,
+                        "Avg-Cost": "7,000"
                     },
                     {
                         "place": "Hotel Villa Kinzica",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/43827413.jpg?k=a87d61776d70165070b82a3290f01d1f483f536506ddd20e1549a0d2d989a57c&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/43827413.jpg?k=a87d61776d70165070b82a3290f01d1f483f536506ddd20e1549a0d2d989a57c&o=",
+                        "Rating": 3.8,
+                        "Avg-Cost": "5,000"
                     }
                 ]
             },
@@ -715,23 +783,33 @@
                 "hotels": [
                     {
                         "place": "Hotel du Lac Varenna",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/99155100.jpg?k=15c245bca1025a7c487c99a1366d5695be4e0ce1ed706950198b616b7c1d5072&amp;o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/99155100.jpg?k=15c245bca1025a7c487c99a1366d5695be4e0ce1ed706950198b616b7c1d5072&amp;o=",
+                        "Rating": 4.6,
+                        "Avg-Cost": "20,000"
                     },
                     {
                         "place": "Grand Hotel Menaggio",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/145674064.jpg?k=5df1cbbfa20c3196c361d7b9e58cc9c40901eab8d68f69fcd92e977eafdcb5d7&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/145674064.jpg?k=5df1cbbfa20c3196c361d7b9e58cc9c40901eab8d68f69fcd92e977eafdcb5d7&o=",
+                        "Rating": 4.2,
+                        "Avg-Cost": "18,000"
                     },
                     {
                         "place": "Hotel Garni Corona",
-                        "Img": "https://garni-corona-hotel-menaggio.booked.net/data/Photos/OriginalPhoto/10055/1005544/1005544255/Hotel-Garni-Corona-Menaggio-Exterior.JPEG"
+                        "Img": "https://garni-corona-hotel-menaggio.booked.net/data/Photos/OriginalPhoto/10055/1005544/1005544255/Hotel-Garni-Corona-Menaggio-Exterior.JPEG",
+                        "Rating": 4.7,
+                        "Avg-Cost": "22,000"
                     },
                     {
                         "place": "Hotel Sonenga",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/66422166.jpg?k=b0be4cdd3c39486b3496e42261a4b6970e817a300e3a4bc90c4aeb346f1ffebc&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/66422166.jpg?k=b0be4cdd3c39486b3496e42261a4b6970e817a300e3a4bc90c4aeb346f1ffebc&o=",
+                        "Rating": 3.9,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "Hotel Metropole Bellagio",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/134937538.jpg?k=75c6e211fc960f9c5b74dca91ed61fe9303af4822aa1d735e8d04900a12af3e6&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/134937538.jpg?k=75c6e211fc960f9c5b74dca91ed61fe9303af4822aa1d735e8d04900a12af3e6&o=",
+                        "Rating": 4.0,
+                        "Avg-Cost": "15,000"
                     }
                 ]
             },
@@ -745,23 +823,33 @@
                 "hotels": [
                     {
                         "place": "Disney's Grand Californian Hotel & Spa",
-                        "Img": "https://images.reservationcounter.com/hotel/5fe1b5b/77811122/0/500x500"
+                        "Img": "https://images.reservationcounter.com/hotel/5fe1b5b/77811122/0/500x500",
+                        "Rating": 4.7,
+                        "Avg-Cost": "57,000"
                     },
                     {
                         "place": "Best Western Plus Anaheim Inn",
-                        "Img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/41/f0/29/exterior.jpg?w=1100&h=-1&s=1"
+                        "Img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/23/41/f0/29/exterior.jpg?w=1100&h=-1&s=1",
+                        "Rating": 4.4,
+                        "Avg-Cost": "30,000"
                     },
                     {
                         "place": "Anaheim Desert Inn and Suites",
-                        "Img": "https://a.mktgcdn.com/p/ytyYS5HMRJ090Lr3Pizgdc2v6hY07sQeghOHYb0L96A/1000x667.jpg"
+                        "Img": "https://a.mktgcdn.com/p/ytyYS5HMRJ090Lr3Pizgdc2v6hY07sQeghOHYb0L96A/1000x667.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "20,000"
                     },
                     {
                         "place": "Tropicana Inn & Suites",
-                        "Img": "https://tropicanainn-anaheim.com/wp-content/uploads/2017/06/HomeSlider_UpdatedPool.jpg"
+                        "Img": "https://tropicanainn-anaheim.com/wp-content/uploads/2017/06/HomeSlider_UpdatedPool.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "18,000"
                     },
                     {
                         "place": "Disneyland Hotel",
-                        "Img": "https://disneyland-hotel-anaheim.booked.mx/data/Photos/OriginalPhoto/7026/702657/702657391/Disneyland-Hotel-Anaheim-Exterior.JPEG"
+                        "Img": "https://disneyland-hotel-anaheim.booked.mx/data/Photos/OriginalPhoto/7026/702657/702657391/Disneyland-Hotel-Anaheim-Exterior.JPEG",
+                        "Rating": 4.6,
+                        "Avg-Cost": "38,000"
                     }
                 ]
             },
@@ -775,19 +863,27 @@
                 "hotels": [
                     {
                         "place": "Hôtel du Louvre, in The Unbound Collection by Hyatt",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/442029664.jpg?k=035b6aa0f36256ee28d530dd8c00d8a06f200b104d06e3376eefa29d3ad3e3e7&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/442029664.jpg?k=035b6aa0f36256ee28d530dd8c00d8a06f200b104d06e3376eefa29d3ad3e3e7&o=",
+                        "Rating": 4.6,
+                        "Avg-Cost": "44,000"
                     },
                     {
                         "place": "Hotel Louvre Bons Enfants",
-                        "Img": "https://i.travelapi.com/lodging/3000000/2550000/2543400/2543392/6bb971c1_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/3000000/2550000/2543400/2543392/6bb971c1_z.jpg",
+                        "Rating": 3.8,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "Hotel Malte - Astotel",
-                        "Img": "https://bing.com/th?id=OLC.kBARM9xtm8jpdw480x360&w=2880&h=2363&p=0"
+                        "Img": "https://bing.com/th?id=OLC.kBARM9xtm8jpdw480x360&w=2880&h=2363&p=0",
+                        "Rating": 4.2,
+                        "Avg-Cost": "17,000"
                     },
                     {
                         "place": "Hotel Saint Honore 85",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/124747875.jpg?k=a05cc436b082acd979c6a52f809388915da4377929c6314903b4429a391be0a9&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/124747875.jpg?k=a05cc436b082acd979c6a52f809388915da4377929c6314903b4429a391be0a9&o=",
+                        "Rating": 3.7,
+                        "Avg-Cost": "10,000"
                     }
                 ]
             },
@@ -801,23 +897,33 @@
                 "hotels": [
                     {
                         "place": "Hôtel Le Versailles",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/102658676.jpg?k=c43928e03efde7762ed9bc2c2ae600caec0baef8c66728ec97cc46ba8fb31c5c&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/102658676.jpg?k=c43928e03efde7762ed9bc2c2ae600caec0baef8c66728ec97cc46ba8fb31c5c&o=",
+                        "Rating": 4.1,
+                        "Avg-Cost": "8,500"
                     },
                     {
                         "place": "Hôtel du Jeu de Paume",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/329996118.jpg?k=e08bb96188c0610c3208d05398d969fae74b7c6332f1e162309c5f72f5a572f1&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/329996118.jpg?k=e08bb96188c0610c3208d05398d969fae74b7c6332f1e162309c5f72f5a572f1&o=",
+                        "Rating": 4.6,
+                        "Avg-Cost": "7,500"
                     },
                     {
                         "place": "Hôtel la Residence Du Berry",
-                        "Img": "https://www.pagesjaunes.fr/media/agc/43/37/98/00/00/00/bd/89/89/18/62a6433798000000bd898918/62a6433798000000bd898919.jpg"
+                        "Img": "https://www.pagesjaunes.fr/media/agc/43/37/98/00/00/00/bd/89/89/18/62a6433798000000bd898918/62a6433798000000bd898919.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "10,000"
                     },
                     {
                         "place": "Hôtel du Cheval Rouge",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/52671906.jpg?k=82b69d79968470dc92162624b750e40c33f4202f7c38a4f4520c5b5e53bbe028&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/52671906.jpg?k=82b69d79968470dc92162624b750e40c33f4202f7c38a4f4520c5b5e53bbe028&o=",
+                        "Rating": 3.9,
+                        "Avg-Cost": "9,900"
                     },
                     {
                         "place": "Mercure Versailles Chateau",
-                        "Img": "https://bing.com/th?id=OLC.uA8Woeqr%2flj3cw480x360&w=2880&h=2160&p=0"
+                        "Img": "https://bing.com/th?id=OLC.uA8Woeqr%2flj3cw480x360&w=2880&h=2160&p=0",
+                        "Rating": 4.0,
+                        "Avg-Cost": "12,000"
                     }
                 ]
             },
@@ -831,23 +937,33 @@
                 "hotels": [
                     {
                         "place": "Pullman Paris Tour Eiffel",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/7/0/134/628/661/7229_aduniq4_00_p_346x260_P.jpg"
+                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/7/0/134/628/661/7229_aduniq4_00_p_346x260_P.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "26,000"
                     },
                     {
                         "place": "Hotel Eiffel Seine",
-                        "Img": "https://media.hrs.com/media/image/ab/c6/8b/Eiffel_Kennedy-Paris-Aussenansicht-6-44680_600x600.jpg"
+                        "Img": "https://media.hrs.com/media/image/ab/c6/8b/Eiffel_Kennedy-Paris-Aussenansicht-6-44680_600x600.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "Hôtel le Derby Alma by Inwood Hotels",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/19308825.jpg?k=7d58faa2907f911ba1e03a15520f37121f927d4ae2d65b199708a9e2def87286&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/19308825.jpg?k=7d58faa2907f911ba1e03a15520f37121f927d4ae2d65b199708a9e2def87286&o=",
+                        "Rating": 4.4,
+                        "Avg-Cost": "20,000"
                     },
                     {
                         "place": "Hôtel de Varenne",
-                        "Img": "https://bing.com/th?id=OLC.flit2NhgSM6CJw480x360&w=312&h=213&p=0"
+                        "Img": "https://bing.com/th?id=OLC.flit2NhgSM6CJw480x360&w=312&h=213&p=0",
+                        "Rating": 4.4,
+                        "Avg-Cost": "15,000"
                     },
                     {
                         "place": "Le Parisis - Paris Tour Eiffel",
-                        "Img": "https://www.pagesjaunes.fr/media/ugc/grenelle_suffren_07505600_195303867?w=768&h=1024"
+                        "Img": "https://www.pagesjaunes.fr/media/ugc/grenelle_suffren_07505600_195303867?w=768&h=1024",
+                        "Rating": 4.5,
+                        "Avg-Cost": "16,000"
                     }
                 ]
             },
@@ -861,19 +977,27 @@
                 "hotels": [
                     {
                         "place": "Novotel Paris Les Halles",
-                        "Img": "https://cimages1.touristlink.com/data/cache/hotels/RT/NVHAL/novotel-paris-les-halles-exterior-4-300_300_225.jpg"
+                        "Img": "https://cimages1.touristlink.com/data/cache/hotels/RT/NVHAL/novotel-paris-les-halles-exterior-4-300_300_225.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "21,000"
                     },
                     {
                         "place": "Hôtel Beaubourg",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/14714155.jpg?k=043d4670d18bf678e180bdc991a32b9b48ba1d474577fe2e39bfc99be195a05c&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/14714155.jpg?k=043d4670d18bf678e180bdc991a32b9b48ba1d474577fe2e39bfc99be195a05c&o=",
+                        "Rating": 4.2,
+                        "Avg-Cost": "9,900"
                     },
                     {
                         "place": "Hôtel Duo",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/4/0/82/190/869/24337_Exterior_S.jpg"
+                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/4/0/82/190/869/24337_Exterior_S.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "15,000"
                     },
                     {
                         "place": "Hotel Design Sorbonne",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/58662479.jpg?k=189e1a05e058471b9bbd880356bdd0506ea3bfd26506380b789463d99cf9c588&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x720/58662479.jpg?k=189e1a05e058471b9bbd880356bdd0506ea3bfd26506380b789463d99cf9c588&o=",
+                        "Rating": 4.2,
+                        "Avg-Cost": "13,000"
                     }
                 ]
             },
@@ -887,19 +1011,27 @@
                 "hotels": [
                     {
                         "place": "Hotel Sunroute Plaza Shinjuku",
-                        "Img": "https://i.travelapi.com/lodging/2000000/1700000/1699500/1699407/997afd2d_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/2000000/1700000/1699500/1699407/997afd2d_z.jpg",
+                        "Rating": 4.1,
+                        "Avg-Cost": "9,000"
                     },
                     {
                         "place": "Citadines Shinjuku Tokyo",
-                        "Img": "https://dom.jtb.co.jp/yado/photo2/LL/4/4016085/40160851300000020.jpg"
+                        "Img": "https://dom.jtb.co.jp/yado/photo2/LL/4/4016085/40160851300000020.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "10,000"
                     },
                     {
                         "place": "JR Kyushu Hotel Blossom Shinjuku",
-                        "Img": "https://i.travelapi.com/lodging/12000000/11900000/11899900/11899886/f76f4560_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/12000000/11900000/11899900/11899886/f76f4560_z.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "12,000"
                     },
                     {
                         "place": "Park Hotel Tokyo",
-                        "Img": "https://parkhoteltokyo.com/wp-content/uploads/sites/9/2020/03/Martin-Holtkamp_200212_071619_771-800x900.jpg"
+                        "Img": "https://parkhoteltokyo.com/wp-content/uploads/sites/9/2020/03/Martin-Holtkamp_200212_071619_771-800x900.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "15,000"
                     }
                 ]
             },
@@ -913,23 +1045,33 @@
                 "hotels": [
                     {
                         "place": "The Ritz-Carlton Osaka",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/483252216.jpg?k=9bc9a6434ec4fd12a8807b4b089d07870392ea378ff4bddf8bb262d519f98c44&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/840x460/483252216.jpg?k=9bc9a6434ec4fd12a8807b4b089d07870392ea378ff4bddf8bb262d519f98c44&o=",
+                        "Rating": 4.4,
+                        "Avg-Cost": "15,000"
                     },
                     {
                         "place": "Hearton Hotel Nishi Umeda",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max500/226605473.jpg?k=1ee6ef633f8ea3fb2593e686ef4f350ba541f4f9bfd43a103f609748b66fbf49&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max500/226605473.jpg?k=1ee6ef633f8ea3fb2593e686ef4f350ba541f4f9bfd43a103f609748b66fbf49&o=",
+                        "Rating": 3.9,
+                        "Avg-Cost": "8,000"
                     },
                     {
                         "place": "Hotel Universal Port",
-                        "Img": "https://tblg.k-img.com/restaurant/images/Rvw/200734/3dd4447d484ac1b98d606398d26a8cd0.jpg"
+                        "Img": "https://tblg.k-img.com/restaurant/images/Rvw/200734/3dd4447d484ac1b98d606398d26a8cd0.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "12,000"
                     },
                     {
                         "place": "Hotel Granvia Osaka",
-                        "Img": "https://dv6drgre1bci1.cloudfront.net/files.ranking-deli.jp/hotel/6571/hotel_0_20160318020155.jpg"
+                        "Img": "https://dv6drgre1bci1.cloudfront.net/files.ranking-deli.jp/hotel/6571/hotel_0_20160318020155.jpg",
+                        "Rating": 4.1,
+                        "Avg-Cost": "9,000"
                     },
                     {
                         "place": "Hotel Brighton City Osaka Kitahama",
-                        "Img": "https://img.travel.rakuten.co.jp/share/HOTEL/70322/70322.jpg"
+                        "Img": "https://img.travel.rakuten.co.jp/share/HOTEL/70322/70322.jpg",
+                        "Rating": 4.0,
+                        "Avg-Cost": "5,000"
                     }
                 ]
             },
@@ -943,23 +1085,33 @@
                 "hotels": [
                     {
                         "place": "Citadines Kyoto Karasuma-Gojo",
-                        "Img": "https://cdn.jalan.jp/jalan/images/pict3L/Y4/Y352154/Y352154130.jpg"
+                        "Img": "https://cdn.jalan.jp/jalan/images/pict3L/Y4/Y352154/Y352154130.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "8,000"
                     },
                     {
                         "place": "APA Hotel Kyoto-eki Horikawa-Dori",
-                        "Img": "https://i.travelapi.com/hotels/4000000/3900000/3895700/3895687/f03cadef_z.jpg"
+                        "Img": "https://i.travelapi.com/hotels/4000000/3900000/3895700/3895687/f03cadef_z.jpg",
+                        "Rating": 3.6,
+                        "Avg-Cost": "4,000"
                     },
                     {
                         "place": "Solaria Nishitetsu Hotel Kyoto Premier",
-                        "Img": "https://nnr-h.com/images/common/img_n-inn_naha.jpg"
+                        "Img": "https://nnr-h.com/images/common/img_n-inn_naha.jpg",
+                        "Rating": 4.7,
+                        "Avg-Cost": "12,000"
                     },
                     {
                         "place": "Sakura Terrace",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/22333129.jpg?k=26cd6558e0bac2b5433e36422bc93d2400ae9c8ebc8444fd818444a184788b5c&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/22333129.jpg?k=26cd6558e0bac2b5433e36422bc93d2400ae9c8ebc8444fd818444a184788b5c&o=",
+                        "Rating": 4.2,
+                        "Avg-Cost": "4,000"
                     },
                     {
                         "place": "Kyoto Century Hotel",
-                        "Img": "https://i.travelapi.com/hotels/7000000/6460000/6456500/6456413/e5d2b299_z.jpg"
+                        "Img": "https://i.travelapi.com/hotels/7000000/6460000/6456500/6456413/e5d2b299_z.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "5,000"
                     }
                 ]
             },
@@ -973,23 +1125,33 @@
                 "hotels": [
                     {
                         "place": "Nagoya Marriott Associa Hotel",
-                        "Img": "https://www.associa.com/tyh/ogp.jpg"
+                        "Img": "https://www.associa.com/tyh/ogp.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "16,000"
                     },
                     {
                         "place": "Nagoya JR Gate Tower Hotel",
-                        "Img": "https://i.travelapi.com/hotels/17000000/16240000/16233800/16233709/8e40a02a_z.jpg"
+                        "Img": "https://i.travelapi.com/hotels/17000000/16240000/16233800/16233709/8e40a02a_z.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "Grace Inn Nagoya",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/136161660.jpg?k=bdfb78508d128d000d25c2fe526841e3dcb9f16ad3fd71b6ff2ad331cd5ed44c&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/136161660.jpg?k=bdfb78508d128d000d25c2fe526841e3dcb9f16ad3fd71b6ff2ad331cd5ed44c&o=",
+                        "Rating": 3.5,
+                        "Avg-Cost": "3,500"
                     },
                     {
                         "place": "Sanco Inn Nagoya Shinkansen-guchi Annex",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/128345805.jpg?k=bf9ee26700546cc9dfcc080b4311b74cd1c0c5bac754fd1925edca6c9da46003&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/128345805.jpg?k=bf9ee26700546cc9dfcc080b4311b74cd1c0c5bac754fd1925edca6c9da46003&o=",
+                        "Rating": 4.0,
+                        "Avg-Cost": "6,000"
                     },
                     {
                         "place": "Hotel Wing International Nagoya",
-                        "Img": "https://www.hotelwing.co.jp/tomakomai/wp-content/uploads/2017/05/ogp.jpg"
+                        "Img": "https://www.hotelwing.co.jp/tomakomai/wp-content/uploads/2017/05/ogp.jpg",
+                        "Rating": 3.5,
+                        "Avg-Cost": "3,000"
                     }
                 ]
             },
@@ -1003,15 +1165,21 @@
                 "hotels": [
                     {
                         "place": "The Maples Niseko(ザ・メイプルズ・ニセコ)",
-                        "Img": "https://trvimg.r10s.jp/share/HOTEL/151100/151100.jpg"
+                        "Img": "https://trvimg.r10s.jp/share/HOTEL/151100/151100.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "25,000"
                     },
                     {
                         "place": "La'gent Stay Sapporo Odori Hokkaido",
-                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/0f/54/55/fb/street--v16338367.jpg"
+                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/0f/54/55/fb/street--v16338367.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "19,000"
                     },
                     {
                         "place": "Island Inn Rishiri",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/47973548.jpg?k=83fa3e8cb2ed0229a609df3472e8a40a3d3e0274451d21bb6c5910f53b7ae36b&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/47973548.jpg?k=83fa3e8cb2ed0229a609df3472e8a40a3d3e0274451d21bb6c5910f53b7ae36b&o=",
+                        "Rating": 4.7,
+                        "Avg-Cost": "35,000"
                     }
                 ]
             },
@@ -1025,23 +1193,33 @@
                 "hotels": [
                     {
                         "place": "New York Hilton Midtown",
-                        "Img": "https://media.staticontent.com/media/pictures/dc37724e-9b3b-4ebd-9f0d-baf3368c5323"
+                        "Img": "https://media.staticontent.com/media/pictures/dc37724e-9b3b-4ebd-9f0d-baf3368c5323",
+                        "Rating": 4.1,
+                        "Avg-Cost": "19,000"
                     },
                     {
                         "place": "W New York - Times Square",
-                        "Img": "https://i.travelapi.com/lodging/1000000/860000/853500/853497/7a9c1399_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/1000000/860000/853500/853497/7a9c1399_z.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "16,000"
                     },
                     {
                         "place": "The New Yorker A Wyndham Hotel",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max500/83778539.jpg?k=5bf5ef209088046ab7b0e38efcc23f4d58e7b65ab78144f9ca315aba1482e230&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max500/83778539.jpg?k=5bf5ef209088046ab7b0e38efcc23f4d58e7b65ab78144f9ca315aba1482e230&o=",
+                        "Rating": 3.9,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "casablanca hotel",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/45152292.jpg?k=cc194b11cf933d64b20b11c7f955b1d6132a9d9679bf015daf1f02649a000321&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/45152292.jpg?k=cc194b11cf933d64b20b11c7f955b1d6132a9d9679bf015daf1f02649a000321&o=",
+                        "Rating": 4.7,
+                        "Avg-Cost": "23,000"
                     },
                     {
                         "place": "New York Marriott Marquis",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/95/560/609/nycmq-exterior-0167-ver-clsc_P.jpg"
+                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/95/560/609/nycmq-exterior-0167-ver-clsc_P.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "20,000"
                     }
                 ]
             },
@@ -1055,23 +1233,33 @@
                 "hotels": [
                     {
                         "place": "Caesars Palace",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/1/0/34/652/342/Caesars_Palace_Las_Vegas_7_x_5__300dpi_7.13.09_P.jpg"
+                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/1/0/34/652/342/Caesars_Palace_Las_Vegas_7_x_5__300dpi_7.13.09_P.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "18,000"
                     },
                     {
                         "place": "Mandalay Bay",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/193379869.jpg?k=ab67930d910029302c39315bba5ff0de6349b9b98931e0d4580cf6bd18491c0f&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/193379869.jpg?k=ab67930d910029302c39315bba5ff0de6349b9b98931e0d4580cf6bd18491c0f&o=",
+                        "Rating": 4.4,
+                        "Avg-Cost": "14,000"
                     },
                     {
                         "place": "ARIA Resort & Casino",
-                        "Img": "https://www.atrapalo.cl/hoteles/picture/l/1119/4/2/101738147.jpg"
+                        "Img": "https://www.atrapalo.cl/hoteles/picture/l/1119/4/2/101738147.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "21,000"
                     },
                     {
                         "place": "Hard Rock Hotel & Casino Las Vegas",
-                        "Img": "http://culturemixmag.com/wp-content/uploads/2013/07/singapore.jpg"
+                        "Img": "http://culturemixmag.com/wp-content/uploads/2013/07/singapore.jpg",
+                        "Rating": 3.8,
+                        "Avg-Cost": "11,000"
                     },
                     {
                         "place": "The Venetian Las Vegas",
-                        "Img": "https://bing.com/th?id=OLC.2wDWxq3rmhxn5g480x360&w=474&h=316&p=0"
+                        "Img": "https://bing.com/th?id=OLC.2wDWxq3rmhxn5g480x360&w=474&h=316&p=0",
+                        "Rating": 4.7,
+                        "Avg-Cost": "28,000"
                     }
                 ]
             },
@@ -1085,23 +1273,33 @@
                 "hotels": [
                     {
                         "place": "Freehand Los Angeles",
-                        "Img": "https://i.travelapi.com/lodging/17000000/16320000/16317400/16317325/a2c059d1_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/17000000/16320000/16317400/16317325/a2c059d1_z.jpg",
+                        "Rating": 4.1,
+                        "Avg-Cost": "13,000"
                     },
                     {
                         "place": "JW Marriott Los Angeles L.A. LIVE",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/96/786/912/laxjw-exterior-0064-ver-clsc_P.jpg"
+                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/6/0/96/786/912/laxjw-exterior-0064-ver-clsc_P.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "27,000"
                     },
                     {
                         "place": "Omni Los Angeles Hotel at California Plaza",
-                        "Img": "https://i.travelapi.com/lodging/1000000/20000/18600/18595/96efc0a9_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/1000000/20000/18600/18595/96efc0a9_z.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "20,500"
                     },
                     {
                         "place": "The Garland",
-                        "Img": "https://www.thegarland.com/images/content/offers/good-times.jpg?008359485558997704"
+                        "Img": "https://www.thegarland.com/images/content/offers/good-times.jpg?008359485558997704",
+                        "Rating": 4.4,
+                        "Avg-Cost": "22,000"
                     },
                     {
                         "place": "Holiday Inn Express & Suites Hollywood Walk of Fame, an IHG Hotel",
-                        "Img": "https://images.reservationcounter.com/hotel/6125472/50144712/0/640x480"
+                        "Img": "https://images.reservationcounter.com/hotel/6125472/50144712/0/640x480",
+                        "Rating": 4.1,
+                        "Avg-Cost": "18,000"
                     }
                 ]
             },
@@ -1115,23 +1313,33 @@
                 "hotels": [
                     {
                         "place": "Hilton San Francisco Financial District",
-                        "Img": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hilton_San_Francisco_Financial_District.jpg"
+                        "Img": "https://upload.wikimedia.org/wikipedia/commons/7/71/Hilton_San_Francisco_Financial_District.jpg",
+                        "Rating": 3.9,
+                        "Avg-Cost": "9,000"
                     },
                     {
                         "place": "Hotel Union Square",
-                        "Img": "https://www.hotelscombined.ie//kimg/24/53/d8457dc6-1629c176c6c.jpg"
+                        "Img": "https://www.hotelscombined.ie//kimg/24/53/d8457dc6-1629c176c6c.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "12,000"
                     },
                     {
                         "place": "San Francisco Marriott Marquis",
-                        "Img": "https://i.travelapi.com/lodging/1000000/10000/8800/8737/33916f1d_z.jpg"
+                        "Img": "https://i.travelapi.com/lodging/1000000/10000/8800/8737/33916f1d_z.jpg",
+                        "Rating": 4.4,
+                        "Avg-Cost": "20,000"
                     },
                     {
                         "place": "Hotel Zoe Fisherman's Wharf",
-                        "Img": "https://a.mktgcdn.com/p/89HwNj7rzNTzfBr6T9PySKzYwhvTorZcZQ4CeUc6zCI/2400x1800.jpg"
+                        "Img": "https://a.mktgcdn.com/p/89HwNj7rzNTzfBr6T9PySKzYwhvTorZcZQ4CeUc6zCI/2400x1800.jpg",
+                        "Rating": 4.2,
+                        "Avg-Cost": "17,500"
                     },
                     {
                         "place": "Huntington Hotel",
-                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/1d/1e/5c/64/exterior.jpg"
+                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/1d/1e/5c/64/exterior.jpg",
+                        "Rating": 4.5,
+                        "Avg-Cost": "25,000"
                     }
                 ]
             },
@@ -1145,23 +1353,33 @@
                 "hotels": [
                     {
                         "place": "Hard Rock Hotel San Diego",
-                        "Img": "https://bing.com/th?id=OLC.0LfA1ROFJPSdeg480x360&w=500&h=350&p=0"
+                        "Img": "https://bing.com/th?id=OLC.0LfA1ROFJPSdeg480x360&w=500&h=350&p=0",
+                        "Rating": 4.3,
+                        "Avg-Cost": "22,000"
                     },
                     {
                         "place": "Bahia Resort Hotel",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/110102005.jpg?k=ee92146f0f2271eb98fd616d71c30fe85e3e58b55047fce9e48b66dce3d09b8f&o="
+                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/110102005.jpg?k=ee92146f0f2271eb98fd616d71c30fe85e3e58b55047fce9e48b66dce3d09b8f&o=",
+                        "Rating": 3.9,
+                        "Avg-Cost": "14,000"
                     },
                     {
                         "place": "Manchester Grand Hyatt San Diego",
-                        "Img": "https://media.2findlocal.com/img/general/256606_238852.png"
+                        "Img": "https://media.2findlocal.com/img/general/256606_238852.png",
+                        "Rating": 4.6,
+                        "Avg-Cost": "31,000"
                     },
                     {
                         "place": "THE US GRANT, a Luxury Collection Hotel, San Diego",
-                        "Img": "https://images.data-axle.com/b758c520b24bdd91944baca12a8d5dbe7bd27c18.jpg"
+                        "Img": "https://images.data-axle.com/b758c520b24bdd91944baca12a8d5dbe7bd27c18.jpg",
+                        "Rating": 4.6,
+                        "Avg-Cost": "40,000"
                     },
                     {
                         "place": "Paradise Point Resort & Spa",
-                        "Img": "https://a.mktgcdn.com/p/mBr4taipkD7maQlqfZCrqD1ofCqRmZ6FLFm9YhRWtKE/1016x677.jpg"
+                        "Img": "https://a.mktgcdn.com/p/mBr4taipkD7maQlqfZCrqD1ofCqRmZ6FLFm9YhRWtKE/1016x677.jpg",
+                        "Rating": 4.3,
+                        "Avg-Cost": "22,000"
                     }
                 ]
             }
