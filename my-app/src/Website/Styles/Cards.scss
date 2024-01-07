@@ -3,14 +3,10 @@
     align-items: left;
     justify-content: center;
     // justify-content: space-around;
-    gap: 20px;
     width: auto;
     flex-wrap: wrap;
     position: relative;
-
-    // @media (max-width: 1200px) {
-    //     justify-content: center;
-    // }
+    // border: 1px solid black;
 
     .cards {
         position: relative;
@@ -19,6 +15,8 @@
         width: 400px;
         height: 250px;
         cursor: pointer;
+        margin: 10px;
+        // border: 1px solid black;
 
         .cardsImg {
             position: relative;
