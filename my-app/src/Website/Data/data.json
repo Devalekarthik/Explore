@@ -1234,5 +1234,631 @@
             "Infosys Certified Front End Web Developer",
             "Infosys Certified React Associate"
         ]
+    },
+    "PhoneNoValidation": [
+        {
+            "Country": "China",
+            "PhoneNo Length": "13"
+        },
+        {
+            "Country": "Mozambique",
+            "PhoneNo Length": "12"
+        },
+        {
+            "Country": "Brazil",
+            "PhoneNo Length": "11"
+        },
+        {
+            "Country": "India",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "United States",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Pakistan",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Bangladesh",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Russia",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Mexico",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Japan",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Philippines",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Egypt",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Iran",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Turkey",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Germany",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "United Kingdom",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Italy",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Kenya",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Colombia",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "South Korea",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Canada",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Nepal",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Kazakhstan",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Romania",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Dominican Republic",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Greece",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Austria",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Libya",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Puerto Rico",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Jamaica",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Trinidad and Tobago",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Bahamas",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Barbados",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Saint Lucia",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Guam",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Grenada",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Saint Vincent and the Grenadines",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "United States Virgin Islands",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Antigua and Barbuda",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Isle of Man",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Dominica",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Cayman Islands",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Bermuda",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Guernsey",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Northern Mariana Islands",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Saint Kitts and Nevis",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Turks and Caicos Islands",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Sint Maarten",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "American Samoa",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "British Virgin Islands",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Anguilla",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Montserrat",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Vatican City",
+            "PhoneNo Length": "10"
+        },
+        {
+            "Country": "Indonesia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Vietnam",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Thailand",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "South Africa",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Spain",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Algeria",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Afghanistan",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Poland",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Ukraine",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Saudi Arabia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Yemen",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Ghana",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Peru",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Cameroon",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Australia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Syria",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Taiwan",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Zambia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Chile",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Ecuador",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Netherlands",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Cambodia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Zimbabwe",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Benin",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Belgium",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Jordan",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Czech Republic",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Azerbaijan",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Portugal",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Hungary",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "United Arab Emirates",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Belarus",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Israel",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Switzerland",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Paraguay",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Slovakia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "New Zealand",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Ireland",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Croatia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Georgia",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Luxembourg",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Guadeloupe",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Martinique",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "French Guiana",
+            "PhoneNo Length": "9"
+        },
+        {
+            "Country": "Nigeria",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Myanmar",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Niger",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Mali",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Burkina Faso",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Chad",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Somalia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Guatemala",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Tunisia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Honduras",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Togo",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Hong Kong",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Nicaragua",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Serbia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "El Salvador",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Singapore",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Denmark",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Norway",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Costa Rica",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Oman",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Panama",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Kuwait",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Moldova",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Bosnia and Herzegovina",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Armenia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Qatar",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Lithuania",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "North Macedonia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Latvia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Bahrain",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Estonia",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Mauritius",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Cyprus",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Montenegro",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Malta",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Kiribati",
+            "PhoneNo Length": "8"
+        },
+        {
+            "Country": "Malaysia",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Venezuela",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Sri Lanka",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Sweden",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Liberia",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Lebanon",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Gabon",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Solomon Islands",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Maldives",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Belize",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Micronesia",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Aruba",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Marshall Islands",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Palau",
+            "PhoneNo Length": "7"
+        },
+        {
+            "Country": "Tanzania",
+            "PhoneNo Length": "6"
+        },
+        {
+            "Country": "French Polynesia",
+            "PhoneNo Length": "6"
+        },
+        {
+            "Country": "New Caledonia",
+            "PhoneNo Length": "6"
+        },
+        {
+            "Country": "Greenland",
+            "PhoneNo Length": "6"
+        },
+        {
+            "Country": "Samoa",
+            "PhoneNo Length": "5"
+        },
+        {
+            "Country": "Faroe Islands",
+            "PhoneNo Length": "5"
+        },
+        {
+            "Country": "Cook Islands",
+            "PhoneNo Length": "5"
+        },
+        {
+            "Country": "Niue",
+            "PhoneNo Length": "4"
+        }
+    ],
+    "ContactUs": {
+        "Title": "Contact Us!",
+        "title-info": "Please fill and submit the form for any Querry our customer support team will connect with you within 24hrs."
     }
 }

@@ -91,7 +91,7 @@
                 flex-direction: column;
             }
 
-            div {
+            .form-input {
                 min-width: 200px;
                 width: 48%;
 
@@ -135,6 +135,23 @@
                         font-size: 12px;
                         position: relative;
                         bottom: 1px;
+                    }
+                }
+
+                .css-b62m3t-container {
+                    .css-13cymwt-control,
+                    .css-t3ipsp-control {
+                        border-radius: 20px;
+                        text-align: left;
+                    }
+
+                    .css-1nmdiq5-menu {
+                        border-radius: 20px;
+                        overflow: hidden;
+
+                        .css-1n6sfyn-MenuList {
+                            max-height: 130px;
+                        }
                     }
                 }
             }
