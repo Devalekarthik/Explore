@@ -169,7 +169,7 @@
     .dest-Cards4 {
         display: none;
 
-        @media (max-width:1787.5px) {
+        @media (max-width:$Card4-row) {
             display: inline-block;
         }
     }
@@ -177,7 +177,7 @@
     .dest-Cards3 {
         display: none;
 
-        @media (max-width:1387.5px) {
+        @media (max-width:$Card3-row) {
             display: inline-block;
         }
     }
@@ -185,7 +185,7 @@
     .dest-Cards2 {
         display: none;
 
-        @media (max-width:967.5px) {
+        @media (max-width:$Card2-row) {
             display: inline-block;
         }
     }
