@@ -272,6 +272,7 @@ const MoreDetails = ({
                     isSearchable={true}
                     options={AllCountryOption}
                     onChange={(e) => setDetailsCountry(e.value)}
+                    isDisabled={!varified ? false : true}
                   />
                   {error?.Country && (
                     <p>
