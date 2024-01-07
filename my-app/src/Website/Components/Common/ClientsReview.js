@@ -83,7 +83,7 @@ const ClientsReview = () => {
         </div>
         <div className="clientsImg">
           <img src={groupImg} className="client-pic" />
-          <img src="./Client Review.jpg" className="client-bgPic" />
+          <img src="./ClientReview.PNG" className="client-bgPic" />
         </div>
       </div>
       {/* <div className="checkwatermark">
