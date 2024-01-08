@@ -23,7 +23,7 @@
             left: 17%;
             right: -5%;
             width: 100%;
-            height: 100%;
+            height: 615px;
             object-fit: fit;
             z-index: -1;
             opacity: 0.5;
@@ -51,7 +51,7 @@
             display: flex;
             flex-direction: column;
             gap: 130px;
-            margin-top: 130px;
+            margin-top: 180px;
 
             .hotel-offers {
 
@@ -128,15 +128,64 @@
 
     .hotels-right {
         width: 55%;
-        max-height: 538px;
-        overflow: auto;
-        // overflow-y: scroll;
-        scroll-behavior: auto;
-        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
 
         @media (max-width:1200px) {
             width: 100%;
-            padding: 0px;
+        }
+
+        .hotels-cards {
+            max-height: 558px;
+            scroll-behavior: auto;
+            overflow: hidden;
+            transition: 1s ease-in-out;
+
+            @media (max-width:1200px) {
+                max-height: 350px;
+            }
+        }
+
+        .hotels-viewMore {
+            max-height: 570px;
+            overflow: auto;
+            transition: 1s ease-in-out;
+        }
+
+        .hotels-viewMoreBtn {
+            background: orange;
+            color: white;
+            width: 180px;
+            padding: 10px 0;
+            border-radius: 20px;
+            border: none;
+            font-size: 18px;
+            cursor: pointer;
+            position: relative;
+            bottom: 65px;
+            z-index: 10;
+        }
+
+        .hotels-Cards4 {
+            display: none;
+
+            @media (max-width:$hotels-card4-row) {
+                display: inline-block;
+            }
+        }
+
+        .hotels-Cards2 {
+            display: none;
+
+            @media (max-width:$hotels-card3-row) {
+                display: inline-block;
+            }
+        }
+
+        .hotels-Cards1 {
+            display: none;
         }
     }
 }

@@ -55,8 +55,6 @@ const Destination = ({ revisedData, setBookedDestination }) => {
     setSelectedCountry("All Country");
   }, []);
 
-  console.log("destination.length", destination.length);
-
   return (
     <>
       <div className="destination" id="Search Destination">
@@ -96,7 +94,7 @@ const Destination = ({ revisedData, setBookedDestination }) => {
           ${
             destinationViewMore && destination.length > 1
               ? "dest-viewMore"
-              : "dest-viewMoreHidden"
+              : ""
           }
           `}
         >

@@ -139,7 +139,7 @@
     }
 
     .destination-cards {
-        max-height: 300px;
+        max-height: 350px;
         overflow: hidden;
         // overflow-y: scroll;
         scroll-behavior: auto;
@@ -169,7 +169,7 @@
     .dest-Cards4 {
         display: none;
 
-        @media (max-width:$Card4-row) {
+        @media (max-width:$dest-card4-row) {
             display: inline-block;
         }
     }
@@ -177,7 +177,7 @@
     .dest-Cards3 {
         display: none;
 
-        @media (max-width:$Card3-row) {
+        @media (max-width:$dest-card3-row) {
             display: inline-block;
         }
     }
@@ -185,7 +185,7 @@
     .dest-Cards2 {
         display: none;
 
-        @media (max-width:$Card2-row) {
+        @media (max-width:$dest-card2-row) {
             display: inline-block;
         }
     }

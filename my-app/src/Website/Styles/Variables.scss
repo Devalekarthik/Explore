@@ -2,6 +2,12 @@ $Card-width : 400px;
 $Card-height : 250px;
 $Card-margin : 10px;
 
-$Card4-row: 1807.5px;
-$Card3-row: calc($Card4-row - $Card-width - 2 * $Card-margin);
-$Card2-row: calc($Card3-row - $Card-width - 2 * $Card-margin);
+// When Width of cards changes please change the card4 row
+    // For Destination block
+        $dest-card4-row: 1807.5px;
+        $dest-card3-row: calc($dest-card4-row - $Card-width - 2 * $Card-margin);
+        $dest-card2-row: calc($dest-card3-row - $Card-width - 2 * $Card-margin);
+
+    // For Hotels block
+        $hotels-card4-row:1751.5px;
+        $hotels-card3-row:967.5px;
