@@ -41,7 +41,7 @@ const ContactDetails = () => {
   }, [contactData]);
 
   return (
-    <div className="Contact">
+    <div className="Contact" id="Contact">
       <div className="contact-details">
         <div className="contact-img">
           <img src="./ContactUs.jpg" />

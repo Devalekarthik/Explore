@@ -3,14 +3,12 @@ import Data from "../../Data/data.json";
 import Select from "react-select";
 import Cards from "./Cards";
 
-const Destination = ({
-  revisedData,
-  setBookedDestination,
-}) => {
+const Destination = ({ revisedData, setBookedDestination }) => {
   const [destination, setDestination] = useState([]);
   const [navbarType, setNavbarType] = useState("All");
   const [selectedCountry, setSelectedCountry] = useState();
   const [searchBox, setSearchBox] = useState("");
+  const [destinationViewMore, setDestinationViewMore] = useState(false);
 
   const search = () => {
     setSelectedCountry(searchBox);
@@ -91,13 +89,38 @@ const Destination = ({
             );
           })}
         </div>
-        <div className="cards">
+        <div
+          className={`destination-cards 
+          ${
+            destinationViewMore && destination.length > 1
+              ? "dest-viewMore"
+              : ""
+          }
+          `}
+        >
           <Cards
             destination={destination}
             setBookedDestination={setBookedDestination}
             id="places"
           />
         </div>
+        <button
+          className={`dest-viewMoreBtn
+            ${
+              destination.length === 4
+                ? "dest-Cards4"
+                : destination.length === 3
+                ? "dest-Cards3"
+                : destination.length === 2
+                ? "dest-Cards2"
+                : destination.length === 1
+                ? "dest-Cards1"
+                : ""
+            }`}
+          onClick={() => setDestinationViewMore(!destinationViewMore)}
+        >
+          {destinationViewMore ? "View Less" : "View More"}
+        </button>
       </div>
     </>
   );

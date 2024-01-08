@@ -12,6 +12,7 @@ const Hotels = ({ revisedData, bookedDestination, setBookedHotel }) => {
       : hotels;
 
   const [hotelsList, sethotelsList] = useState(hotels);
+  const [hotelsViewMore, setHotelsViewMore] = useState(false);
 
   const handleHotels = () => {
     sethotelsList(filterHotel);
@@ -51,11 +52,35 @@ const Hotels = ({ revisedData, bookedDestination, setBookedHotel }) => {
         </div>
       </div>
       <div className="hotels-right">
-        <Cards
-          destination={hotelsList}
-          setBookedHotel={setBookedHotel}
-          id="hotels"
-        />
+        <div
+          className={`hotels-cards ${
+            hotelsViewMore && hotelsList.length > 1
+              ? "hotels-viewMore"
+              : "hotels-viewMoreHidden"
+          }`}
+        >
+          <Cards
+            destination={hotelsList}
+            setBookedHotel={setBookedHotel}
+            id="hotels"
+          />
+        </div>
+        <button
+          className={`hotels-viewMoreBtn
+            ${
+              hotelsList.length === 4 || hotelsList.length === 3
+                ? "hotels-Cards4"
+                : hotelsList.length === 2
+                ? "hotels-Cards2"
+                : hotelsList.length === 1
+                ? "hotels-Cards1"
+                : ""
+            }
+          `}
+          onClick={() => setHotelsViewMore(!hotelsViewMore)}
+        >
+          {hotelsViewMore ? "View Less" : "View More"}
+        </button>
       </div>
     </div>
   );

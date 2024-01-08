@@ -116,8 +116,8 @@ const HomeDetails = () => {
       <ChooseUs />
       {/* <Blog /> */}
       <ClientsReview />
-      <Portfolio Data={revisedData} />
       <ContactDetails />
+      <Portfolio Data={revisedData} />
     </div>
   );
 };
