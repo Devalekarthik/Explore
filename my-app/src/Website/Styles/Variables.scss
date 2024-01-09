@@ -1,13 +1,20 @@
-$Card-width : 400px;
-$Card-height : 250px;
-$Card-margin : 10px;
+// Break-Points in website
 
-// When Width of cards changes please change the card4 row
+$desktop:1200px;
+$tabs:850px;
+$mobile:500px;
+
+// Cards Width and Height is Mention *If we want to change size please do look into viewmore breakpoints
+$card-width : 400px;
+$card-height : 250px;
+$card-margin : 10px;
+
+// When Width of Cards changes please change the card4 row
     // For Destination block
         $dest-card4-row: 1807.5px;
-        $dest-card3-row: calc($dest-card4-row - $Card-width - 2 * $Card-margin);
-        $dest-card2-row: calc($dest-card3-row - $Card-width - 2 * $Card-margin);
+        $dest-card3-row: calc($dest-card4-row - $card-width - 2 * $card-margin);
+        $dest-card2-row: calc($dest-card3-row - $card-width - 2 * $card-margin);
 
     // For Hotels block
-        $hotels-card4-row:1751.5px;
-        $hotels-card3-row:967.5px;
+        $hotels-card2-row: 1751.5px;
+        $hotels-card2-row-tabs: calc($dest-card3-row - $card-width - 2 * $card-margin);

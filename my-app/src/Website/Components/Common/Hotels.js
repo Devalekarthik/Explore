@@ -27,9 +27,15 @@ const Hotels = ({ revisedData, bookedDestination, setBookedHotel }) => {
     <div className="hotels" id="Hotels">
       <div className="hotels-left">
         <img src="hotelsPlanImg.jpg" />
-        <h1>Speacil Offers</h1>
-        <div className="hotels-desc">
-          <div className="hotel-offers">
+        <span className="hotels-specialTag">Special Offers</span>
+        <div
+          className={`hotels-desc ${hotelsViewMore && "hotel-desc-viewmore"}`}
+        >
+          <div
+            className={`hotel-offers ${
+              hotelsViewMore && "hotel-offers-viewmore"
+            }`}
+          >
             <h2>
               <span>FLAT</span>{" "}
               <span>
@@ -68,9 +74,7 @@ const Hotels = ({ revisedData, bookedDestination, setBookedHotel }) => {
         <button
           className={`hotels-viewMoreBtn
             ${
-              hotelsList.length === 4 || hotelsList.length === 3
-                ? "hotels-Cards4"
-                : hotelsList.length === 2
+              hotelsList.length === 2
                 ? "hotels-Cards2"
                 : hotelsList.length === 1
                 ? "hotels-Cards1"
