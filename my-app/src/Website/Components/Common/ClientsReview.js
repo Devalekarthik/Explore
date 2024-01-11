@@ -30,6 +30,8 @@ const ClientsReview = () => {
   const [selectedAccordion, setSelectedAccordion] = useState(0);
   const [groupImg, setGroupImg] = useState(clientData[0].groupImg);
 
+  const [clientViewMore, setClientViewMore] = useState(false);
+
   const handleChange = (accordionIndex) => {
     setSelectedAccordion(
       accordionIndex === selectedAccordion ? null : accordionIndex
@@ -41,7 +43,11 @@ const ClientsReview = () => {
     <>
       <div className="clients">
         <div className="clientsDetails">
-          <div className="accordian">
+          <div
+            className={`clients-accordian ${
+              clientViewMore && "clients-viewMore"
+            }`}
+          >
             {clientData.map((item, index) => {
               return (
                 <div>
@@ -80,10 +86,24 @@ const ClientsReview = () => {
               );
             })}
           </div>
+          <button
+            className="clients-viewMoreBtn"
+            onClick={() => setClientViewMore(!clientViewMore)}
+          >
+            {clientViewMore ? "View Less" : "View More"}
+          </button>
         </div>
         <div className="clientsImg">
-          <img src={groupImg} className="client-pic" />
-          <img src="./ClientReview.PNG" className="client-bgPic" />
+          <img
+            src={groupImg}
+            className={`client-pic ${clientViewMore && "clients-viewMorePic"} `}
+          />
+          <img
+            src="./ClientReview.PNG"
+            className={`client-bgPic ${
+              clientViewMore && "clients-viewMoreBgPic"
+            }`}
+          />
         </div>
       </div>
       {/* <div className="checkwatermark">
