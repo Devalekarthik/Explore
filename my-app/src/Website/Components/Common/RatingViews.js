@@ -1,14 +1,14 @@
-import Data from "../../Data/data.json";
+const RatingViews = (props) => {
+  const { Data } = props;
 
-const RatingViews = () => {
   return (
-    <div className="RatingContainer" id="Rating">
-      <div className="viewGrid">
+    <div className="rating-views" id="Rating">
+      <div className="rating-grid">
         {Data.rating.map((item) => {
           return (
-            <span className="viewBlock">
-              <h2>{item.ratingNumber}</h2>
-              <p>{item.ratingDesc}</p>
+            <span className="rating-block">
+              <div className="rating-number">{item.ratingNumber}</div>
+              <p className="rating-type">{item.ratingDesc}</p>
             </span>
           );
         })}
