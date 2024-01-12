@@ -9,7 +9,7 @@ import Hotels from "./Hotels";
 import Portfolio from "./Portfolio";
 import ContactDetails from "./ContactDetails";
 
-const HomeDetails = () => {
+const DestinationDetails = () => {
   // let revisedData = Data.Destination.places.sort((a, b) => b.rating - a.rating);
 
   // const [destination, setDestination] = useState([]);
@@ -80,20 +80,20 @@ const HomeDetails = () => {
     .flat();
 
   return (
-    <div className="places">
-      <div className="popular-Dest" id="Popular Destination">
-        <p className="popular-Title">{Data.home.desc["desc-title"]}</p>
-        <div className="popular-subtitle">{Data.home.desc["desc-info"]}</div>
+    <div className="destination">
+      <div className="dest-popular" id="Popular Destination">
+        <p className="dest-popularTitle">{Data.home.desc["desc-title"]}</p>
+        <div className="dest-popularSubTitle">{Data.home.desc["desc-info"]}</div>
         {Data.home["travel-places"].map((item) => {
           return (
-            <div className="des">
-              <div className="des-text">
-                <h2>{item.title}</h2>
-                <p>{item.info}</p>
+            <div className="popular">
+              <div className="popular-text">
+                <div className="popular-title">{item.title}</div>
+                <p className="popular-info">{item.info}</p>
               </div>
-              <div className="des-image">
-                <img src={item.img1} alt="" />
-                <img src={item.img2} alt="" />
+              <div className="popular-images">
+                <img src={item.img1} alt="" className="popular-img" />
+                <img src={item.img2} alt="" className="popular-img" />
               </div>
             </div>
           );
@@ -112,7 +112,6 @@ const HomeDetails = () => {
       />
 
       <ChooseUs />
-      {/* <Blog /> */}
       <ClientsReview />
       <ContactDetails />
       <Portfolio Data={revisedData} />
@@ -120,4 +119,4 @@ const HomeDetails = () => {
   );
 };
 
-export default HomeDetails;
+export default DestinationDetails;

@@ -57,7 +57,7 @@ const Destination = ({ revisedData, setBookedDestination }) => {
 
   return (
     <>
-      <div className="destination" id="Search Destination">
+      <div className="destination-place" id="Search Destination">
         <p className="dest-Title">{Data.Destination.title}</p>
         <p className="dest-Subtitle">{Data.Destination.desc}</p>
 

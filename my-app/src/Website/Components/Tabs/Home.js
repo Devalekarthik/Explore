@@ -1,7 +1,7 @@
 import React from "react";
 import Banner from "../Common/Banner";
 import RatingViews from "../Common/RatingViews";
-import HomeDetails from "../Common/HomeDetails";
+import DestinationDetails from "../Common/DestinationDetails";
 import Data from "../../Data/data.json";
 
 const Home = () => {
@@ -17,7 +17,7 @@ const Home = () => {
       <Banner {...BannerDetails} />
       <div className="home-info">
         <RatingViews {...RatingDetails} />
-        <HomeDetails />
+        <DestinationDetails />
       </div>
     </div>
   );
