@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../Common/Img";
+import Banner from "../Common/Banner";
 // import HomeImg from "../../Images/12.jpg";
 import HomeDetails from "../Common/HomeDetails";
 import Data from "../../Data/data.json";
@@ -9,23 +9,16 @@ import HomeVideo from "../../Videos/HomePage.mp4";
 // import { useAsyncDebounce } from "react-select-search";
 
 const Home = () => {
-  let Homedata = {
-    image: "HomeImg",
-    video: HomeVideo,
-    title: Data.home.title,
-    text: Data.home.text,
-    travelLink: Data.home.travellink,
-    url: "/",
-    Cname: "ImgComp",
-    CImg: "ImgText",
-    CTravel: "TravelBtn",
+  let BannerDetails = {
+    Data: Data,
   };
 
   return (
-    <div>
-      <Img {...Homedata} /> 
-      <HomeDetails />
-      {/* <video src={first} autoPlay loop muted></video> */}
+    <div className="home">
+      <Banner {...BannerDetails} />
+      <div className="home-info">
+        <HomeDetails />
+      </div>
     </div>
   );
 };
