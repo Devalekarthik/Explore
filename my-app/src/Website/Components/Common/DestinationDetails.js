@@ -81,24 +81,6 @@ const DestinationDetails = () => {
 
   return (
     <div className="destination">
-      <div className="dest-popular" id="Popular Destination">
-        <p className="dest-popularTitle">{Data.home.desc["desc-title"]}</p>
-        <div className="dest-popularSubTitle">{Data.home.desc["desc-info"]}</div>
-        {Data.home["travel-places"].map((item) => {
-          return (
-            <div className="popular">
-              <div className="popular-text">
-                <div className="popular-title">{item.title}</div>
-                <p className="popular-info">{item.info}</p>
-              </div>
-              <div className="popular-images">
-                <img src={item.img1} alt="" className="popular-img" />
-                <img src={item.img2} alt="" className="popular-img" />
-              </div>
-            </div>
-          );
-        })}
-      </div>
       <Trip Data={Data} TabData={Data.home} Tab="Home" />
 
       <Destination
