@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Data from "../../Data/data.json";
 import Trip from "./Trip";
-import RatingViews from "./RatingViews";
 import ChooseUs from "./ChooseUs";
 import Blog from "./Blog";
 import ClientsReview from "./ClientsReview";
@@ -82,7 +81,6 @@ const HomeDetails = () => {
 
   return (
     <div className="places">
-      <RatingViews />
       <div className="popular-Dest" id="Popular Destination">
         <p className="popular-Title">{Data.home.desc["desc-title"]}</p>
         <div className="popular-subtitle">{Data.home.desc["desc-info"]}</div>
