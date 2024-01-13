@@ -1,34 +1,32 @@
-.Contact {
-    margin-top: 30px;
+.contact {
+    margin-top: 1.875rem;
 
     .contact-details {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
 
-        @media (max-width:850px) {
+        @media (max-width: $tabs) {
             flex-direction: column;
         }
 
         .contact-img {
             width: 50%;
-            // border: 1px solid black;
             display: flex;
             justify-content: center;
             overflow: hidden;
 
-            @media (max-width:850px) {
+            @media (max-width: $tabs) {
                 width: 100%;
-                height: 380px;
+                height: 23.75rem;
             }
 
-            img {
+            .contact-image {
                 width: 85%;
-                // border: 1px solid black;
                 position: relative;
                 top: 6%;
 
-                @media (max-width:850px) {
+                @media (max-width: $tabs) {
                     width: 100%;
                     top: 15%;
                 }
@@ -37,34 +35,38 @@
 
         .contact-form {
             width: 50%;
-            // border: 1px solid black;
             flex-direction: column;
             display: flex;
             justify-content: center;
-            padding: 30px;
+            padding: 1.875rem;
 
-            @media (max-width:850px) {
+            @media (max-width: $tabs) {
                 width: 100%;
-                padding: 0px;
+                padding: 0rem;
+            }
+
+            .contact-title {
+                font-size: 2.75rem;
+                font-weight: 500;
             }
 
             .form-control {
                 width: 65%;
                 display: inline-block;
-                margin-bottom: 15px;
-                border-radius: 50px;
+                margin-bottom: 0.9375rem;
+                border-radius: 3.125rem;
 
-                @media (max-width:850px) {
+                @media (max-width: $tabs) {
                     width: 100%;
                 }
             }
 
-            .form-btn {
-                button {
+            .contact-formbtn {
+                .contact-submitbtn {
                     width: 65%;
-                    border-radius: 50px;
+                    border-radius: 3.125rem;
 
-                    @media (max-width:850px) {
+                    @media (max-width: $tabs) {
                         width: 100%;
                     }
                 }
@@ -72,14 +74,13 @@
 
             .contact-error {
                 color: red;
-                margin-top: -15px;
-                margin-bottom: 5px;
-                font-size: 14px;
+                margin-top: -0.9375rem;
+                margin-bottom: 0.3125rem;
+                font-size: 0.875rem;
 
-                @media (max-width:850px) {
-                    font-size: 12px;
+                @media (max-width: $tabs) {
+                    font-size: 0.75rem;
                 }
-
             }
         }
     }

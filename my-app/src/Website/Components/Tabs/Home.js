@@ -46,6 +46,10 @@ const Home = () => {
     Data: Data,
   };
 
+  let contactDetails = {
+    Data: Data,
+  };
+
   return (
     <div className="home">
       <Banner {...BannerDetails} />
@@ -55,7 +59,7 @@ const Home = () => {
         <DestinationDetails />
         <ChooseUs {...chooseusDetails} />
         <ClientsReview {...clientDetails} />
-        <ContactDetails />
+        <ContactDetails {...contactDetails} />
         <Portfolio Data={revisedData} />
       </div>
     </div>
