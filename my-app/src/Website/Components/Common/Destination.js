@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
-import Data from "../../Data/data.json";
 import Select from "react-select";
 import Cards from "./Cards";
 
-const Destination = ({ revisedData, setBookedDestination }) => {
+const Destination = (props) => {
+  const { Data, revisedData, setBookedDestination } = props;
+
   const [destination, setDestination] = useState([]);
   const [navbarType, setNavbarType] = useState("All");
   const [selectedCountry, setSelectedCountry] = useState();
@@ -57,11 +58,11 @@ const Destination = ({ revisedData, setBookedDestination }) => {
 
   return (
     <>
-      <div className="destination-place" id="Search Destination">
-        <p className="dest-Title">{Data.Destination.title}</p>
-        <p className="dest-Subtitle">{Data.Destination.desc}</p>
+      <div className="destination" id="Search Destination">
+        <p className="destination-title">{Data.Destination.title}</p>
+        <p className="destination-subTitle">{Data.Destination.desc}</p>
 
-        <div className="search">
+        <div className="destination-search">
           <Select
             placeholder="Select Country..."
             isSearchable={true}
@@ -70,19 +71,23 @@ const Destination = ({ revisedData, setBookedDestination }) => {
           />
           <button
             onClick={() => search()}
-            className={`searchBtn ${searchBox !== "" ? "" : "disabledBtn"}`}
+            className={`destination-searchBtn ${
+              searchBox !== "" ? "" : "destination-disabledBtn"
+            }`}
             disabled={searchBox !== "" ? false : true}
           >
             Search
           </button>
         </div>
 
-        <div className="cardsNavbar">
+        <div className="destination-navbar">
           {navbar.map((item) => {
             return (
               <button
                 onClick={() => handleNavbar(item)}
-                className={navbarType === item ? "selectedButton" : ""}
+                className={`destination-navbarBtn ${
+                  navbarType === item ? "destination-selectedButton" : ""
+                }`}
               >
                 {item}
               </button>
@@ -93,7 +98,7 @@ const Destination = ({ revisedData, setBookedDestination }) => {
           className={`destination-cards 
           ${
             destinationViewMore && destination.length > 1
-              ? "dest-viewMore"
+              ? "destination-viewMore"
               : ""
           }
           `}
@@ -105,16 +110,16 @@ const Destination = ({ revisedData, setBookedDestination }) => {
           />
         </div>
         <button
-          className={`dest-viewMoreBtn
+          className={`destination-viewMoreBtn
             ${
               destination.length === 4
-                ? "dest-Cards4"
+                ? "destination-cards4"
                 : destination.length === 3
-                ? "dest-Cards3"
+                ? "destination-cards3"
                 : destination.length === 2
-                ? "dest-Cards2"
+                ? "destination-cards2"
                 : destination.length === 1
-                ? "dest-Cards1"
+                ? "destination-cards1"
                 : ""
             }`}
           onClick={() => setDestinationViewMore(!destinationViewMore)}

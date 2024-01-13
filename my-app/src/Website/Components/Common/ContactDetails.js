@@ -1,11 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "bootstrap-4-react";
 import "bootstrap";
-import Select from "react-select";
-import Data from "../../Data/data.json";
-// import StarRoundedIcon from "@mui/icons-material/StarRounded";
 
-const ContactDetails = () => {
+const ContactDetails = (props) => {
+  const { Data } = props;
+
   const [contactData, setContactData] = useState({
     name: "",
     email: "",
@@ -41,13 +40,13 @@ const ContactDetails = () => {
   }, [contactData]);
 
   return (
-    <div className="Contact" id="Contact">
+    <div className="contact" id="Contact">
       <div className="contact-details">
         <div className="contact-img">
-          <img src="./ContactUs.jpg" />
+          <img src="./ContactUs.jpg" className="contact-image" />
         </div>
         <div className="contact-form">
-          <h1>{Data.ContactUs.Title}</h1>
+          <div className="contact-title">{Data.ContactUs.Title}</div>
           <p>{Data.ContactUs["title-info"]}</p>
           <div class="form-group">
             <input
@@ -92,11 +91,15 @@ const ContactDetails = () => {
               value={contactData.message}
               onChange={(e) => handleContactInput(e)}
             />
-            <div className="form-btn">
+            <div className="contact-formbtn">
               <button
-                class={
-                  contactError === null ? "btn btn-success" : "btn btn-primary"
-                }
+                className={`contact-submitbtn
+                  ${
+                    contactError === null
+                      ? "btn btn-success"
+                      : "btn btn-primary"
+                  }
+                `}
                 onClick={() =>
                   contactError === null
                     ? setContactData({

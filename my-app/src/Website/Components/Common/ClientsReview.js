@@ -1,22 +1,20 @@
+import { useState } from "react";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
-// import StarHalfRoundedIcon from "@mui/icons-material/StarHalfRounded";
 import StarOutlineRoundedIcon from "@mui/icons-material/StarOutlineRounded";
-// import myProfile from "../../Images/myprofile.jpg";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-// import makeStyles from "@mui/styles/makeStyles";
-import Data from "../../Data/data.json";
-import { useState } from "react";
 
-const ClientsReview = () => {
+const ClientsReview = (props) => {
+  const { Data } = props;
+
   let clientData = Data.clientReview.sort((a, b) => b.stars - a.stars);
 
   let stars = (star) => {
     return (
-      <span className="review-stars">
+      <span className="clients-reviewStars">
         {[...Array(star)].map(() => (
           <StarRoundedIcon />
         ))}
@@ -42,7 +40,7 @@ const ClientsReview = () => {
   return (
     <>
       <div className="clients">
-        <div className="clientsDetails">
+        <div className="clients-details">
           <div
             className={`clients-accordian ${
               clientViewMore && "clients-viewMore"
@@ -56,7 +54,7 @@ const ClientsReview = () => {
                     defaultExpanded={selectedAccordion === 0 ? true : false}
                     onChange={() => handleChange(index)}
                     className={
-                      selectedAccordion === index ? "selectedCard" : ""
+                      selectedAccordion === index ? "clients-selectedCard" : ""
                     }
                   >
                     <AccordionSummary
@@ -64,15 +62,18 @@ const ClientsReview = () => {
                       aria-controls="panel1a-content"
                       id="panel1a-header"
                     >
-                      <div className="review-title">
+                      <div className="clients-review">
                         <div>
-                          <img src={item.profileImg} className="profileImg" />
+                          <img
+                            src={item.profileImg}
+                            className="clients-reviewImg"
+                          />
                         </div>
-                        <div className="review-name">
-                          <span>
+                        <div className="clients-reviewTitle">
+                          <span className="clients-reviewName">
                             {item.Name} {stars(item.stars)}
                           </span>
-                          <div className="review-email">
+                          <div className="clients-reviewEmail">
                             karthikdevale@gmail.com
                           </div>
                         </div>
@@ -93,7 +94,7 @@ const ClientsReview = () => {
             {clientViewMore ? "View Less" : "View More"}
           </button>
         </div>
-        <div className="clientsImg">
+        <div className="clients-images">
           <img
             src={groupImg}
             className={`client-pic ${clientViewMore && "clients-viewMorePic"} `}
@@ -106,9 +107,6 @@ const ClientsReview = () => {
           />
         </div>
       </div>
-      {/* <div className="checkwatermark">
-        <div className="watermark"></div>
-      </div> */}
     </>
   );
 };
