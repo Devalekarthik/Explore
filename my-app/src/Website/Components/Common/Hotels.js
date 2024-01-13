@@ -26,6 +26,7 @@ const Hotels = (props) => {
   }, [bookedDestination]);
 
   const hotelsCardsData = {
+    Data: Data,
     destination: hotelsList,
     setBookedHotel: setBookedHotel,
     id: "hotels",

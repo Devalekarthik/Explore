@@ -6,11 +6,12 @@ import MoreDetails from "./MoreDetails";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 
 const Cards = (props) => {
-  const { destination, setBookedDestination, setBookedHotel, id } = props;
+  const { Data, destination, setBookedDestination, setBookedHotel, id } = props;
 
   const [selectedCard, setSelectedCard] = useState([]);
 
   const moreDetailsData = {
+    Data: Data,
     selectedCard: selectedCard,
     setBookedDestination: setBookedDestination,
     setBookedHotel: setBookedHotel,

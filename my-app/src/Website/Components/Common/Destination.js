@@ -57,6 +57,7 @@ const Destination = (props) => {
   }, []);
 
   const destinationCardData = {
+    Data: Data,
     destination: destination,
     setBookedDestination: setBookedDestination,
     id: "places",
