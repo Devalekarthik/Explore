@@ -1,198 +1,199 @@
 .portfolio {
     display: flex;
-    margin-top: 50px;
+    margin-top: 3.125rem;
     background-image: url("./portfolio background.gif");
     background-size: cover;
-    gap: 10px;
+    gap: 0.625rem;
     justify-content: center;
 
-    @media (max-width:850px) {
+    @media (max-width: $tabs) {
         flex-direction: column;
-        gap: 0px;
+        gap: 0rem;
     }
 
-    .portfolio-left {
-        width: 500px;
-        // border: 1px solid black;
-        padding: 5px;
+    .portfolio-details {
+        width: 31.25rem;
+        padding: 0.3125rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
 
-        @media (max-width:850px) {
+        @media (max-width: $tabs) {
             width: 100%;
         }
 
-        .portfolio-Img {
-            width: 250px;
-            height: 250px;
+        .portfolio-img {
+            width: 15.625rem;
+            height: 15.625rem;
             border-radius: 40%;
-            border: 3px solid whitesmoke;
-            outline: 5px solid #01959a;
+            border: 0.1875rem solid whitesmoke;
+            outline: 0.3125rem solid #01959a;
         }
 
-        .portfolio-details {
-            margin-top: 20px;
+        .portfolio-texts {
+            margin-top: 1.25rem;
             text-align: center;
 
-            h2 {
-                border-bottom: 2px solid grey;
+            .portfolio-name {
+                border-bottom: 0.125rem solid grey;
                 align-items: center;
-                // width: 30%;
-                margin: 0px 20%;
+                margin: 0rem 20%;
+                font-size: 2.125rem;
 
-                @media (max-width:850px) {
-                    margin: 0px 10%;
+                @media (max-width: $tabs) {
+                    margin: 0rem 10%;
                 }
             }
 
-            p {
-                // border: 1px solid black;
+            .portfolio-role {
+                font-size: 1.875rem;
+            }
+
+            .portfolio-info {
                 text-align: center;
-                margin-top: 30px;
-                font-size: 22px;
+                margin-top: 1.875rem;
+                font-size: 1.375rem;
 
                 li {
                     list-style-type: none;
-                    margin-bottom: 5px;
+                    margin-bottom: 0.3125rem;
                     align-items: center;
-                    font-size: 22px;
+                    font-size: 1.375rem;
 
-                    @media (max-width:850px) {
-                        font-size: 18px;
+                    @media (max-width: $tabs) {
+                        font-size: 1.125rem;
                     }
 
                     svg {
-                        font-size: 30px;
+                        font-size: 1.875rem;
                         position: relative;
-                        bottom: 2px;
+                        bottom: 0.125rem;
                     }
                 }
             }
         }
     }
 
-    .portfolio-right {
+    .portfolio-accordionCards {
         width: 75%;
-        // border: 1px solid black;
-        padding: 10px;
-        max-height: 700px;
+        padding: 0.625rem;
+        max-height: 43.75rem;
         overflow: auto;
 
-        @media (max-width:1200px) {
-            max-height: 800px;
+        @media (max-width: $desktop) {
+            max-height: 50rem;
         }
 
-        @media (max-width:850px) {
+        @media (max-width: $tabs) {
             width: 100%;
         }
 
-        .accordion-title {
-            font-size: 28px;
-            font-weight: 500;
+        .portfolio-careerAccordion {
+            font-size: 1.125rem;
 
-            @media (max-width:850px) {
-                font-size: 22px;
-            }
-        }
-
-        .career-accordion {
-            font-size: 18px;
-
-            .career-details {
-                font-size: 17px;
-                max-height: 400px;
+            .portfolio-careerDetails {
+                font-size: 1.0625rem;
+                max-height: 25rem;
                 overflow: auto;
             }
         }
 
-        .career-details-accordion {
+        .accordion-title {
+            font-size: 1.75rem;
+            font-weight: 500;
+
+            @media (max-width: $tabs) {
+                font-size: 1.375rem;
+            }
+        }
+
+        .portfolio-detailsAccordion {
             display: flex;
-            margin-top: 20px;
+            margin-top: 1.25rem;
             flex-wrap: wrap;
             justify-content: space-around;
-            gap: 20px;
+            gap: 1.25rem;
 
             .portfolio-accordion {
                 width: 48%;
 
-                @media (max-width:1200px) {
+                @media (max-width: $desktop) {
                     width: 100%;
                 }
             }
 
-            .skills-details {
+            .portfolio-skillsDetails {
                 display: flex;
                 flex-direction: column;
-                font-size: 20px;
+                font-size: 1.25rem;
                 position: relative;
-                right: 10px;
-                max-height: 400px;
+                right: 0.625rem;
+                max-height: 25rem;
                 overflow: auto;
             }
 
-            .experience-details {
-                max-height: 400px;
+            .portfolio-experienceDetails {
+                max-height: 25rem;
                 overflow: auto;
-                font-size: 17px;
+                font-size: 1.0625rem;
             }
 
-            .project-details {
-                text-align: left;
-                max-height: 400px;
-                overflow: auto;
-
-                li {
-                    margin-left: 15px;
-                    margin-bottom: 5px;
-                    font-size: 17px;
-                }
-            }
-
-            .education-details {
-                max-height: 400px;
+            .portfolio-educationDetails {
+                max-height: 25rem;
                 overflow: auto;
 
                 li {
                     list-style-type: none;
                     text-align: left;
-                    font-size: 20px;
+                    font-size: 1.25rem;
                 }
             }
 
-            .language-details {
+            .portfolio-languageDetails {
                 display: flex;
                 flex-direction: column;
-                font-size: 20px;
+                font-size: 1.25rem;
                 position: relative;
-                right: 10px;
-                max-height: 400px;
+                right: 0.625rem;
+                max-height: 25rem;
                 overflow: auto;
             }
 
-            .certificate-details {
+            .portfolio-projectDetails {
                 text-align: left;
-                font-size: 20px;
-                max-height: 400px;
+                max-height: 25rem;
+                overflow: auto;
+
+                li {
+                    margin-left: 0.9375rem;
+                    margin-bottom: 0.3125rem;
+                    font-size: 1.0625rem;
+                }
+            }
+
+            .portfolio-certificateDetails {
+                text-align: left;
+                font-size: 1.25rem;
+                max-height: 25rem;
                 overflow: auto;
             }
         }
 
         .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type,
         .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
-            border-radius: 40px;
+            border-radius: 2.5rem;
 
             &:hover {
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.1875rem 0.5rem;
             }
         }
 
         .css-1c35hjw-MuiPaper-root-MuiAccordion-root:last-of-type,
         .css-1c35hjw-MuiPaper-root-MuiAccordion-root:first-of-type {
-            border-radius: 40px;
+            border-radius: 2.5rem;
 
             &:hover {
-                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+                box-shadow: rgba(0, 0, 0, 0.24) 0rem 0.1875rem 0.5rem;
             }
         }
 

@@ -6,12 +6,11 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-// import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
-import Data from "../../Data/data.json";
-import LinkedIn from "@mui/icons-material/LinkedIn";
 
-const Portfolio = () => {
+const Portfolio = (props) => {
+  const { Data } = props;
+
   const accordion = (title, details) => {
     return (
       <div className="portfolio-accordion">
@@ -42,12 +41,12 @@ const Portfolio = () => {
 
   const PortfolioDetails = (title, details) => {
     const CareerObj = (Careerdetails) => {
-      return <div className="career-details">{Careerdetails}</div>;
+      return <div className="portfolio-careerDetails">{Careerdetails}</div>;
     };
 
     const Skills = (SkillDetails) => {
       return (
-        <div className="skills-details">
+        <div className="portfolio-skillsDetails">
           {[...Array(SkillDetails.length)].map((item, index) => (
             <div>{SkillDetails[index]}</div>
           ))}
@@ -57,7 +56,7 @@ const Portfolio = () => {
 
     const Experience = (experienceDetails) => {
       return (
-        <div className="experience-details">
+        <div className="portfolio-experienceDetails">
           <h2>
             {experienceDetails.Company} : {experienceDetails.Years}
           </h2>
@@ -70,7 +69,7 @@ const Portfolio = () => {
 
     const Education = (educationDetails) => {
       return (
-        <div className="education-details">
+        <div className="portfolio-educationDetails">
           {[...Array(Object.keys(educationDetails).length)].map(
             (item, index) => (
               <li>
@@ -85,7 +84,7 @@ const Portfolio = () => {
 
     const Languages = (languageDetails) => {
       return (
-        <div className="language-details">
+        <div className="portfolio-languageDetails">
           {[...Array(languageDetails.length)].map((item, index) => (
             <div>{languageDetails[index]}</div>
           ))}
@@ -95,7 +94,7 @@ const Portfolio = () => {
 
     const Projects = (projectDetails) => {
       return (
-        <div className="project-details">
+        <div className="portfolio-projectDetails">
           <h3>
             {projectDetails?.Website?.Title}:{" "}
             <a href={projectDetails?.Website?.Link}>
@@ -112,7 +111,7 @@ const Portfolio = () => {
 
     const Certification = (certificateDetails) => {
       return (
-        <div className="certificate-details">
+        <div className="portfolio-certificateDetails">
           {[...Array(certificateDetails.length)].map((item, index) => (
             <li>{certificateDetails[index]}</li>
           ))}
@@ -139,18 +138,24 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio" id="Creater">
-      <div className="portfolio-left">
+      <div className="portfolio-details">
         <div>
           <img
             src={PortfolioData["Personal-Details"].Img}
-            className="portfolio-Img"
+            className="portfolio-img"
           />
         </div>
-        <div className="portfolio-details">
-          <h2>{PortfolioData["Personal-Details"].Name}</h2>
-          <h3>{PortfolioData["Personal-Details"].Role}</h3>
-          <h3>{PortfolioData["Personal-Details"].Designation}</h3>
-          <p>
+        <div className="portfolio-texts">
+          <div className="portfolio-name">
+            {PortfolioData["Personal-Details"].Name}
+          </div>
+          <div className="portfolio-role">
+            {PortfolioData["Personal-Details"].Role}
+          </div>
+          <div className="portfolio-role">
+            {PortfolioData["Personal-Details"].Designation}
+          </div>
+          <p className="portfolio-info">
             <li>
               <PhoneAndroidRoundedIcon />{" "}
               {PortfolioData["Personal-Details"]["Mobile-No"]}
@@ -170,15 +175,15 @@ const Portfolio = () => {
           </p>
         </div>
       </div>
-      <div className="portfolio-right">
-        <div className="career-accordion">
+      <div className="portfolio-accordionCards">
+        <div className="portfolio-careerAccordion">
           {Portfolio.map((item) =>
             item.title === "Career Objective"
               ? PortfolioDetails(item.title, item.details)
               : ""
           )}
         </div>
-        <div className="career-details-accordion">
+        <div className="portfolio-detailsAccordion">
           {Portfolio.map((item) =>
             item.title !== "Career Objective"
               ? PortfolioDetails(item.title, item.details)
