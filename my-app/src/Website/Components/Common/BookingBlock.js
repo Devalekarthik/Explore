@@ -1,15 +1,10 @@
 import React, { useState } from "react";
-import Data from "../../Data/data.json";
-import Trip from "./Trip";
-import ChooseUs from "./ChooseUs";
-import Blog from "./Blog";
-import ClientsReview from "./ClientsReview";
 import Destination from "./Destination";
 import Hotels from "./Hotels";
-import Portfolio from "./Portfolio";
-import ContactDetails from "./ContactDetails";
 
-const DestinationDetails = () => {
+const BookingBlock = (props) => {
+  const { Data } = props;
+
   // let revisedData = Data.Destination.places.sort((a, b) => b.rating - a.rating);
 
   // const [destination, setDestination] = useState([]);
@@ -79,12 +74,15 @@ const DestinationDetails = () => {
     ])
     .flat();
 
+  const destinationData = {
+    Data: Data,
+    revisedData: revisedData,
+    setBookedDestination: setBookedDestination,
+  };
+
   return (
-    <div className="destination">
-      <Destination
-        revisedData={revisedData}
-        setBookedDestination={setBookedDestination}
-      />
+    <div className="booking">
+      <Destination {...destinationData} />
       <Hotels
         revisedData={revisedData}
         bookedDestination={bookedDestination}
@@ -94,4 +92,4 @@ const DestinationDetails = () => {
   );
 };
 
-export default DestinationDetails;
+export default BookingBlock;
