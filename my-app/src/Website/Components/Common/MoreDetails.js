@@ -6,12 +6,9 @@ import { Link } from "react-scroll";
 import Data from "../../Data/data.json";
 import Select from "react-select";
 
-const MoreDetails = ({
-  selectedCard,
-  setBookedDestination,
-  setBookedHotel,
-  id,
-}) => {
+const MoreDetails = (props) => {
+  const { selectedCard, setBookedDestination, setBookedHotel, id } = props;
+
   const [inputData, setInputData] = useState({
     Fname: "",
     Email: "",
