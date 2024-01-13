@@ -4,17 +4,24 @@
     width: 100%;
     justify-content: center;
 
-    @media (max-width:850px) {
+    @media (max-width:$tabs) {
         flex-direction: column;
     }
 
-    .chooseImgs {
+    .chooseUs-imgs {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left: 3.75rem;
 
-        .sunset2Img {
+        .chooseUs-bgimg {
+            width: 12.5rem;
+            height: 18.75rem;
+            border-radius: 6.25rem;
+            border: 0.3125rem solid white;
+        }
+
+        .chooseUs-smimg {
             width: 7.5rem;
             height: 12.5rem;
             border-radius: 6.25rem;
@@ -22,55 +29,49 @@
             position: relative;
             right: 4.375rem;
         }
-
-        .sunset1Img {
-            width: 12.5rem;
-            height: 18.75rem;
-            border-radius: 6.25rem;
-            border: 0.3125rem solid white;
-        }
     }
 
-    .chooseText {
+    .chooseUs-block {
         width: 65%;
         padding: 1.25rem;
 
-        @media (max-width: 850px) {
+        @media (max-width: $tabs) {
             width: 100%;
         }
 
-        .chooseTitle {
+        .chooseUs-texts {
             text-align: left;
             margin-bottom: 1.875rem;
 
-            @media (max-width: 850px) {
+            @media (max-width: $tabs) {
                 text-align: center;
             }
 
-            .choose-Title {
+            .chooseUs-title {
                 font-weight: 600;
-                font-size: 30px;
+                font-size: 1.875rem;
                 margin: 0;
-                margin-bottom: 2px;
+                margin-bottom: 0.125rem;
             }
-            .choose-Subtitle {
-                font-size: 14px;
+
+            .chooseUs-subTitle {
+                font-size: 0.875rem;
                 margin: 0;
             }
         }
 
-        .safety {
+        .chooseUs-safety {
             display: flex;
             gap: 0.625rem;
             margin-bottom: 1.25rem;
             text-align: left;
             align-items: center;
 
-            @media (max-width: 450px) {
+            @media (max-width: $mobile) {
                 flex-direction: column;
             }
 
-            .safetyImg {
+            .chooseUs-safetyImages {
                 .css-i4bv87-MuiSvgIcon-root {
                     width: 5rem;
                     height: 4.5rem;
@@ -78,7 +79,7 @@
                     top: 0.375rem;
                 }
 
-                img {
+                .chooseUs-safetyImg {
                     width: 5rem;
                     height: 5rem;
                     position: relative;
@@ -86,21 +87,21 @@
                 }
             }
 
-            .safetyText {
-                margin-top: 10px;
-                
-                h3 {
+            .chooseUs-safetyText {
+                margin-top: 0.625rem;
+
+                .chooseUs-safetyTitle {
                     font-weight: 600;
                     font-size: medium;
                     margin-bottom: 0.1875rem;
                 }
 
-                P {
-                    font-size: 14px;
+                .chooseUs-safetyInfo {
+                    font-size: 0.875rem;
                     line-height: 0.875rem;
                 }
 
-                @media (max-width: 450px) {
+                @media (max-width: $mobile) {
                     text-align: center;
                 }
             }

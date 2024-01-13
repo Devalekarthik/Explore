@@ -1,9 +1,13 @@
 import React, { useState } from "react";
+import Data from "../../Data/data.json";
 import Banner from "../Common/Banner";
 import RatingViews from "../Common/RatingViews";
 import DestinationDetails from "../Common/DestinationDetails";
-import Data from "../../Data/data.json";
 import PopularDestination from "../Common/PopularDestination";
+import ChooseUs from "../Common/ChooseUs";
+import ClientsReview from "../Common/ClientsReview";
+import ContactDetails from "../Common/ContactDetails";
+import Portfolio from "../Common/Portfolio";
 
 const Home = () => {
   const [bookedDestination, setBookedDestination] = useState([]);
@@ -34,6 +38,10 @@ const Home = () => {
     Data: Data,
   };
 
+  let chooseusDetails = {
+    Data: Data,
+  };
+
   return (
     <div className="home">
       <Banner {...BannerDetails} />
@@ -41,6 +49,10 @@ const Home = () => {
         <RatingViews {...RatingDetails} />
         <PopularDestination {...popularDetails} />
         <DestinationDetails />
+        <ChooseUs {...chooseusDetails} />
+        <ClientsReview />
+        <ContactDetails />
+        <Portfolio Data={revisedData} />
       </div>
     </div>
   );

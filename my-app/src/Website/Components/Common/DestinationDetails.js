@@ -81,8 +81,6 @@ const DestinationDetails = () => {
 
   return (
     <div className="destination">
-      <Trip Data={Data} TabData={Data.home} Tab="Home" />
-
       <Destination
         revisedData={revisedData}
         setBookedDestination={setBookedDestination}
@@ -92,11 +90,6 @@ const DestinationDetails = () => {
         bookedDestination={bookedDestination}
         setBookedHotel={setBookedHotel}
       />
-
-      <ChooseUs />
-      <ClientsReview />
-      <ContactDetails />
-      <Portfolio Data={revisedData} />
     </div>
   );
 };
