@@ -1,10 +1,9 @@
 .portfolio {
     display: flex;
     margin-top: 3.125rem;
-    background-image: url("./portfolio background.gif");
-    background-size: cover;
     gap: 0.625rem;
     justify-content: center;
+    border: 1px solid black;
 
     @media (max-width: $tabs) {
         flex-direction: column;

@@ -25,6 +25,13 @@ const Hotels = (props) => {
     setAllHotels(filterHotel);
   }, [bookedDestination]);
 
+  const hotelsCardsData = {
+    Data: Data,
+    destination: hotelsList,
+    setBookedHotel: setBookedHotel,
+    id: "hotels",
+  };
+
   return (
     <div className="hotels" id="Hotels">
       <div className="hotels-offers">
@@ -71,11 +78,7 @@ const Hotels = (props) => {
               : "hotels-viewMoreHidden"
           }`}
         >
-          <Cards
-            destination={hotelsList}
-            setBookedHotel={setBookedHotel}
-            id="hotels"
-          />
+          <Cards {...hotelsCardsData} />
         </div>
         <button
           className={`hotels-viewMoreBtn

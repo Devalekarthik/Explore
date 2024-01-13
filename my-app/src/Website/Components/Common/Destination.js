@@ -56,6 +56,13 @@ const Destination = (props) => {
     setSelectedCountry("All Country");
   }, []);
 
+  const destinationCardData = {
+    Data: Data,
+    destination: destination,
+    setBookedDestination: setBookedDestination,
+    id: "places",
+  };
+
   return (
     <>
       <div className="destination" id="Search Destination">
@@ -103,11 +110,7 @@ const Destination = (props) => {
           }
           `}
         >
-          <Cards
-            destination={destination}
-            setBookedDestination={setBookedDestination}
-            id="places"
-          />
+          <Cards {...destinationCardData} />
         </div>
         <button
           className={`destination-viewMoreBtn

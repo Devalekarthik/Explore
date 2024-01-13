@@ -3,15 +3,12 @@ import ReadMoreandLess from "./ReadMoreandLess";
 import StarRoundedIcon from "@mui/icons-material/StarRounded";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Link } from "react-scroll";
-import Data from "../../Data/data.json";
 import Select from "react-select";
 
-const MoreDetails = ({
-  selectedCard,
-  setBookedDestination,
-  setBookedHotel,
-  id,
-}) => {
+const MoreDetails = (props) => {
+  const { Data, selectedCard, setBookedDestination, setBookedHotel, id } =
+    props;
+
   const [inputData, setInputData] = useState({
     Fname: "",
     Email: "",
@@ -50,8 +47,6 @@ const MoreDetails = ({
       (item) => item.Country === detailsCountry
     )[0]?.["PhoneNo Length"];
 
-    console.log("PhoneNoLength", PhoneNoLength);
-
     const error = {
       Fname: inputData.Fname === "" ? "Please Enter Your First Name" : "",
       Email: !redgeEmail.test(inputData.Email) ? "Invalid Email" : "",
@@ -80,12 +75,7 @@ const MoreDetails = ({
       error.TDate === "" &&
       (id === "places" ? error.Members : error.Rooms) === ""
     ) {
-      return (
-        setError(null), setVarified(!varified)
-        // id === "places"
-        //   ? setBookedDestination(selectedCard)
-        //   : setBookedHotel(selectedCard)
-      );
+      return setError(null), setVarified(!varified);
     }
 
     return setError(error);
@@ -112,7 +102,7 @@ const MoreDetails = ({
   }, [selectedCard]);
 
   return (
-    <div>
+    <div className="moreDetails">
       <div
         class="modal fade"
         id={id}
@@ -128,7 +118,7 @@ const MoreDetails = ({
               </h1>
               <button
                 type="button"
-                class="btn-close"
+                class="moreDetails-closeBTN btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
@@ -136,13 +126,16 @@ const MoreDetails = ({
               </button>
             </div>
             <div class="modal-body">
-              <div className="detailsBlock">
-                <div className="detailsBox">
-                  <span className="detailsImg">
-                    <img src={selectedCard[0]?.Img} />
+              <div className="moreDetails-block">
+                <div className="moreDetails-box">
+                  <span className="moreDetails-boxImg">
+                    <img
+                      src={selectedCard[0]?.Img}
+                      className="moreDetails-img"
+                    />
                   </span>
                 </div>
-                <div className="detailsInfo">
+                <div className="moreDetails-info">
                   <div>
                     <h2>{selectedCard[0]?.place}</h2>
                     <h4>
@@ -166,7 +159,7 @@ const MoreDetails = ({
                     />
                   )}
                 </div>
-                <div className="detailsInfo">
+                <div className="moreDetails-info">
                   <div>
                     <h3>Price</h3>
                   </div>
@@ -193,7 +186,7 @@ const MoreDetails = ({
                     </>
                   )}
                 </div>
-                <p className="alertMessage">
+                <p className="moreDetails-alertMessage">
                   For more details please fill the form{" "}
                 </p>
               </div>
@@ -225,7 +218,7 @@ const MoreDetails = ({
               </h1>
               <button
                 type="button"
-                class="btn-close"
+                class="moreDetails-closeBTN btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
@@ -233,8 +226,8 @@ const MoreDetails = ({
               </button>
             </div>
             <div class="modal-body">
-              <div className="form-Details">
-                <div className="form-input">
+              <div className="moreDetails-form">
+                <div className="moreDetails-formInput">
                   <input
                     type="text"
                     placeholder="First Name"
@@ -244,13 +237,13 @@ const MoreDetails = ({
                     disabled={!varified ? false : true}
                   />
                   {error?.Fname && (
-                    <p>
+                    <p className="moreDetails-errorTag">
                       <StarRoundedIcon />
                       {error?.Fname}
                     </p>
                   )}
                 </div>
-                <div className="form-input">
+                <div className="moreDetails-formInput">
                   <input
                     type="email"
                     placeholder="email Id"
@@ -260,13 +253,13 @@ const MoreDetails = ({
                     disabled={!varified ? false : true}
                   />
                   {error?.Email && (
-                    <p>
+                    <p className="moreDetails-errorTag">
                       <StarRoundedIcon />
                       {error?.Email}
                     </p>
                   )}
                 </div>
-                <div className="form-input">
+                <div className="moreDetails-formInput">
                   <Select
                     placeholder="Select Country..."
                     isSearchable={true}
@@ -275,13 +268,13 @@ const MoreDetails = ({
                     isDisabled={!varified ? false : true}
                   />
                   {error?.Country && (
-                    <p>
+                    <p className="moreDetails-errorTag">
                       <StarRoundedIcon />
                       {error?.Country}
                     </p>
                   )}
                 </div>
-                <div className="form-input">
+                <div className="moreDetails-formInput">
                   <input
                     type="number"
                     placeholder="Phone Number"
@@ -291,13 +284,13 @@ const MoreDetails = ({
                     disabled={!varified ? false : true}
                   />
                   {error?.MobileNo && (
-                    <p>
+                    <p className="moreDetails-errorTag">
                       <StarRoundedIcon />
                       {error?.MobileNo}
                     </p>
                   )}
                 </div>
-                <div className="form-input">
+                <div className="moreDetails-formInput">
                   <input
                     type="date"
                     placeholder="Date of Travel"
@@ -307,13 +300,13 @@ const MoreDetails = ({
                     disabled={!varified ? false : true}
                   />
                   {error?.TDate && (
-                    <p>
+                    <p className="moreDetails-errorTag">
                       <StarRoundedIcon />
                       {error?.TDate}
                     </p>
                   )}
                 </div>
-                <div className="form-input">
+                <div className="moreDetails-formInput">
                   <input
                     type="number"
                     placeholder={
@@ -327,19 +320,26 @@ const MoreDetails = ({
                     disabled={!varified ? false : true}
                   />
                   {(id === "places" ? error?.Members : error?.Rooms) && (
-                    <p>
+                    <p className="moreDetails-errorTag">
                       <StarRoundedIcon />
                       {id === "places" ? error.Members : error.Rooms}
                     </p>
                   )}
                 </div>
-                <textarea placeholder="Specific Requirement" />
+                <textarea
+                  placeholder="Specific Requirement"
+                  className="moreDetails-textarea"
+                />
                 {error ? (
-                  <p className="errorvarify">
+                  <p className="moreDetails-errorVarify">
                     Please Enter All <StarRoundedIcon /> Forms
                   </p>
                 ) : (
-                  varified && <p className="successvarify">Form is varified </p>
+                  varified && (
+                    <p className="moreDetails-successVarify">
+                      Form is varified{" "}
+                    </p>
+                  )
                 )}
               </div>
             </div>
@@ -375,7 +375,7 @@ const MoreDetails = ({
             <div class="modal-header modal3">
               <button
                 type="button"
-                class="btn-close"
+                class="moreDetails-closeBTN btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
@@ -389,18 +389,17 @@ const MoreDetails = ({
               </p>
               {id === "places" && (
                 <>
-                  <p className="note-info">
+                  <p className="moreDetails-noteInfo">
                     <h2>Note:</h2>
                     We give much important to customers safety and comfort so we
                     offer our customer best hotels of there own choice.
                   </p>
-                  <p className="book-hotelBtn">
+                  <p className="moreDetails-bookHotel">
                     So please visit our special offers block to book the Hotels.
                   </p>
                   <button
                     class="btn btn-primary"
                     type="button"
-                    // class="btn-close"
                     data-bs-dismiss="modal"
                     aria-label="Close"
                     href=""
@@ -419,15 +418,6 @@ const MoreDetails = ({
                 </>
               )}
             </div>
-            {/* <div class="modal-footer">
-              <button
-                class="btn btn-primary"
-                data-bs-target="#exampleModalToggle2"
-                data-bs-toggle="modal"
-              >
-                Form
-              </button>
-            </div> */}
           </div>
         </div>
       </div>
