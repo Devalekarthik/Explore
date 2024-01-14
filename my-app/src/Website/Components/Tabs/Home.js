@@ -10,6 +10,7 @@ import ClientsReview from "../Common/ClientsReview";
 import ContactDetails from "../Common/ContactDetails";
 import Portfolio from "../Common/Portfolio";
 import Footer from "../Common/Footer";
+import Login from "../Common/Login";
 
 const Home = () => {
   let DataJSON = {
@@ -19,6 +20,7 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar {...DataJSON} />
+      <Login />
       <Banner {...DataJSON} />
       <div className="home-info">
         <RatingViews {...DataJSON} />

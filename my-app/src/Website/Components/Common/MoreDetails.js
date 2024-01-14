@@ -118,11 +118,11 @@ const MoreDetails = (props) => {
               </h1>
               <button
                 type="button"
-                class="moreDetails-closeBTN btn-close"
+                class="moreDetails-closeBTN close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
-                X
+                <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
@@ -218,11 +218,11 @@ const MoreDetails = (props) => {
               </h1>
               <button
                 type="button"
-                class="moreDetails-closeBTN btn-close"
+                class="moreDetails-closeBTN close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
-                X
+                <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
@@ -375,11 +375,11 @@ const MoreDetails = (props) => {
             <div class="modal-header modal3">
               <button
                 type="button"
-                class="moreDetails-closeBTN btn-close"
+                class="moreDetails-closeBTN close"
                 data-bs-dismiss="modal"
                 aria-label="Close"
               >
-                X
+                <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">

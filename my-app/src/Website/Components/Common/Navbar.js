@@ -34,7 +34,13 @@ const Navbar = (props) => {
             </Link>
           </div>
         ))}
-        <button className="navbar-signUpBtn">Sign up</button>
+        <button
+          className="navbar-signUpBtn"
+          data-toggle="modal"
+          data-target="#login"
+        >
+          Sign up
+        </button>
       </div>
     </nav>
   );
