@@ -5,10 +5,10 @@ import Data from "../../Data/data.json";
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="top">
+      <div className="footer-companyText">
         <div>
-          <h1>{Data.header.company}</h1>
-          <p>Choose your favourite destination.</p>
+          <div className="footer-title">{Data.header.company}</div>
+          <p className="footer-info">Choose your favourite destination.</p>
         </div>
         <div>
           <a href="/">
@@ -19,9 +19,9 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="bottom">
+      <div className="footer-details">
         {Data.footer.map((item) => (
-          <div>
+          <div className="footer-lists">
             <h4>{item.title}</h4>
             <a href="/">{item.topic1}</a>
             <a href="/">{item.topic2}</a>
