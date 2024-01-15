@@ -1,4 +1,111 @@
-const Login = () => {
+import { useEffect, useState } from "react";
+
+const Login = (props) => {
+  const { loginData, setLoginData, setLogOut } = props;
+
+  const [loginType, setLoginType] = useState("");
+  const [loginError, setLoginError] = useState();
+  const [loginValid, setLoginValid] = useState(false);
+
+  const loginForm = () => {
+    return (
+      <form>
+        {loginType === "register" && (
+          <div class="form-group">
+            <label for="recipient-name" class="col-form-label login-label">
+              Name :
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="recipient-name"
+              name="name"
+              value={loginData.name}
+              onChange={(e) => handleLoginData(e)}
+            />
+            {loginError?.name && (
+              <p className="login-error">*{loginError?.name}</p>
+            )}
+          </div>
+        )}
+        <div class="form-group">
+          <label for="recipient-name" class="col-form-label login-label">
+            Email ID :
+          </label>
+          <input
+            type="text"
+            class="form-control"
+            id="recipient-name"
+            name="email"
+            value={loginData.email}
+            onChange={(e) => handleLoginData(e)}
+          />
+          {loginError?.email && (
+            <p className="login-error">*{loginError?.email}</p>
+          )}
+        </div>
+        <div class="form-group">
+          <label for="message-text" class="col-form-label login-label">
+            Password :
+          </label>
+          <input
+            type="password"
+            class="form-control"
+            id="recipient-name"
+            name="password"
+            value={loginData.password}
+            onChange={(e) => handleLoginData(e)}
+          />
+          {loginError?.password && (
+            <p className="login-error">*{loginError?.password}</p>
+          )}
+        </div>
+      </form>
+    );
+  };
+
+  const handleLoginData = (e) => {
+    setLoginData({ ...loginData, [e.target.name]: e.target.value });
+  };
+
+  const loginValidation = () => {
+    const redgeEmail = /^[a-z0-9A-Z]+@[a-z]+\.[a-z]{2,3}$/;
+
+    const error = {
+      name: loginData.name === "" ? "Please Enter Your Name" : "",
+      email: !redgeEmail.test(loginData.email)
+        ? "Please Enter Valid Email ID"
+        : "",
+      password:
+        loginData.password === ""
+          ? "Enter Password"
+          : loginData.password.length < 5
+          ? "Week Password"
+          : "",
+    };
+
+    if (
+      (loginType === "register" && error.name === "") ||
+      (error.email === "" && error.password === "")
+    ) {
+      return setLoginError(null), setLoginValid(true);
+    }
+    return setLoginError(error);
+  };
+
+  useEffect(() => {
+    setLoginData({
+      name: "",
+      email: "",
+      password: "",
+    });
+    setLoginError("");
+  }, [loginType]);
+
+  useEffect(() => {
+    setLoginError("");
+  }, [loginData]);
+
   return (
     <div className="login">
       <div
@@ -26,12 +133,12 @@ const Login = () => {
             </div>
             <div class="modal-body">
               <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item">
+                <li class="nav-item" onClick={() => setLoginType("admin")}>
                   <a
                     class="nav-link active"
                     id="pills-home-tab"
                     data-toggle="pill"
-                    href="#pills-home"
+                    href="#admin"
                     role="tab"
                     aria-controls="pills-home"
                     aria-selected="true"
@@ -39,12 +146,12 @@ const Login = () => {
                     Admin
                   </a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item" onClick={() => setLoginType("register")}>
                   <a
                     class="nav-link"
                     id="pills-profile-tab"
                     data-toggle="pill"
-                    href="#pills-profile"
+                    href="#register"
                     role="tab"
                     aria-controls="pills-profile"
                     aria-selected="false"
@@ -56,76 +163,40 @@ const Login = () => {
               <div class="tab-content" id="pills-tabContent">
                 <div
                   class="tab-pane fade show active"
-                  id="pills-home"
+                  id="admin"
                   role="tabpanel"
                   aria-labelledby="pills-home-tab"
                 >
-                  <form>
-                    <div class="form-group">
-                      <label for="recipient-name" class="col-form-label">
-                        Email Id :
-                      </label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="message-text" class="col-form-label">
-                        Password
-                      </label>
-                      <input
-                        type="password"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
-                  </form>
+                  {loginForm()}
                 </div>
                 <div
                   class="tab-pane fade"
-                  id="pills-profile"
+                  id="register"
                   role="tabpanel"
                   aria-labelledby="pills-profile-tab"
                 >
-                  <form>
-                    <div class="form-group">
-                      <label for="recipient-name" class="col-form-label">
-                        Email Id :
-                      </label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
-                    <div class="form-group">
-                      <label for="message-text" class="col-form-label">
-                        Password
-                      </label>
-                      <input
-                        type="password"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
-                  </form>
+                  {loginForm()}
                 </div>
               </div>
-            </div>
-            {/* <div class="modal-footer">
               <button
-                type="button"
-                class="btn btn-secondary"
-                data-dismiss="modal"
+                className={`login-signinBtn
+                  ${
+                    loginError === null && loginValid
+                      ? "btn btn-success"
+                      : "btn btn-primary"
+                  }
+                `}
+                onClick={() =>
+                  loginError === null
+                    ? (setLoginValid(false), setLogOut(true))
+                    : loginValidation()
+                }
+                data-dismiss={loginError === null && loginValid ? "modal" : ""}
+                aria-label="Close"
               >
-                Close
+                {loginError === null && loginValid ? "Sign In" : "Verify"}
               </button>
-              <button type="button" class="btn btn-primary">
-                Save changes
-              </button>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
