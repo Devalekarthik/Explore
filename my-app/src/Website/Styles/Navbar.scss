@@ -126,4 +126,14 @@
             padding: 1.25rem 0;
         }
     }
+
+    .navbar-signOutBtn {
+        background-color: red;
+        color: white;
+
+        &:hover {
+            background-color: red;
+            color: white;
+        }
+    }
 }
