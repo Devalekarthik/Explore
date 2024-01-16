@@ -1,72 +1,140 @@
 .footer {
-    padding: 4rem 6rem;
+    padding: 2rem 3rem;
     background-color: black;
     color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 1rem;
 
-    @media (max-width: $tabs) {
-        padding: 4rem 3rem;
+    @media (max-width: $desktop) {
+        flex-direction: column;
+        gap: 1.25rem;
     }
 
-    .footer-companyText {
-        display: flex;
-        align-items: center;
-        text-align: start;
-        justify-content: space-between;
-        flex-wrap: wrap;
+    @media (max-width: $tabs) {
+        padding: 2rem;
+    }
+
+    .footer-company {
+        width: 38%;
+        text-align: left;
+        margin-top: -1.25rem;
+
+        @media (max-width: $desktop) {
+            width: 100%;
+            text-align: center;
+        }
 
         .footer-title {
             font-size: 3rem;
             font-weight: 600;
         }
 
-        .footer-info {
+        .footer-subTitle {
             font-size: 1rem;
         }
 
-        a {
-            color: white;
-            margin-left: 0.5rem;
-
-            &:hover {
-                color: #019598;
-            }
-
-            @media (max-width: $tabs) {
-                margin-left: 0;
-                position: relative;
-                top: 0.5rem;
-                margin-right: 0.5rem;
-            }
-        }
-
-        @media (max-width: $tabs) {
-            flex-direction: column;
-            align-items: start;
+        .footer-info {
+            font-size: 1.125rem;
         }
     }
 
-    .footer-details {
-        padding-top: 2rem;
-        text-align: start;
+    .footer-connections {
         display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1rem;
-        font-size: 1.2rem;
+        width: 62%;
 
-        .footer-lists {
-            display: flex;
-            flex-direction: column;
+        @media (max-width: $desktop) {
+            width: 100%;
+        }
 
-            h4 {
-                padding-bottom: 0.8rem;
+        @media (max-width: $tabs) {
+            flex-direction: column-reverse;
+            gap: 1.25rem;
+        }
+
+        .footer-connectionTitle {
+            font-size: 1.875rem;
+        }
+
+        .footer-subscribtion {
+            width: 50%;
+
+            @media (max-width: $desktop) {
+                width: 100%;
             }
 
-            a {
-                text-decoration: none;
-                color: white;
-                padding-bottom: 0.1rem;
-                font-size: 1rem;
+            .form-group {
+                padding: 1.25rem 15%;
+                text-align: left;
+
+                @media (max-width: $desktop) {
+                    text-align: center;
+                    padding: 0.3125rem 5%;
+                }
+
+                .footer-emailLabel {
+                    width: 100%;
+                }
+
+                .footer-error {
+                    color: red;
+                    margin-bottom: 0;
+                }
+
+                .footer-success {
+                    color: green;
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+
+                .footer-subscribeBtn {
+                    background: orange;
+                    color: white;
+                    width: 8.125rem;
+                    padding: 0.625rem 0;
+                    border-radius: 1.875rem;
+                    border: none;
+                    font-size: 0.875rem;
+                    cursor: pointer;
+                    margin-top: 1.25rem;
+                }
+            }
+        }
+
+        .footer-contactInfo {
+            width: 50%;
+            text-align: center;
+
+            @media (max-width: $desktop) {
+                width: 100%;
+            }
+
+            .footer-tagsInfo {
+                margin-top: 0.9375rem;
+                font-size: 1.375rem;
+                font-weight: 600;
+
+                @media (max-width: $desktop) {
+                    margin-top: 0.9375rem;
+                }
+
+                li {
+                    list-style-type: none;
+                    margin-bottom: 0.625rem;
+                    align-items: center;
+                    font-size: 1.375rem;
+
+                    @media (max-width: $tabs) {
+                        font-size: 1.125rem;
+                    }
+
+                    svg {
+                        font-size: 1.875rem;
+                        position: relative;
+                        bottom: 0.125rem;
+                    }
+                }
             }
         }
     }
