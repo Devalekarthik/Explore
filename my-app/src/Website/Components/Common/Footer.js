@@ -1,34 +1,114 @@
-import InstagramIcon from "@mui/icons-material/Instagram";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import Data from "../../Data/data.json";
+import { useEffect, useState } from "react";
+import PhoneAndroidRoundedIcon from "@mui/icons-material/PhoneAndroidRounded";
+import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 
-const Footer = () => {
+const Footer = (props) => {
+  const { Data } = props;
+
+  const PortfolioData = Data.Portfolio;
+
+  const [subEmail, setSubEmail] = useState({
+    email: "",
+  });
+
+  const [footerError, setFooterError] = useState();
+  const [emailSuccess, setEmailSuccess] = useState(false);
+
+  const handlefooteremail = (e) => {
+    setSubEmail({ ...subEmail, [e.target.name]: e.target.value });
+  };
+
+  const footervalidation = () => {
+    const redgeEmail = /^[a-z0-9A-Z]+@[a-z]+\.[a-z]{2,3}$/;
+
+    const error = {
+      email:
+        subEmail.email?.length === 0
+          ? "Please Enter Email Id"
+          : !redgeEmail.test(subEmail.email)
+          ? "Please Enter Valid Email ID"
+          : "",
+    };
+
+    if (error.email === "") return setFooterError(null), setEmailSuccess(true);
+
+    return setFooterError(error);
+  };
+
+  useEffect(() => {
+    setFooterError("");
+    setEmailSuccess(false);
+  }, [subEmail]);
+
   return (
     <div className="footer">
-      <div className="footer-companyText">
-        <div>
-          <div className="footer-title">{Data.header.company}</div>
-          <p className="footer-info">Choose your favourite destination.</p>
-        </div>
-        <div>
-          <a href="/">
-            <InstagramIcon />
-          </a>
-          <a href="/">
-            <FacebookIcon />
-          </a>
-        </div>
+      <div className="footer-company">
+        <div className="footer-title">{Data.header.company}</div>
+        <p className="footer-subTitle">Choose your favourite destination.</p>
+        <p className="footer-info">
+          This Travel website will provide you the best deals to travel your
+          dream destination. We also offer you the safe and best hotels for
+          reasonable price.
+        </p>
       </div>
-      <div className="footer-details">
-        {Data.footer.map((item) => (
-          <div className="footer-lists">
-            <h4>{item.title}</h4>
-            <a href="/">{item.topic1}</a>
-            <a href="/">{item.topic2}</a>
-            <a href="/">{item.topic3}</a>
-            <a href="/">{item.topic4}</a>
+      <div className="footer-connections">
+        <div className="footer-subscribtion">
+          <div className="footer-connectionTitle">Keep Connected</div>
+          <div class="form-group">
+            <label
+              for="recipient-name"
+              class="col-form-label footer-emailLabel"
+            >
+              SUBSCRIBE
+            </label>
+            <input
+              type="text"
+              class="form-control"
+              id="recipient-name"
+              name="email"
+              placeholder="Enter Email Id"
+              value={subEmail.email}
+              onChange={(e) => handlefooteremail(e)}
+            />
+            {footerError?.email && (
+              <p className="footer-error">*{footerError?.email}</p>
+            )}
+            {emailSuccess && (
+              <p className="footer-success">Subscription Successful</p>
+            )}
+            <button
+              onClick={() =>
+                emailSuccess ? setSubEmail({ email: "" }) : footervalidation()
+              }
+              className="footer-subscribeBtn"
+            >
+              SUBSCRIBE
+            </button>
           </div>
-        ))}
+        </div>
+        <div className="footer-contactInfo">
+          <div className="footer-connectionTitle">Contact Info</div>
+          <p className="footer-tagsInfo">
+            <li>
+              <PhoneAndroidRoundedIcon />{" "}
+              {PortfolioData["Personal-Details"]["Mobile-No"]}
+            </li>
+            <li>
+              <MailOutlinedIcon /> {PortfolioData["Personal-Details"].Gmail}
+            </li>
+            <li>
+              <a href={PortfolioData["Personal-Details"]["LinkedIn-Link"]}>
+                <LinkedInIcon />{" "}
+                {PortfolioData["Personal-Details"]["LinkedIn-Name"]}
+              </a>
+            </li>
+            <li>
+              <HomeOutlinedIcon /> {PortfolioData["Personal-Details"].Address}
+            </li>
+          </p>
+        </div>
       </div>
     </div>
   );

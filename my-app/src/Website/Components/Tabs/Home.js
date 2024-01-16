@@ -29,7 +29,7 @@ const Home = () => {
         <ContactDetails {...DataJSON} />
         <Portfolio {...DataJSON} />
       </div>
-      <Footer />
+      <Footer {...DataJSON} />
     </div>
   );
 };
