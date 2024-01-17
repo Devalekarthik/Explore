@@ -6,7 +6,8 @@ const Hotels = (props) => {
 
   const [AllHotels, setAllHotels] = useState(true);
 
-  const hotels = revisedData.map((item) => item.hotels).flat() || [];
+  const hotelsData = revisedData.map((item) => item.hotels).flat() || [];
+  const hotels = hotelsData.sort((a, b) => b.rating - a.rating);
 
   const filterHotel =
     bookedDestination.length !== 0 && AllHotels

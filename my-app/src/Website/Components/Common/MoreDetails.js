@@ -29,6 +29,9 @@ const MoreDetails = (props) => {
 
   const [detailsCountry, setDetailsCountry] = useState("");
 
+  const descOffers = Data.Destination?.["desc-offers"];
+  const hotelsOffers = Data.Destination?.["hotels-offers"];
+
   const AllCountry = Data.PhoneNoValidation.sort((a, b) =>
     a.Country.localeCompare(b.Country)
   );
@@ -136,14 +139,14 @@ const MoreDetails = (props) => {
                   </span>
                 </div>
                 <div className="moreDetails-info">
-                  <div>
+                  <div className="moreDetails-infoPlace">
                     <h2>{selectedCard[0]?.place}</h2>
                     <h4>
                       <LocationOnIcon />
                       {selectedCard[0]?.country}
                     </h4>
                   </div>
-                  <div>
+                  <div className="moreDetails-infoRating">
                     <h4>
                       {selectedCard[0]?.rating}
                       <StarRoundedIcon />
@@ -164,25 +167,22 @@ const MoreDetails = (props) => {
                     <h3>Price</h3>
                   </div>
                   <div>
-                    <h3>$500</h3>
+                    <h3>{selectedCard[0]?.["avg-cost"]}/-</h3>
                   </div>
                 </div>
                 <div>
                   <h3>{id === "places" ? "Trip Details" : "Hotel Details"}</h3>
                   {id === "places" ? (
                     <>
-                      <li>3 days trip</li>
-                      <li>All Hotels booking</li>
-                      <li>3 times food (veg & non-veg)</li>
-                      <li>2 times snacks</li>
+                      {descOffers.map((item) => (
+                        <li>{item}</li>
+                      ))}
                     </>
                   ) : (
                     <>
-                      <li>Free Wi-fi</li>
-                      <li>2 Confortable Beds</li>
-                      <li>1 BathRoom</li>
-                      <li>Unlimited BreakFast</li>
-                      <li>Free Spa</li>
+                      {hotelsOffers.map((item) => (
+                        <li>{item}</li>
+                      ))}
                     </>
                   )}
                 </div>
