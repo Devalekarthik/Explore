@@ -58,7 +58,6 @@
                 .moreDetails-info {
                     display: flex;
                     justify-content: space-between;
-                    align-items: center;
 
                     h2 {
                         margin: 0.1875rem 0rem;
@@ -71,6 +70,16 @@
                             position: relative;
                             bottom: 0.1875rem;
                         }
+                    }
+
+                    .moreDetails-infoPlace {
+                        width: 80%;
+                    }
+
+                    .moreDetails-infoRating {
+                        width: 20%;
+                        text-align: right;
+                        padding-top: 0.625rem;
                     }
                 }
 
