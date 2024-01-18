@@ -47,7 +47,7 @@ const ContactDetails = (props) => {
         </div>
         <div className="contact-form">
           <div className="contact-title">{Data.ContactUs.Title}</div>
-          <p>{Data.ContactUs["title-info"]}</p>
+          <p className="contact-subTitle">{Data.ContactUs["title-info"]}</p>
           <div class="form-group">
             <input
               type="text"
