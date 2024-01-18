@@ -1,7 +1,7 @@
 .rating-views {
     border: 0.0625rem solid black;
     border-radius: 3.125rem;
-    margin-bottom: 3.125rem;
+    margin-bottom: $blockGap;
 
     .rating-grid {
         padding: 3rem;
@@ -14,10 +14,14 @@
             justify-content: center;
         }
 
+        @media (max-width: $mobile) {
+            padding: 1.5rem;
+        }
+
         .rating-block {
             display: flex;
             gap: 0.9375rem;
-            width: 16.0rem;
+            width: 16rem;
             align-items: center;
 
             @media (max-width: $tabs) {
