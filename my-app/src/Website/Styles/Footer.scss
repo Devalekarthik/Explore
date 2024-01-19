@@ -5,14 +5,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-right: 1rem;
 
     @media (max-width: $desktop) {
         flex-direction: column;
-        gap: 1.25rem;
-    }
-
-    @media (max-width: $tabs) {
+        gap: 0rem;
         padding: 2rem;
     }
 
@@ -29,14 +25,34 @@
         .footer-title {
             font-size: 3rem;
             font-weight: 600;
+
+            @media (max-width: $mobile) {
+                font-size: 2.5rem;
+            }
         }
 
         .footer-subTitle {
             font-size: 1rem;
+
+            @media (max-width: $desktop) {
+                margin-bottom: 0.3125rem;
+            }
+
+            @media (max-width: $mobile) {
+                font-size: 0.875rem;
+            }
         }
 
         .footer-info {
             font-size: 1.125rem;
+
+            @media (max-width: $desktop) {
+                margin-bottom: 0.3125rem;
+            }
+
+            @media (max-width: $mobile) {
+                font-size: 1rem;
+            }
         }
     }
 
@@ -50,11 +66,15 @@
 
         @media (max-width: $tabs) {
             flex-direction: column-reverse;
-            gap: 1.25rem;
+        }
+
+        @media (max-width: $mobile) {
+            gap: 0rem;
         }
 
         .footer-connectionTitle {
-            font-size: 1.875rem;
+            font-size: 1.75rem;
+            font-weight: 600;
         }
 
         .footer-subscribtion {
@@ -65,12 +85,16 @@
             }
 
             .form-group {
-                padding: 1.25rem 15%;
+                padding: 0.9375rem 15%;
                 text-align: left;
 
                 @media (max-width: $desktop) {
                     text-align: center;
                     padding: 0.3125rem 5%;
+                }
+
+                @media (max-width: $mobile) {
+                    padding: 0 5%;
                 }
 
                 .footer-emailLabel {
@@ -97,7 +121,7 @@
                     border: none;
                     font-size: 0.875rem;
                     cursor: pointer;
-                    margin-top: 1.25rem;
+                    margin-top: 0.625rem;
                 }
             }
         }
@@ -116,14 +140,16 @@
                 font-weight: 600;
 
                 @media (max-width: $desktop) {
-                    margin-top: 0.9375rem;
+                    margin-top: 0.625rem;
+                    margin-bottom: 0;
                 }
 
                 li {
                     list-style-type: none;
-                    margin-bottom: 0.625rem;
+                    margin-bottom: 0.3125rem;
                     align-items: center;
                     font-size: 1.375rem;
+                    font-weight: 500;
 
                     @media (max-width: $tabs) {
                         font-size: 1.125rem;
