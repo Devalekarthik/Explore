@@ -23,8 +23,8 @@
             transition: 1s ease-in-out;
 
             @media (max-width: $mobile) {
-                width: 10.9375rem;
-                height: 15.9375rem;
+                width: 10.3125rem;
+                height: 15rem;
             }
         }
 
@@ -38,9 +38,9 @@
             transition: 1s ease-in-out;
 
             @media (max-width: $mobile) {
-                width: 5.9375rem;
-                height: 9.6875rem;
-                right: 3.75rem;
+                width: 5.3125rem;
+                height: 8.75rem;
+                right: 3.625rem;
             }
         }
     }
@@ -72,8 +72,8 @@
                 margin-bottom: 0.125rem;
 
                 @media (max-width: $mobile) {
-                    font-size: 1.875rem;
-                    line-height: 2.5rem;
+                    font-size: 1.5625rem;
+                    line-height: 1.875rem;
                 }
             }
 
@@ -100,11 +100,21 @@
                 .css-i4bv87-MuiSvgIcon-root {
                     width: 5rem;
                     height: 4.5rem;
+
+                    @media (max-width: $mobile) {
+                        width: 3.8rem;
+                        height: 3.2rem;
+                    }
                 }
 
                 .chooseUs-safetyImg {
                     width: 5rem;
                     height: 5rem;
+
+                    @media (max-width: $mobile) {
+                        width: 3.8rem;
+                        height: 3.8rem;
+                    }
                 }
             }
 
