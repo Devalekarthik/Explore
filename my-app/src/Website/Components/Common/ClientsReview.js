@@ -87,12 +87,14 @@ const ClientsReview = (props) => {
               );
             })}
           </div>
-          <button
-            className="clients-viewMoreBtn"
-            onClick={() => setClientViewMore(!clientViewMore)}
-          >
-            {clientViewMore ? "View Less" : "View More"}
-          </button>
+          <div className="clients-viewMoreBlock">
+            <button
+              className="clients-viewMoreBtn"
+              onClick={() => setClientViewMore(!clientViewMore)}
+            >
+              {clientViewMore ? "View Less" : "View More"}
+            </button>
+          </div>
         </div>
         <div className="clients-images">
           <img
