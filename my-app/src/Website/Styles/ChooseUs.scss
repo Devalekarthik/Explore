@@ -1,11 +1,12 @@
 .chooseUs {
-    margin-top: 1.25rem;
     display: flex;
     width: 100%;
     justify-content: center;
+    margin-top: -0.625rem;
 
-    @media (max-width:$tabs) {
+    @media (max-width: $tabs) {
         flex-direction: column;
+        margin-top: -0.9375rem;
     }
 
     .chooseUs-imgs {
@@ -19,6 +20,12 @@
             height: 18.75rem;
             border-radius: 6.25rem;
             border: 0.3125rem solid white;
+            transition: 1s ease-in-out;
+
+            @media (max-width: $mobile) {
+                width: 10.9375rem;
+                height: 15.9375rem;
+            }
         }
 
         .chooseUs-smimg {
@@ -28,6 +35,13 @@
             outline: 0.3125rem solid white;
             position: relative;
             right: 4.375rem;
+            transition: 1s ease-in-out;
+
+            @media (max-width: $mobile) {
+                width: 5.9375rem;
+                height: 9.6875rem;
+                right: 3.75rem;
+            }
         }
     }
 
@@ -39,9 +53,13 @@
             width: 100%;
         }
 
+        @media (max-width: $mobile) {
+            padding: 0.625rem;
+        }
+
         .chooseUs-texts {
             text-align: left;
-            margin-bottom: 1.875rem;
+            margin-bottom: 0.625rem;
 
             @media (max-width: $tabs) {
                 text-align: center;
@@ -52,53 +70,55 @@
                 font-size: 1.875rem;
                 margin: 0;
                 margin-bottom: 0.125rem;
+
+                @media (max-width: $mobile) {
+                    font-size: 1.875rem;
+                    line-height: 2.5rem;
+                }
             }
 
             .chooseUs-subTitle {
                 font-size: 0.875rem;
                 margin: 0;
+                line-height: 1.25rem;
             }
         }
 
         .chooseUs-safety {
             display: flex;
             gap: 0.625rem;
-            margin-bottom: 1.25rem;
+            margin-bottom: 0.625rem;
             text-align: left;
             align-items: center;
 
             @media (max-width: $mobile) {
                 flex-direction: column;
+                gap: 0rem;
             }
 
             .chooseUs-safetyImages {
                 .css-i4bv87-MuiSvgIcon-root {
                     width: 5rem;
                     height: 4.5rem;
-                    position: relative;
-                    top: 0.375rem;
                 }
 
                 .chooseUs-safetyImg {
                     width: 5rem;
                     height: 5rem;
-                    position: relative;
-                    top: 0.625rem;
                 }
             }
 
             .chooseUs-safetyText {
-                margin-top: 0.625rem;
-
                 .chooseUs-safetyTitle {
                     font-weight: 600;
-                    font-size: medium;
+                    font-size: 1.125rem;
                     margin-bottom: 0.1875rem;
                 }
 
                 .chooseUs-safetyInfo {
                     font-size: 0.875rem;
-                    line-height: 0.875rem;
+                    line-height: 1.125rem;
+                    margin-bottom: 0;
                 }
 
                 @media (max-width: $mobile) {
