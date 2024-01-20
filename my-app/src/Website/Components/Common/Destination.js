@@ -112,8 +112,15 @@ const Destination = (props) => {
         >
           <Cards {...destinationCardData} />
         </div>
-        <button
-          className={`destination-viewMoreBtn
+        <div
+          className={`destination-viewMoreBlock ${
+            destinationViewMore && destination.length > 1
+              ? "destination-viewMoreBlockViewMore"
+              : ""
+          }`}
+        >
+          <button
+            className={`destination-viewMoreBtn
             ${
               destination.length === 4
                 ? "destination-cards4"
@@ -125,10 +132,11 @@ const Destination = (props) => {
                 ? "destination-cards1"
                 : ""
             }`}
-          onClick={() => setDestinationViewMore(!destinationViewMore)}
-        >
-          {destinationViewMore ? "View Less" : "View More"}
-        </button>
+            onClick={() => setDestinationViewMore(!destinationViewMore)}
+          >
+            {destinationViewMore ? "View Less" : "View More"}
+          </button>
+        </div>
       </div>
     </>
   );

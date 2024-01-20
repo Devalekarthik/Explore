@@ -1,18 +1,19 @@
 .destination {
-    margin-top: 1.25rem;
-
     .destination-title {
         font-size: 3.125rem;
         margin: 0;
         font-weight: 600;
+        line-height: 3.75rem;
 
         @media (max-width: $mobile) {
             font-size: 2rem;
+            line-height: 2.5rem;
         }
     }
 
     .destination-subTitle {
         font-size: 1.875rem;
+        margin-bottom: 0.625rem;
 
         @media (max-width: $mobile) {
             font-size: 1.125rem;
@@ -27,13 +28,21 @@
         flex-wrap: wrap;
         margin-top: 1.875rem;
 
+        @media (max-width: $mobile) {
+            margin-top: 1.25rem;
+        }
+
         .css-b62m3t-container,
         .css-3iigni-container {
             width: 50%;
             height: 1.875rem;
 
             @media (max-width: $tabs) {
-                width: 80%;
+                width: 90%;
+            }
+
+            @media (max-width: $mobile) {
+                width: 100%;
             }
         }
 
@@ -63,7 +72,7 @@
 
         .destination-searchBtn {
             width: 20%;
-            min-width: 12.5rem;
+            min-width: 13.625rem;
             height: 2.375rem;
             border-radius: 0.625rem;
             background: orange;
@@ -75,6 +84,10 @@
 
             &:hover {
                 border: 0.0625rem solid hsl(0, 0%, 70%);
+            }
+
+            @media (max-width: $tabs) {
+                min-width: 15.625rem;
             }
         }
 
@@ -92,12 +105,15 @@
     .destination-navbar {
         display: flex;
         justify-content: start;
-        margin: 1.875rem 0rem;
+        margin: 1.25rem 0rem 0.625rem;
         flex-wrap: wrap;
         gap: 1.25rem;
 
         @media (max-width: $tabs) {
             justify-content: space-around;
+            gap: 0.3125rem;
+            margin: 0.9375rem;
+            margin-bottom: 0.3125rem;
         }
 
         .destination-navbarBtn {
@@ -118,6 +134,10 @@
             &:focus {
                 background-color: orange;
                 color: white;
+            }
+
+            @media (max-width: $mobile) {
+                padding: 0.1875rem 0.625rem;
             }
         }
 
@@ -140,50 +160,61 @@
         transition: 1s ease-in-out;
     }
 
-    .destination-viewMoreBtn {
-        background: orange;
-        color: white;
-        width: 9rem;
-        padding: 0.625rem 0;
-        border-radius: 1.25rem;
-        border: none;
-        font-size: 1.125rem;
-        cursor: pointer;
+    .destination-viewMoreBlock {
+        width: 100%;
         position: relative;
-        bottom: 3.75rem;
+        bottom: 3.125rem;
+        background-color: transparent;
         z-index: 10;
-        opacity: 0.8;
 
-        &:hover {
-            opacity: 1;
+        .destination-viewMoreBtn {
+            background: rgb(239, 176, 60);
+            color: white;
+            width: 8%;
+            min-width: 7.5rem;
+            padding: 0.3125rem 0;
+            border-radius: 1.25rem;
+            border: none;
+            font-size: 1.125rem;
+            cursor: pointer;
+
+            &:hover {
+                background-color: orange;
+            }
+        }
+
+        .destination-cards4 {
+            display: none;
+
+            @media (max-width: $dest-card4-row) {
+                display: inline-block;
+            }
+        }
+
+        .destination-cards3 {
+            display: none;
+
+            @media (max-width: $dest-card3-row) {
+                display: inline-block;
+            }
+        }
+
+        .destination-cards2 {
+            display: none;
+
+            @media (max-width: $dest-card2-row) {
+                display: inline-block;
+            }
+        }
+
+        .destination-cards1 {
+            display: none;
         }
     }
 
-    .destination-cards4 {
-        display: none;
-
-        @media (max-width: $dest-card4-row) {
-            display: inline-block;
+    .destination-viewMoreBlockViewMore {
+        @media (min-width: $mobile) {
+            right: 0.625rem;
         }
-    }
-
-    .destination-cards3 {
-        display: none;
-
-        @media (max-width: $dest-card3-row) {
-            display: inline-block;
-        }
-    }
-
-    .destination-cards2 {
-        display: none;
-
-        @media (max-width: $dest-card2-row) {
-            display: inline-block;
-        }
-    }
-
-    .destination-cards1 {
-        display: none;
     }
 }
