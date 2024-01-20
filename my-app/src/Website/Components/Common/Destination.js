@@ -114,9 +114,9 @@ const Destination = (props) => {
         </div>
         <div
           className={`destination-viewMoreBlock ${
-            destinationViewMore && destination.length > 1
-              ? "destination-viewMoreBlockViewMore"
-              : ""
+            destinationViewMore &&
+            destination.length > 1 &&
+            "destination-viewMoreBlockScroll"
           }`}
         >
           <button
