@@ -8,7 +8,7 @@
         height: 31.25rem;
         object-fit: cover;
 
-        @media (max-width:$tabs) {
+        @media (max-width: $desktop) {
             height: 41.5rem;
         }
     }
