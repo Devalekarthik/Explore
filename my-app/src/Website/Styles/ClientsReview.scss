@@ -23,7 +23,7 @@
         }
 
         .clients-accordian {
-            max-height: 20.625rem;
+            max-height: 21.625rem;
             overflow: hidden;
             transition: 1s ease-in-out;
             padding: 0.3125rem;
@@ -122,10 +122,16 @@
 
             .css-o4b71y-MuiAccordionSummary-content {
                 margin: 0.5rem 0;
+                margin-left: -0.5rem;
             }
 
+            .css-15v22id-MuiAccordionDetails-r15t,
             .css-15v22id-MuiAccordionDetails-root {
                 padding-top: 0;
+            }
+
+            .css-ahj2mt-MuiTypography-root {
+                line-height: 1.25rem;
             }
         }
 
