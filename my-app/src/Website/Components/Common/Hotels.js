@@ -53,7 +53,7 @@ const Hotels = (props) => {
               <span>
                 60% OFF <br />
               </span>
-              On Online Booking
+              <div className="hotels-offersOnlineText">On Online Booking</div>
             </div>
           </div>
           <div className="hotel-searchBlock">
@@ -81,8 +81,15 @@ const Hotels = (props) => {
         >
           <Cards {...hotelsCardsData} />
         </div>
-        <button
-          className={`hotels-viewMoreBtn
+        <div
+          className={`hotels-cardsviewMoreBlock ${
+            hotelsViewMore &&
+            hotelsList.length > 1 &&
+            "hotels-cardsviewMoreBlockScroll"
+          }`}
+        >
+          <button
+            className={`hotels-viewMoreBtn
             ${
               hotelsList.length === 2
                 ? "hotels-cards2"
@@ -91,10 +98,11 @@ const Hotels = (props) => {
                 : ""
             }
           `}
-          onClick={() => setHotelsViewMore(!hotelsViewMore)}
-        >
-          {hotelsViewMore ? "View Less" : "View More"}
-        </button>
+            onClick={() => setHotelsViewMore(!hotelsViewMore)}
+          >
+            {hotelsViewMore ? "View Less" : "View More"}
+          </button>
+        </div>
       </div>
     </div>
   );
