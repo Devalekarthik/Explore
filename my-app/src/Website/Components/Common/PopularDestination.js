@@ -1,5 +1,9 @@
+import React from "react";
+import ReadMoreandLess from "./ReadMoreandLess";
+
 const PopularDestination = (props) => {
   const { Data } = props;
+
   return (
     <div className="popular-destination">
       <div className="popular-wrapper" id="Popular Destination">
@@ -10,6 +14,13 @@ const PopularDestination = (props) => {
             <div className="popularBlock">
               <div className="popularBlock-text">
                 <div className="popularBlock-title">{item.title}</div>
+                <p className="popularBlock-infoMobile">
+                  <ReadMoreandLess
+                    text={item.info}
+                    Showmore="Read More"
+                    ShowLess="Read Less"
+                  />
+                </p>
                 <p className="popularBlock-info">{item.info}</p>
               </div>
               <div className="popularBlock-images">
