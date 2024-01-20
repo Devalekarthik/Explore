@@ -49,9 +49,24 @@
                 .popularBlock-info {
                     font-size: 1.1rem;
                     margin-bottom: 0;
+                    display: none;
+
+                    @media (min-width: $tabs) {
+                        display: block;
+                    }
 
                     @media (max-width: $mobile) {
                         font-size: 1.0625rem;
+                    }
+                }
+
+                .popularBlock-infoMobile {
+                    display: block;
+                    font-size: 1.0625rem;
+                    margin-bottom: 0;
+
+                    @media (min-width: $tabs) {
+                        display: none;
                     }
                 }
             }

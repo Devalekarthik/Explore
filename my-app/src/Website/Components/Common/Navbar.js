@@ -26,7 +26,7 @@ const Navbar = (props) => {
   return (
     <>
       <nav className="navbar-block">
-        <h1 className="navbar-logo">{Data.header.company}</h1>
+        <span className="navbar-logo">{Data.header.company}</span>
         <div
           className="navbar-menuIcon"
           onClick={() => setNavbarIcon(!navbarIcon)}
