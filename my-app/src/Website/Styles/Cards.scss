@@ -15,6 +15,10 @@
         cursor: pointer;
         margin: $card-margin;
 
+        @media (max-width: $mobile) {
+            height: $card-heightMobile;
+        }
+
         .cards-blockImg {
             position: relative;
             height: 100%;
@@ -42,6 +46,10 @@
                     align-items: center;
                     font-size: 1.25rem;
 
+                    @media (max-width: $mobile) {
+                        font-size: 1.125rem;
+                    }
+
                     .cards-location {
                         text-align: left;
                         display: flex;
@@ -49,17 +57,29 @@
 
                         svg {
                             font-size: 1.1rem;
+                            position: relative;
+                            bottom: 0.0625rem;
                         }
                     }
 
                     .cards-rating {
                         padding: 0.625rem;
+                        padding-right: 0;
                         border-radius: 0.9375rem;
                         font-size: 1.25rem;
 
+                        @media (max-width: $mobile) {
+                            font-size: 1.125rem;
+                        }
+
                         .css-i4bv87-MuiSvgIcon-root {
                             position: relative;
-                            bottom: 0.125rem;
+                            bottom: 0.0625rem;
+                            font-size: 1.25rem;
+
+                            @media (max-width: $mobile) {
+                                font-size: 1.125rem;
+                            }
                         }
                     }
                 }
@@ -86,6 +106,10 @@
                     font-weight: 600;
                     cursor: pointer;
                     z-index: -1;
+
+                    @media (max-width: $mobile) {
+                        padding: 0.625rem 1.25rem;
+                    }
                 }
             }
 
@@ -100,6 +124,10 @@
 
                     .cards-onhoverBTN {
                         z-index: 4;
+
+                        @media (max-width: $mobile) {
+                            top: 40%;
+                        }
                     }
                 }
 

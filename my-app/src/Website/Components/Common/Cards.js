@@ -28,8 +28,8 @@ const Cards = (props) => {
               <div className="cards-details">
                 <div className="cards-info">
                   <div>
-                    {item?.place.length > 15
-                      ? `${item?.place.substring(0, 20)}...`
+                    {item?.place.length > 10
+                      ? `${item?.place.substring(0, 15)}...`
                       : item?.place}
                     <div className="cards-location">
                       <LocationOnIcon /> {item?.country}
