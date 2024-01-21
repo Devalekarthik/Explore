@@ -1,12 +1,14 @@
 // Break-Points in website
-$desktop:1200px;
-$tabs:850px;
-$mobile:500px;
-$blockGap:20px;
+$desktop: 1200px;
+$tabs: 850px;
+$mobile: 500px;
+$blockGap: 20px;
+$mobileModel: 575.5px;
 
 // Cards Width and Height is Mention *If we want to change size please do look into viewmore breakpoints
 $card-width : 400px;
 $card-height : 250px;
+$card-heightMobile: 220px;
 $card-margin : 10px;
 
 // When Width of Cards changes please change the card4 row

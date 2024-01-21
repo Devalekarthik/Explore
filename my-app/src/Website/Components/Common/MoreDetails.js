@@ -153,7 +153,7 @@ const MoreDetails = (props) => {
                     </h4>
                   </div>
                 </div>
-                <div>
+                <div className="moreDetails-readMore">
                   {id === "places" && (
                     <ReadMoreandLess
                       text={selectedCard[0]?.desc}
@@ -170,7 +170,7 @@ const MoreDetails = (props) => {
                     <h3>{selectedCard[0]?.["avg-cost"]}/-</h3>
                   </div>
                 </div>
-                <div>
+                <div className="moreDetails-cardDetails">
                   <h3>{id === "places" ? "Trip Details" : "Hotel Details"}</h3>
                   {id === "places" ? (
                     <>
