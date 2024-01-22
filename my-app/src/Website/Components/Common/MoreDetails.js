@@ -300,6 +300,7 @@ const MoreDetails = (props) => {
                     onChange={handleData}
                     value={inputData.TDate}
                     disabled={!varified ? false : true}
+                    className="moreDetails-formDate"
                   />
                   {error?.TDate && (
                     <p className="moreDetails-errorTag">
