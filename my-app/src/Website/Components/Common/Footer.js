@@ -53,13 +53,13 @@ const Footer = (props) => {
       </div>
       <div className="footer-connections">
         <div className="footer-subscribtion">
-          <div className="footer-connectionTitle">Keep Connected</div>
+          <div className="footer-connectionTitle">{Data.LabelData.keepConnected}</div>
           <div class="form-group">
             <label
               for="recipient-name"
               class="col-form-label footer-emailLabel"
             >
-              SUBSCRIBE
+              {Data.LabelData.subscribe}
             </label>
             <input
               type="text"
@@ -74,7 +74,7 @@ const Footer = (props) => {
               <p className="footer-error">*{footerError?.email}</p>
             )}
             {emailSuccess && (
-              <p className="footer-success">Subscription Successful</p>
+              <p className="footer-success">{Data.LabelData.subscriptionSuccessful}</p>
             )}
             <button
               onClick={() =>
@@ -82,12 +82,12 @@ const Footer = (props) => {
               }
               className="footer-subscribeBtn"
             >
-              SUBSCRIBE
+              {Data.LabelData.subscribe}
             </button>
           </div>
         </div>
         <div className="footer-contactInfo">
-          <div className="footer-connectionTitle">Contact Info</div>
+          <div className="footer-connectionTitle">{Data.LabelData.contactInfo}</div>
           <p className="footer-tagsInfo">
             <li>
               <PhoneAndroidRoundedIcon />{" "}

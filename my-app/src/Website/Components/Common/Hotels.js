@@ -37,7 +37,9 @@ const Hotels = (props) => {
     <div className="hotels" id="Hotels">
       <div className="hotels-offers">
         <img src="hotelsPlanImg.jpg" className="hotels-bgimg" />
-        <span className="hotels-specialTag">Special Offers</span>
+        <span className="hotels-specialTag">
+          {Data.LabelData.specialOffers}
+        </span>
         <div
           className={`hotels-offersblock ${
             hotelsViewMore && "hotel-offersViewMore"
@@ -49,15 +51,17 @@ const Hotels = (props) => {
             }`}
           >
             <div className="hotels-offersText">
-              <span>FLAT</span>{" "}
+              <span>{Data.LabelData.flat}</span>{" "}
               <span>
-                60% OFF <br />
+                {Data.Destination["hotels-discount"]} <br />
               </span>
-              <div className="hotels-offersOnlineText">On Online Booking</div>
+              <div className="hotels-offersOnlineText">
+                {Data.LabelData.onOnlineBooking}
+              </div>
             </div>
           </div>
           <div className="hotel-searchBlock">
-            <p className="hotel-searchText">Search Hotels</p>
+            <p className="hotel-searchText">{Data.LabelData.searchHotels}</p>
             <button
               onClick={() => bookedDestination.length !== 0 && handleHotels()}
               className={`hotels-searchBtn ${
@@ -65,8 +69,8 @@ const Hotels = (props) => {
               }`}
             >
               {!AllHotels
-                ? "Search All Hotels Avaliable"
-                : "Search Hotels near Booked Destination"}
+                ? Data.LabelData.searchAllHotelsAvaliable
+                : Data.LabelData.searchHotelsnearBookedDestination}
             </button>
           </div>
         </div>
@@ -100,7 +104,7 @@ const Hotels = (props) => {
           `}
             onClick={() => setHotelsViewMore(!hotelsViewMore)}
           >
-            {hotelsViewMore ? "View Less" : "View More"}
+            {hotelsViewMore ? Data.LabelData.viewLess : Data.LabelData.viewMore}
           </button>
         </div>
       </div>

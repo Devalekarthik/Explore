@@ -8,7 +8,9 @@ const PopularDestination = (props) => {
     <div className="popular-destination">
       <div className="popular-wrapper" id="Popular Destination">
         <p className="popular-title">{Data.PopularDestination.title}</p>
-        <div className="popular-subTitle">{Data.PopularDestination.subTitle}</div>
+        <div className="popular-subTitle">
+          {Data.PopularDestination.subTitle}
+        </div>
         {Data.PopularDestination.travelPlaces.map((item) => {
           return (
             <div className="popularBlock">
@@ -16,9 +18,8 @@ const PopularDestination = (props) => {
                 <div className="popularBlock-title">{item.title}</div>
                 <p className="popularBlock-infoMobile">
                   <ReadMoreandLess
+                    Data={Data}
                     text={item.info}
-                    Showmore="Read More"
-                    ShowLess="Read Less"
                   />
                 </p>
                 <p className="popularBlock-info">{item.info}</p>

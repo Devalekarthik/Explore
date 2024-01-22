@@ -111,7 +111,9 @@ const ContactDetails = (props) => {
                     : contactDataValidation()
                 }
               >
-                {contactError === null ? "Submit" : "Varify Details"}
+                {contactError === null
+                  ? Data.LabelData.submit
+                  : Data.LabelData.varifyDetails}
               </button>
             </div>
           </div>

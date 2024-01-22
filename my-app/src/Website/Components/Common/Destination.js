@@ -134,7 +134,9 @@ const Destination = (props) => {
             }`}
             onClick={() => setDestinationViewMore(!destinationViewMore)}
           >
-            {destinationViewMore ? "View Less" : "View More"}
+            {destinationViewMore
+              ? Data.LabelData.viewLess
+              : Data.LabelData.viewMore}
           </button>
         </div>
       </div>

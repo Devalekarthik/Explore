@@ -156,22 +156,25 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-readMore">
                   {id === "places" && (
                     <ReadMoreandLess
+                      Data={Data}
                       text={selectedCard[0]?.desc}
-                      Showmore="Read More"
-                      ShowLess="Read Less"
                     />
                   )}
                 </div>
                 <div className="moreDetails-info">
                   <div>
-                    <h3>Price</h3>
+                    <h3>{Data.LabelData.price}</h3>
                   </div>
                   <div>
                     <h3>{selectedCard[0]?.["avg-cost"]}/-</h3>
                   </div>
                 </div>
                 <div className="moreDetails-cardDetails">
-                  <h3>{id === "places" ? "Trip Details" : "Hotel Details"}</h3>
+                  <h3>
+                    {id === "places"
+                      ? Data.LabelData.tripDetails
+                      : Data.LabelData.hotelDetails}
+                  </h3>
                   {id === "places" ? (
                     <>
                       {descOffers.map((item) => (
@@ -187,7 +190,7 @@ const MoreDetails = (props) => {
                   )}
                 </div>
                 <p className="moreDetails-alertMessage">
-                  For more details please fill the form{" "}
+                  {Data.LabelData.formoredetailspleasefilltheform}{" "}
                 </p>
               </div>
             </div>
@@ -197,7 +200,7 @@ const MoreDetails = (props) => {
                 data-bs-target={`#${id}2`}
                 data-bs-toggle="modal"
               >
-                Form
+                {Data.LabelData.form}
               </button>
             </div>
           </div>
@@ -214,7 +217,7 @@ const MoreDetails = (props) => {
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id={`${id}Label2`}>
-                Client Details
+                {Data.LabelData.clientDetails}
               </h1>
               <button
                 type="button"
@@ -332,12 +335,13 @@ const MoreDetails = (props) => {
                 />
                 {error ? (
                   <p className="moreDetails-errorVarify">
-                    Please Enter All <StarRoundedIcon /> Forms
+                    {Data.LabelData.pleaseEnterAll} <StarRoundedIcon />{" "}
+                    {Data.LabelData.form}
                   </p>
                 ) : (
                   varified && (
                     <p className="moreDetails-successVarify">
-                      Form is varified{" "}
+                      {Data.LabelData.formisvarified}{" "}
                     </p>
                   )
                 )}
@@ -349,7 +353,7 @@ const MoreDetails = (props) => {
                 data-bs-target={`#${id}`}
                 data-bs-toggle="modal"
               >
-                Back to Details
+                {Data.LabelData.backtoDetails}
               </button>
               <button
                 class={varified ? "btn btn-success" : "btn btn-primary"}
@@ -357,7 +361,9 @@ const MoreDetails = (props) => {
                 onClick={!varified ? dataValidation : handleBooking}
                 data-bs-toggle={error === null ? "modal" : ""}
               >
-                {!varified ? "Varify Forms" : "Book Now"}
+                {!varified
+                  ? Data.LabelData.verifyForms
+                  : Data.LabelData.bookNow}
               </button>
             </div>
           </div>
@@ -384,18 +390,17 @@ const MoreDetails = (props) => {
             </div>
             <div class="modal-body">
               <p>
-                <h1>Thank you!</h1>
-                Our Customer Support team will connect with you in next 24hrs.
+                <h1>{Data.LabelData.thankyou}</h1>
+                {Data.LabelData.thankyouInfo}
               </p>
               {id === "places" && (
                 <>
                   <p className="moreDetails-noteInfo">
-                    <h2>Note:</h2>
-                    We give much important to customers safety and comfort so we
-                    offer our customer best hotels of there own choice.
+                    <h2>{Data.LabelData.note}:</h2>
+                    {Data.LabelData.noteInfo}
                   </p>
                   <p className="moreDetails-bookHotel">
-                    So please visit our special offers block to book the Hotels.
+                    {Data.LabelData.visitHotels}
                   </p>
                   <button
                     class="btn btn-primary"
@@ -412,7 +417,7 @@ const MoreDetails = (props) => {
                       offset={-150}
                       duration={1000}
                     >
-                      Book Hotel
+                      {Data.LabelData.bookHotel}
                     </Link>
                   </button>
                 </>

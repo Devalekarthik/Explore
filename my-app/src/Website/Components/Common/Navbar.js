@@ -18,6 +18,7 @@ const Navbar = (props) => {
   const [logOutSucces, setlogOutSucces] = useState(false);
 
   const loginDataDetails = {
+    Data: Data,
     loginData: loginData,
     setLoginData: setLoginData,
     setLogOut: setLogOut,
@@ -68,7 +69,7 @@ const Navbar = (props) => {
                   setNavbarIcon(!navbarIcon))
             }
           >
-            {logOut ? "Sign Out" : "Sign In"}
+            {logOut ? Data.LabelData.signOut : Data.LabelData.signIn}
           </button>
         </div>
       </nav>

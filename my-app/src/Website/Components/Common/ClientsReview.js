@@ -92,7 +92,9 @@ const ClientsReview = (props) => {
               className="clients-viewMoreBtn"
               onClick={() => setClientViewMore(!clientViewMore)}
             >
-              {clientViewMore ? "View Less" : "View More"}
+              {clientViewMore
+                ? Data.LabelData.viewLess
+                : Data.LabelData.viewMore}
             </button>
           </div>
         </div>
