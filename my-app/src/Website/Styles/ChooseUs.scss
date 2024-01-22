@@ -2,11 +2,9 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    margin-top: -0.625rem;
 
     @media (max-width: $tabs) {
         flex-direction: column;
-        margin-top: -0.9375rem;
     }
 
     .chooseUs-imgs {

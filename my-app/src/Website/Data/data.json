@@ -3,6 +3,7 @@
         "company": "Trippy",
         "title": "Your Journey Your Story",
         "subTitle": "Choose Your Favourite Destination",
+        "bannerVideo":"./BannerVideo/HomePage.mp4",
         "nav-name": [
             {
                 "tab": "Rating"
@@ -47,25 +48,25 @@
     ],
     "PopularDestination": {
         "title": "Popular Destination",
-        "subTitle": "Tours give you the appertunity to explore",
+        "subTitle": "Tours give you the opportunity to explore",
         "travelPlaces": [
             {
-                "title": "Tall Volcano, Batanges",
-                "info": "Taal Volcano is a stratovolcano located in the province of Batangas, Philippines, about 65 km south of Manila1. It is part of a chain of volcanoes lining the western edge of the island of Luzon, formed by the subduction of the Eurasian Plate underneath the Philippine Mobile Belt2. Taal Lake lies within a 25–30 km caldera formed by explosive eruptions between 140,000 and 5,380 BP. The volcano has erupted about 38 times throughout history, causing deaths on the island and the populated areas surrounding the lake, with an overall death toll of about 6,000. The most recent eruption occurred on March 31, 2022.",
-                "img1": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain",
-                "img2": "https://i.ytimg.com/vi/-FBekwrstic/maxresdefault.jpg"
+                "title": "Hokkaido, Japan",
+                "info": "Hokkaido is the second largest island of Japan and is located in the northernmost part of the country. It is also the largest and northernmost prefecture of Japan, making up its own region. The island is separated from Honshu, the main island of Japan, by the Tsugaru Strait and is connected to it by the undersea railway Seikan Tunnel. It is a place to visit year round because of its cool summers and snowy winters offering ski resorts and hot springs. Sapporo, the capital of Hokkaido, hosts the annual Snow Festival in February. Other areas of interest include Niseko, Otaru and Hakodate.",
+                "img1": "./PopularDestination/Hokkaido-Img1.jpg",
+                "img2": "./PopularDestination/Hokkaido-Img2.jpg"
             },
             {
-                "title": "Ht. Doguldul, Batangas",
-                "info": "Mt. Daguldol in Batangas, Philippines. It is a coastal mountain with an elevation of 672 meters or 2204 feet above sea level. It is located in Sitio Biga, Barangay Hugom San Juan, Batangas, and is bound between the municipality of San Juan and Lobo.The guide mentions that Mt. Daguldol has three different trails, each offering a different landscape experience. The first trail offers a view of the beach or seaside, the second passes by woodlands and forests, and the third is a grassland trail at the top of the mountain that offers a view of the mountain ranges and coastal view of Batangas.",
-                "img1": "https://th.bing.com/th/id/R.6155406645a281b43ef08d7a038025ab?rik=rpoqFPcIpH6iag&riu=http%3a%2f%2f4.bp.blogspot.com%2f-IfgQmKJe_O0%2fUyWSv_0NrsI%2fAAAAAAAAA3E%2f_FOn8dzjxI4%2fw1200-h630-p-k-no-nu%2f1836806_10201246800844087_1965714557_o.jpg&ehk=np2taDpQ8GSon%2ftRuDBkSBlPrCD3TanLPLIMCjskw70%3d&risl=&pid=ImgRaw&r=0",
-                "img2": "https://th.bing.com/th/id/R.b86753727745f3ea0cd25b79396ad5a6?rik=vsn2c0RaGqrRww&riu=http%3a%2f%2ftriptheislands.com%2fwp-content%2fuploads%2f2013%2f04%2f4192618558_03b77b8f57_b.jpg&ehk=72d4ZIh1mR2GkTg6ZbXQvWQr67dvwpoLwGolAZf9iWI%3d&risl=&pid=ImgRaw&r=0"
+                "title": "Venice Canals, Italy",
+                "info": "A gondola ride through the canals of Venice is a tradition that travelers have been participating in for centuries. Venice is a city of islands and the canals have long been, in many ways, the city's streets. Lining the canals are the old buildings which have remained relatively unchanged for hundreds of years, adding to the romantic charm. The Grand Canal is the most famous of these waterways and one of the most photographed sites in Venice.",
+                "img1": "./PopularDestination/Venice Canals-Img1.jpg",
+                "img2": "./PopularDestination/Venice Canals-Img2.jpg"
             }
         ]
     },
     "Destination": {
         "title": "Search Your Dream Destination",
-        "subTitle": "Fill in the fields below to find the best spot",
+        "subTitle": "Fill in the field below to find the best destination",
         "destination-offers": [
             "3 days trip",
             "3 times food (veg & non-veg)",
@@ -500,7 +501,7 @@
                 "country": "France",
                 "place": "Disneyland",
                 "rating": 4.7,
-                "type": "Lake Park",
+                "type": "Fun Park",
                 "desc": "In 2022, the famous amusement park welcomed more than 15 million visitors, making it the most visited attraction in France. According to the Atout France report, Disneyland Paris attracts as many French tourists as foreigners each year. Its iconic attractions, such as Space Mountain, the Magic Carpets or the Tower of Terror, along with the themed restaurants, grandiose hotels and souvenir shops delight young and old alike.",
                 "Img": "./DestinationPhotos/Disneyland.jpg",
                 "hotels": [
@@ -1071,31 +1072,33 @@
     "ChooseUs": {
         "title": "Why Should You Choose Us",
         "subTitle": "We have extensive knowledge and experience in the travel industry.",
+        "chooseUsImg1":"./ChooseUsImages/SunSet1.jpg",
+        "chooseUsImg2":"./ChooseUsImages/SunSet2.jpg",
         "safety": [
             {
                 "safetyImg": "",
                 "safetyTitle": "Safety and support",
-                "safetyTitleInfo": "Our top priority is the safety and well-being of our clients. We maintain high safety standards and have emergency support available during the trip."
+                "safetyTitleInfo": "Our top priority is the safety and well-being of our clients. We maintain high safety standards and have emergency support available during the trip. Our travel agency prioritizes your safety by partnering with trusted accommodations and transportation providers."
             },
             {
-                "safetyImg": "https://cdn3.iconfinder.com/data/icons/travel-destination-001-line/68/Destination_map_gps_pin_location_place-512.png",
+                "safetyImg": "./ChooseUsImages/DiverseRange.png",
                 "safetyTitle": "Diverse Range of Destinations",
-                "safetyTitleInfo": "Whether it's a domestic tour or an international adventure, we cover a wide range of destinations to cater to different interests and proferences."
+                "safetyTitleInfo": "Whether it's a domestic tour or an international adventure, we cover a wide range of destinations to cater to different interests and proferences. Explore a diverse range of breathtaking destinations with our travel agency. Embark on unforgettable adventures with us."
             },
             {
-                "safetyImg": "https://cdn2.iconfinder.com/data/icons/webinar-1/68/27-512.png",
+                "safetyImg": "./ChooseUsImages/CustomerSupport.png",
                 "safetyTitle": "24/7 Customer Support",
-                "safetyTitleInfo": "Our dedicated customer support team is available round the clock to address any queries or concerns before during and after the trip."
+                "safetyTitleInfo": "Our dedicated customer support team is available round the clock to address any queries or concerns before during and after the trip. We ensuring a worry-free travel experience."
             }
         ]
     },
     "ClientReview": [
         {
-            "name": "Karthik D",
+            "name": "Devale",
             "review": "I recently went on a trip, and I must say it was an impressive experience. Their knowledgeable staff, hassle-free booking process, and well-curated itinerary exceeded my expectations.",
             "stars": 5,
-            "email": "karthikdevale@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "email": "Devale@gmail.com",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.Dm1IWxcbq3jXlaI-4mGdOgHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1103,7 +1106,7 @@
             "review": "Very easy to book and price promise was successful and altered invoice immediately.Very Efficient.",
             "stars": 4,
             "email": "Andi@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/R.5ae348c4a38e618b8773a0b23b66754c?rik=jj3QXLbeOqOHIg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fbeach-sunset-evening-4k-u4.jpg&ehk=JplI1oxhwMi35uo4C0Fz11%2bcagDs0pdXB5Dhn8Bd94g%3d&risl=1&pid=ImgRaw&r=0"
         },
         {
@@ -1111,7 +1114,7 @@
             "review": "Very competitively priced, easy to use website and everything we were looking for.",
             "stars": 5,
             "email": "Stanzy@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://www.photographytalk.com/images/articles/2017_6/iStock-503791572.jpg"
         },
         {
@@ -1119,7 +1122,7 @@
             "review": "Absolutely fantastic experience with thhis agency! Their attention to detail made our trip seamless and unforgettable. Highly recommended!!",
             "stars": 5,
             "email": "Prince@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://wallpaperaccess.com/full/338765.jpg"
         },
         {
@@ -1127,7 +1130,7 @@
             "review": "The team went above and beyond to accommodate our preferences and create a tailor-made itinerary. A five-star service!",
             "stars": 4,
             "email": "Kito@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/R.f564cc8589f68be4690adc7a35f36da0?rik=%2b3PPs5qdMVpHhg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fSunset-wallpaper-desktop.jpg&ehk=9v%2b%2fyX708Qq6bSvK8rs5oqPPFk0wCOBUq%2fCpW6ELKcA%3d&risl=1&pid=ImgRaw&r=0"
         },
         {
@@ -1135,7 +1138,7 @@
             "review": "I've traveled extensively, and this agency stands out for their exceptional customer service and expertise. They turned our trip into a dream vacation!",
             "stars": 5,
             "email": "Manoj@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/R.195fcd8a7a2171e72cfb09df8c82204a?rik=JEnEi2nNfwf5sA&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fsunset-beach-cp.jpg&ehk=6yg0sCNVC4Q2s8xrrgXZ5XIvJLpmkRc1eEBq%2bAk%2fUPE%3d&risl=&pid=ImgRaw&r=0"
         },
         {
@@ -1143,7 +1146,7 @@
             "review": "From start to finish, working with Trippy was a pleasure. Professional, knowledgeable and dedicated to making our trip perfect.",
             "stars": 4,
             "email": "Srinivas@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://www.shesonthego.com/wp-content/uploads/2018/07/sunsetpier.jpg"
         },
         {
@@ -1151,7 +1154,7 @@
             "review": "Impressive knowledge of destinations and a keen understanding of what travellers want. Thanks to them, our trip exceeded all expectations!!",
             "stars": 5,
             "email": "Vishwas@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://wallpapercave.com/wp/2R6cMCr.jpg"
         },
         {
@@ -1159,7 +1162,7 @@
             "review": "Thier personalized approach and willingness to cater to our needs made our vacation unforgettable. We'll definitely be booking through them again!!",
             "stars": 5,
             "email": "Raju@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1167,7 +1170,7 @@
             "review": "Kudos to the team for their prompt responses and meticulous planning. Our trip was seamless and we felt incredibly well taken care of.",
             "stars": 4,
             "email": "Veena@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1175,7 +1178,7 @@
             "review": "A big thank you to Trippy for making our trip stress-free and memorable. Thier recommendations were spot on!",
             "stars": 5,
             "email": "Rajesh@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1183,7 +1186,7 @@
             "review": "Highly impressed by the attention to detail and the effort put into ensuring everything went smoothly. I can't recommend them enough!",
             "stars": 5,
             "email": "Ganesh@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1191,7 +1194,7 @@
             "review": "Exceptional service from a team that truly cares about their clients. We had an amazing trip to Europe thanks to their expertize and dedication.",
             "stars": 4,
             "email": "Vidya@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1199,7 +1202,7 @@
             "review": "While the overall experience was good, more communication before the trip would have been appreciated to clarify some details.",
             "stars": 3,
             "email": "Mandy@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1207,7 +1210,7 @@
             "review": "The itinerary was well planned, but having more options for off-beaten-path experiences could add value to your packages.",
             "stars": 3,
             "email": "Hema@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1215,7 +1218,7 @@
             "review": "The booking process was smooth, but it would be great to have more user-friendly interface for selecting custom preferences online.",
             "stars": 3,
             "email": "Priyanka@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1223,7 +1226,7 @@
             "review": "The trip was enjoyable, yet providing a mobile app or online platform for easy access to travel documents and real-time updates would be convenient.",
             "stars": 3,
             "email": "Anusha@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1231,7 +1234,7 @@
             "review": "Though the customer service was good, having extended support hours or a dedicated emergency contact during travel could benhance peace of mind.",
             "stars": 3,
             "email": "Charu@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1239,7 +1242,7 @@
             "review": "While the overall package was great, offering more flexible payment plans or discounts for repeat customers could incentivize loyalty.",
             "stars": 3,
             "email": "Manesh@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
         },
         {
@@ -1247,7 +1250,7 @@
             "review": "The guides were knowledgeable, but encouraging them to engage more with travelers and share personal insights about the destinations would be great.",
             "stars": 3,
             "email": "Laxmi@gmail.com",
-            "profileImg": "./myprofile.jpg",
+            "profileImg": "./Profile/myprofile.jpg",
             "groupImg": "https://wallpapercave.com/wp/wp5582517.jpg"
         }
     ],

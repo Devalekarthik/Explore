@@ -1,5 +1,9 @@
 .contact {
-    margin-top: $blockGap;
+    margin-top: -1.25rem;
+
+    @media (max-width: $tabs) {
+        margin-top: 1.25rem;
+    }
 
     .contact-details {
         display: flex;

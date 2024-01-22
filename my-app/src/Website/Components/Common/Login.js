@@ -83,7 +83,10 @@ const Login = (props) => {
     };
 
     if (
-      (loginType === "register" && error.name === "") ||
+      (loginType === "register" &&
+        error.name === "" &&
+        error.email === "" &&
+        error.password === "") ||
       (error.email === "" && error.password === "")
     ) {
       return setLoginError(null), setLoginValid(true);

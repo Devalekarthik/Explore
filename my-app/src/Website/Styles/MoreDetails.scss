@@ -193,6 +193,10 @@
                             }
                         }
 
+                        .moreDetails-formDate {
+                            padding: 0.43rem 0.5rem;
+                        }
+
                         input::-webkit-outer-spin-button,
                         input::-webkit-inner-spin-button {
                             -webkit-appearance: none;
@@ -225,6 +229,7 @@
                             .css-t3ipsp-control {
                                 border-radius: 1.25rem;
                                 text-align: left;
+                                min-height: 2.5625rem;
                             }
 
                             .css-1nmdiq5-menu {
