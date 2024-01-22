@@ -155,10 +155,7 @@ const MoreDetails = (props) => {
                 </div>
                 <div className="moreDetails-readMore">
                   {id === "places" && (
-                    <ReadMoreandLess
-                      Data={Data}
-                      text={selectedCard[0]?.desc}
-                    />
+                    <ReadMoreandLess Data={Data} text={selectedCard[0]?.desc} />
                   )}
                 </div>
                 <div className="moreDetails-info">
@@ -233,7 +230,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="text"
-                    placeholder="First Name"
+                    placeholder={Data.placeHolderLabel.name}
                     name="Fname"
                     onChange={handleData}
                     value={inputData.Fname}
@@ -249,7 +246,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="email"
-                    placeholder="email Id"
+                    placeholder={Data.placeHolderLabel.email}
                     name="Email"
                     onChange={handleData}
                     value={inputData.Email}
@@ -264,7 +261,7 @@ const MoreDetails = (props) => {
                 </div>
                 <div className="moreDetails-formInput">
                   <Select
-                    placeholder="Select Country..."
+                    placeholder={Data.placeHolderLabel.selectCountry}
                     isSearchable={true}
                     options={AllCountryOption}
                     onChange={(e) => setDetailsCountry(e.value)}
@@ -280,7 +277,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="number"
-                    placeholder="Phone Number"
+                    placeholder={Data.placeHolderLabel.mobileNo}
                     name="MobileNo"
                     onChange={handleData}
                     value={inputData.MobileNo}
@@ -296,7 +293,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="date"
-                    placeholder="Date of Travel"
+                    placeholder={Data.placeHolderLabel.dateTravel}
                     name="TDate"
                     onChange={handleData}
                     value={inputData.TDate}
@@ -313,7 +310,9 @@ const MoreDetails = (props) => {
                   <input
                     type="number"
                     placeholder={
-                      id === "places" ? "Total Members" : "Rooms Required"
+                      id === "places"
+                        ? Data.placeHolderLabel.totalMembers
+                        : Data.placeHolderLabel.roomsRequired
                     }
                     name={id === "places" ? "Members" : "Rooms"}
                     onChange={handleData}
@@ -330,7 +329,7 @@ const MoreDetails = (props) => {
                   )}
                 </div>
                 <textarea
-                  placeholder="Specific Requirement"
+                  placeholder={Data.placeHolderLabel.specificRequirement}
                   className="moreDetails-textarea"
                 />
                 {error ? (

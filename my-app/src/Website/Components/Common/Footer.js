@@ -47,13 +47,13 @@ const Footer = (props) => {
       <div className="footer-company">
         <div className="footer-title">{Data.Header.company}</div>
         <p className="footer-subTitle">{Data.Header.subTitle}</p>
-        <p className="footer-info">
-          {Data.Footer["footer-info"]}
-        </p>
+        <p className="footer-info">{Data.Footer["footer-info"]}</p>
       </div>
       <div className="footer-connections">
         <div className="footer-subscribtion">
-          <div className="footer-connectionTitle">{Data.LabelData.keepConnected}</div>
+          <div className="footer-connectionTitle">
+            {Data.LabelData.keepConnected}
+          </div>
           <div class="form-group">
             <label
               for="recipient-name"
@@ -66,7 +66,7 @@ const Footer = (props) => {
               class="form-control"
               id="recipient-name"
               name="email"
-              placeholder="Enter Email Id"
+              placeholder={Data.placeHolderLabel.email}
               value={subEmail.email}
               onChange={(e) => handlefooteremail(e)}
             />
@@ -74,7 +74,9 @@ const Footer = (props) => {
               <p className="footer-error">*{footerError?.email}</p>
             )}
             {emailSuccess && (
-              <p className="footer-success">{Data.LabelData.subscriptionSuccessful}</p>
+              <p className="footer-success">
+                {Data.LabelData.subscriptionSuccessful}
+              </p>
             )}
             <button
               onClick={() =>
@@ -87,7 +89,9 @@ const Footer = (props) => {
           </div>
         </div>
         <div className="footer-contactInfo">
-          <div className="footer-connectionTitle">{Data.LabelData.contactInfo}</div>
+          <div className="footer-connectionTitle">
+            {Data.LabelData.contactInfo}
+          </div>
           <p className="footer-tagsInfo">
             <li>
               <PhoneAndroidRoundedIcon />{" "}

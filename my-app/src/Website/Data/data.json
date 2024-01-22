@@ -1954,8 +1954,8 @@
         "moreDetails": "More Details",
         "viewLess": "View Less",
         "viewMore": "View More",
-        "readMore":"Read More",
-        "readLess":"Read Less",
+        "readMore": "Read More",
+        "readLess": "Read Less",
         "submit": "Submit",
         "varifyDetails": "Varify Details",
         "keepConnected": "Keep Connected",
@@ -1972,7 +1972,7 @@
         "emailID": "Email ID",
         "password": "Password",
         "signIn": "Sign In",
-        "signOut":"Sign Out",
+        "signOut": "Sign Out",
         "admin": "Admin",
         "register": "Register",
         "verify": "Verify",
@@ -1991,7 +1991,18 @@
         "thankyouInfo": "Our Customer Support team will connect with you in next 24hrs.",
         "note": "Note",
         "noteInfo": "We give much important to customers safety and comfort so we offer our customer best hotels of there own choice.",
-        "visitHotels":"So please visit our special offers block to book the Hotels.",
-        "bookHotel":"Book Hotel"
+        "visitHotels": "So please visit our special offers block to book the Hotels.",
+        "bookHotel": "Book Hotel"
+    },
+    "placeHolderLabel": {
+        "name": "Enter Name",
+        "email": "Enter Email Id",
+        "mobileNo": "Enter Mobile No",
+        "message": "Message",
+        "selectCountry": "Select Country...",
+        "dateTravel": "Date of Travel",
+        "totalMembers": "Total Members",
+        "roomsRequired": "Rooms Required",
+        "specificRequirement": "Specific Requirement"
     }
 }

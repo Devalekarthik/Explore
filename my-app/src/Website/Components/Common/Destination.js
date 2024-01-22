@@ -71,7 +71,7 @@ const Destination = (props) => {
 
         <div className="destination-search">
           <Select
-            placeholder="Select Country..."
+            placeholder={Data.placeHolderLabel.selectCountry}
             isSearchable={true}
             options={countryOption}
             onChange={(e) => setSearchBox(e.value)}

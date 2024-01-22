@@ -54,7 +54,7 @@ const ContactDetails = (props) => {
               name="name"
               class="form-control"
               aria-describedby="emailHelp"
-              placeholder="Enter Name"
+              placeholder={Data.placeHolderLabel.name}
               value={contactData.name}
               onChange={(e) => handleContactInput(e)}
             />
@@ -65,7 +65,7 @@ const ContactDetails = (props) => {
               type="email"
               name="email"
               class="form-control"
-              placeholder="Enter Email"
+              placeholder={Data.placeHolderLabel.email}
               value={contactData.email}
               onChange={(e) => handleContactInput(e)}
             />
@@ -76,7 +76,7 @@ const ContactDetails = (props) => {
               type="number"
               name="phoneNo"
               class="form-control"
-              placeholder="Enter Mobile No"
+              placeholder={Data.placeHolderLabel.mobileNo}
               value={contactData.phoneNo}
               onChange={(e) => handleContactInput(e)}
             />
@@ -85,7 +85,7 @@ const ContactDetails = (props) => {
             )}
             <textarea
               class="form-control"
-              placeholder="Message"
+              placeholder={Data.placeHolderLabel.message}
               rows="2"
               name="message"
               value={contactData.message}
