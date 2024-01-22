@@ -1,5 +1,5 @@
 import React from "react";
-import ReadMoreandLess from "./ReadMoreandLess";
+import ReadMoreandLess from "../Common/ReadMoreandLess";
 
 const PopularDestination = (props) => {
   const { Data } = props;

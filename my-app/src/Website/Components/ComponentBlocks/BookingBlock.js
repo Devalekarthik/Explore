@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Destination from "./Destination";
-import Hotels from "./Hotels";
+import Destination from "../Common/Destination";
+import Hotels from "../Common/Hotels";
 
 const BookingBlock = (props) => {
   const { Data } = props;
