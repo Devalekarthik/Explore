@@ -29,16 +29,16 @@ const MoreDetails = (props) => {
 
   const [detailsCountry, setDetailsCountry] = useState("");
 
-  const descOffers = Data.Destination?.["desc-offers"];
+  const descOffers = Data.Destination?.["destination-offers"];
   const hotelsOffers = Data.Destination?.["hotels-offers"];
 
   const AllCountry = Data.PhoneNoValidation.sort((a, b) =>
-    a.Country.localeCompare(b.Country)
+    a.country.localeCompare(b.country)
   );
 
   const AllCountryOption = AllCountry.map((item) => ({
-    label: item.Country,
-    value: item.Country,
+    label: item.country,
+    value: item.country,
   }));
 
   const dataValidation = () => {
@@ -47,8 +47,8 @@ const MoreDetails = (props) => {
     const currentDate = new Date();
     const selectedDate = new Date(inputData.TDate);
     const PhoneNoLength = AllCountry.filter(
-      (item) => item.Country === detailsCountry
-    )[0]?.["PhoneNo Length"];
+      (item) => item.country === detailsCountry
+    )[0]?.numberLength;
 
     const error = {
       Fname: inputData.Fname === "" ? "Please Enter Your First Name" : "",

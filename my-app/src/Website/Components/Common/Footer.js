@@ -45,12 +45,10 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <div className="footer-company">
-        <div className="footer-title">{Data.header.company}</div>
-        <p className="footer-subTitle">Choose your favourite destination.</p>
+        <div className="footer-title">{Data.Header.company}</div>
+        <p className="footer-subTitle">{Data.Header.subTitle}</p>
         <p className="footer-info">
-          This Travel website will provide you the best deals to travel your
-          dream destination. We also offer you the safe and best hotels for
-          reasonable price.
+          {Data.Footer["footer-info"]}
         </p>
       </div>
       <div className="footer-connections">

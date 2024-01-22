@@ -26,7 +26,7 @@ const Navbar = (props) => {
   return (
     <>
       <nav className="navbar-block">
-        <span className="navbar-logo">{Data.header.company}</span>
+        <span className="navbar-logo">{Data.Header.company}</span>
         <div
           className="navbar-menuIcon"
           onClick={() => setNavbarIcon(!navbarIcon)}
@@ -34,7 +34,7 @@ const Navbar = (props) => {
           {navbarIcon ? <DehazeIcon /> : <CancelIcon />}
         </div>
         <div className={`navbar-menu ${navbarIcon ? "" : "navbar-mobile"}`}>
-          {Data.header["nav-name"].map((item) => (
+          {Data.Header["nav-name"].map((item) => (
             <div>
               <Link
                 activeClass="active"

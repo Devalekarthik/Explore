@@ -1,6 +1,8 @@
 {
-    "header": {
+    "Header": {
         "company": "Trippy",
+        "title": "Your Journey Your Story",
+        "subTitle": "Choose Your Favourite Destination",
         "nav-name": [
             {
                 "tab": "Rating"
@@ -25,126 +27,7 @@
             }
         ]
     },
-    "home": {
-        "title": "Your Journey Your Story",
-        "titleIng": "https://tse3.mm.bing.net/th/id/0IP.HxV79tFMPFBAI00BBF-sOgHaEy?pid=ImgDet&rs=1",
-        "text": "Choose Your Favourite Destination",
-        "travellink": "Travel Plan",
-        "url": "/",
-        "desc": {
-            "desc-title": "Popular Destination",
-            "desc-info": "Tours give you the appertunity to explore"
-        },
-        "travel-places": [
-            {
-                "title": "Tall Volcano, Batanges",
-                "info": "Taal Volcano is a stratovolcano located in the province of Batangas, Philippines, about 65 km south of Manila1. It is part of a chain of volcanoes lining the western edge of the island of Luzon, formed by the subduction of the Eurasian Plate underneath the Philippine Mobile Belt2. Taal Lake lies within a 25–30 km caldera formed by explosive eruptions between 140,000 and 5,380 BP. The volcano has erupted about 38 times throughout history, causing deaths on the island and the populated areas surrounding the lake, with an overall death toll of about 6,000. The most recent eruption occurred on March 31, 2022.",
-                "img1": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain",
-                "img2": "https://i.ytimg.com/vi/-FBekwrstic/maxresdefault.jpg"
-            },
-            {
-                "title": "Ht. Doguldul, Batangas",
-                "info": "Mt. Daguldol in Batangas, Philippines. It is a coastal mountain with an elevation of 672 meters or 2204 feet above sea level. It is located in Sitio Biga, Barangay Hugom San Juan, Batangas, and is bound between the municipality of San Juan and Lobo.The guide mentions that Mt. Daguldol has three different trails, each offering a different landscape experience. The first trail offers a view of the beach or seaside, the second passes by woodlands and forests, and the third is a grassland trail at the top of the mountain that offers a view of the mountain ranges and coastal view of Batangas.",
-                "img1": "https://th.bing.com/th/id/R.6155406645a281b43ef08d7a038025ab?rik=rpoqFPcIpH6iag&riu=http%3a%2f%2f4.bp.blogspot.com%2f-IfgQmKJe_O0%2fUyWSv_0NrsI%2fAAAAAAAAA3E%2f_FOn8dzjxI4%2fw1200-h630-p-k-no-nu%2f1836806_10201246800844087_1965714557_o.jpg&ehk=np2taDpQ8GSon%2ftRuDBkSBlPrCD3TanLPLIMCjskw70%3d&risl=&pid=ImgRaw&r=0",
-                "img2": "https://th.bing.com/th/id/R.b86753727745f3ea0cd25b79396ad5a6?rik=vsn2c0RaGqrRww&riu=http%3a%2f%2ftriptheislands.com%2fwp-content%2fuploads%2f2013%2f04%2f4192618558_03b77b8f57_b.jpg&ehk=72d4ZIh1mR2GkTg6ZbXQvWQr67dvwpoLwGolAZf9iWI%3d&risl=&pid=ImgRaw&r=0"
-            }
-        ],
-        "recentTrips": [
-            {
-                "PName": "Maldives",
-                "PImg": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "Pdesc": "The Maldives are a large group of islands located to the s"
-            },
-            {
-                "PName": "Maldives",
-                "PImg": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "Pdesc": "The Maldives are a large group of islands located to the s"
-            },
-            {
-                "PName": "Maldives",
-                "PImg": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "Pdesc": "The Maldives are a large group of islands located to the s"
-            }
-        ]
-    },
-    "about": {
-        "title": "",
-        "titleImg": "../Images/night.jpg",
-        "text": "",
-        "travelLink": "",
-        "url": "/",
-        "aboutDetails": [
-            {
-                "title": "History",
-                "details": "Trip.com is a private international online travel agen"
-            },
-            {
-                "title": "Our Mission",
-                "details": "These goals drive the development and administration of"
-            },
-            {
-                "title": "Our Vision",
-                "details": "To show the seeds of poor-excelience services with custom"
-            }
-        ]
-    },
-    "service": {
-        "title": "",
-        "titleImg": "../Images/night.jpg",
-        "text": "",
-        "travelLink": "",
-        "url": "/",
-        "recentTrips": [
-            {
-                "PName": "Maldives",
-                "PImg": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "Pdesc": "The Maldives are a large group of islands located to the s"
-            },
-            {
-                "PName": "Maldives",
-                "PImg": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "Pdesc": "The Maldives are a large group of islands located to the s"
-            }
-        ]
-    },
-    "contact": {
-        "title": "",
-        "titleImg": "../Images/2.jpg",
-        "text": "",
-        "travelLink": "",
-        "url": "/"
-    },
-    "footer": [
-        {
-            "title": "Project",
-            "topic1": "Changelog",
-            "topic2": "Status",
-            "topic3": "License",
-            "topic4": "All Versions"
-        },
-        {
-            "title": "Project",
-            "topic1": "Changelog",
-            "topic2": "Status",
-            "topic3": "License",
-            "topic4": "All Versions"
-        },
-        {
-            "title": "Project",
-            "topic1": "Changelog",
-            "topic2": "Status",
-            "topic3": "License",
-            "topic4": "All Versions"
-        },
-        {
-            "title": "Project",
-            "topic1": "Changelog",
-            "topic2": "Status",
-            "topic3": "License",
-            "topic4": "All Versions"
-        }
-    ],
-    "rating": [
+    "Rating": [
         {
             "ratingNumber": 10,
             "ratingDesc": "World of experience"
@@ -162,244 +45,28 @@
             "ratingDesc": "Overall Ratings"
         }
     ],
-    "chooseUs": {
-        "title": "Why Should You Choose Us",
-        "title_desc": "We have extensive knowledge and experience in the travel industry.",
-        "safety": [
+    "PopularDestination": {
+        "title": "Popular Destination",
+        "subTitle": "Tours give you the appertunity to explore",
+        "travelPlaces": [
             {
-                "safetyImg": "",
-                "safetyTextHead": "Safety and support",
-                "safetyTextdesc": "Our top priority is the safety and well-being of our clients. We maintain high safety standards and have emergency support available during the trip."
+                "title": "Tall Volcano, Batanges",
+                "info": "Taal Volcano is a stratovolcano located in the province of Batangas, Philippines, about 65 km south of Manila1. It is part of a chain of volcanoes lining the western edge of the island of Luzon, formed by the subduction of the Eurasian Plate underneath the Philippine Mobile Belt2. Taal Lake lies within a 25–30 km caldera formed by explosive eruptions between 140,000 and 5,380 BP. The volcano has erupted about 38 times throughout history, causing deaths on the island and the populated areas surrounding the lake, with an overall death toll of about 6,000. The most recent eruption occurred on March 31, 2022.",
+                "img1": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain",
+                "img2": "https://i.ytimg.com/vi/-FBekwrstic/maxresdefault.jpg"
             },
             {
-                "safetyImg": "https://cdn3.iconfinder.com/data/icons/travel-destination-001-line/68/Destination_map_gps_pin_location_place-512.png",
-                "safetyTextHead": "Diverse Range of Destinations",
-                "safetyTextdesc": "Whether it's a domestic tour or an international adventure, we cover a wide range of destinations to cater to different interests and proferences."
-            },
-            {
-                "safetyImg": "https://cdn2.iconfinder.com/data/icons/webinar-1/68/27-512.png",
-                "safetyTextHead": "24/7 Customer Support",
-                "safetyTextdesc": "Our dedicated customer support team is available round the clock to address any queries or concerns before during and after the trip."
+                "title": "Ht. Doguldul, Batangas",
+                "info": "Mt. Daguldol in Batangas, Philippines. It is a coastal mountain with an elevation of 672 meters or 2204 feet above sea level. It is located in Sitio Biga, Barangay Hugom San Juan, Batangas, and is bound between the municipality of San Juan and Lobo.The guide mentions that Mt. Daguldol has three different trails, each offering a different landscape experience. The first trail offers a view of the beach or seaside, the second passes by woodlands and forests, and the third is a grassland trail at the top of the mountain that offers a view of the mountain ranges and coastal view of Batangas.",
+                "img1": "https://th.bing.com/th/id/R.6155406645a281b43ef08d7a038025ab?rik=rpoqFPcIpH6iag&riu=http%3a%2f%2f4.bp.blogspot.com%2f-IfgQmKJe_O0%2fUyWSv_0NrsI%2fAAAAAAAAA3E%2f_FOn8dzjxI4%2fw1200-h630-p-k-no-nu%2f1836806_10201246800844087_1965714557_o.jpg&ehk=np2taDpQ8GSon%2ftRuDBkSBlPrCD3TanLPLIMCjskw70%3d&risl=&pid=ImgRaw&r=0",
+                "img2": "https://th.bing.com/th/id/R.b86753727745f3ea0cd25b79396ad5a6?rik=vsn2c0RaGqrRww&riu=http%3a%2f%2ftriptheislands.com%2fwp-content%2fuploads%2f2013%2f04%2f4192618558_03b77b8f57_b.jpg&ehk=72d4ZIh1mR2GkTg6ZbXQvWQr67dvwpoLwGolAZf9iWI%3d&risl=&pid=ImgRaw&r=0"
             }
         ]
     },
-    "specialOffers": {
-        "viewButtonName": "View Details",
-        "rentButtonName": "For Rent",
-        "hotels": [
-            {
-                "name": "RK Hotels",
-                "address": "450 Vine St #310, peru",
-                "image": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "price": "$7,452",
-                "beds": "2 Beds",
-                "bath": "1 Bath",
-                "Wi-Fi": "Wi-Fi",
-                "shuttle": "Shuttle"
-            },
-            {
-                "name": "RK Hotels",
-                "address": "450 Vine St #310, peru",
-                "image": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "price": "$7,452",
-                "beds": "2 Beds",
-                "bath": "1 Bath",
-                "Wi-Fi": "Wi-Fi",
-                "shuttle": "Shuttle"
-            },
-            {
-                "name": "RK Hotels",
-                "address": "450 Vine St #310, peru",
-                "image": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "price": "$7,452",
-                "beds": "2 Beds",
-                "bath": "1 Bath",
-                "Wi-Fi": "Wi-Fi",
-                "shuttle": "Shuttle"
-            }
-        ]
-    },
-    "blog": {
-        "blogTitle": "Our best Blog?",
-        "blogInfo": "An insight the incredible experience in the world",
-        "blogDetails": [
-            {
-                "img": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "descHead": "Beautiful Morocco, let us travel!",
-                "descInfo": "Morocco is a country in the Maghreb region of North Africa. It has a rich and diverse culture of Arab, Berber, African and European influences. The country has a Mediterranean and Atlantic coastline,and a diverse geography of mountains, deserts and plains. It is the largest country in the Maghreb by area and the second-largest by population. The capital of Morocco is Rabat, and its largest city is Casablanca."
-            },
-            {
-                "img": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "descHead": "Beautiful Morocco,let us travel!",
-                "descInfo": "Morocco is a country in the Maghreb region of North Africa. It has a rich and diverse culture of Arab, Berber, African and European influences. The country has a Mediterranean and Atlantic coastline,and a diverse geography of mountains, deserts and plains. It is the largest country in the Maghreb by area and the second-largest by population. The capital of Morocco is Rabat, and its largest city is Casablanca."
-            },
-            {
-                "img": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "descHead": "Beautiful Morocco,let us travel!",
-                "descInfo": "Morocco is a country in the Maghreb region of North Africa. It has a rich and diverse culture of Arab, Berber, African and European influences. The country has a Mediterranean and Atlantic coastline,and a diverse geography of mountains, deserts and plains. It is the largest country in the Maghreb by area and the second-largest by population. The capital of Morocco is Rabat, and its largest city is Casablanca."
-            },
-            {
-                "img": "https://th.bing.com/th/id/R.eb08038c6cfb95ba5102da7867a1d9c4?rik=vNM1D0G%2bpd9Yiw&riu=http%3a%2f%2fwww.magiholidays.com.au%2fwp-content%2fuploads%2f2016%2f08%2fmaldives.jpg&ehk=3fvRQMqMti%2b8h0JTcVVW7B4R2frcehb3r%2fobDjI10X8%3d&risl=&pid=ImgRaw&r=0",
-                "descHead": "Beautiful Morocco,let us travel!",
-                "descInfo": "Morocco is a country in the Maghreb region of North Africa. It has a rich and diverse culture of Arab, Berber, African and European influences. The country has a Mediterranean and Atlantic coastline,and a diverse geography of mountains, deserts and plains. It is the largest country in the Maghreb by area and the second-largest by population. The capital of Morocco is Rabat, and its largest city is Casablanca."
-            }
-        ]
-    },
-    "clientReview": [
-        {
-            "Name": "Karthik D",
-            "Review": "I recently went on a trip, and I must say it was an impressive experience. Their knowledgeable staff, hassle-free booking process, and well-curated itinerary exceeded my expectations.",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.Dm1IWxcbq3jXlaI-4mGdOgHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Very easy to book and price promise was successful and altered invoice immediately.Very Efficient.",
-            "stars": 4,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/R.5ae348c4a38e618b8773a0b23b66754c?rik=jj3QXLbeOqOHIg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fbeach-sunset-evening-4k-u4.jpg&ehk=JplI1oxhwMi35uo4C0Fz11%2bcagDs0pdXB5Dhn8Bd94g%3d&risl=1&pid=ImgRaw&r=0"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Very competitively priced, easy to use website and everything we were looking for.",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://www.photographytalk.com/images/articles/2017_6/iStock-503791572.jpg"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Absolutely fantastic experience with thhis agency! Their attention to detail made our trip seamless and unforgettable. Highly recommended!!",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://wallpaperaccess.com/full/338765.jpg"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "The team went above and beyond to accommodate our preferences and create a tailor-made itinerary. A five-star service!",
-            "stars": 4,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/R.f564cc8589f68be4690adc7a35f36da0?rik=%2b3PPs5qdMVpHhg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fSunset-wallpaper-desktop.jpg&ehk=9v%2b%2fyX708Qq6bSvK8rs5oqPPFk0wCOBUq%2fCpW6ELKcA%3d&risl=1&pid=ImgRaw&r=0"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "I've traveled extensively, and this agency stands out for their exceptional customer service and expertise. They turned our trip into a dream vacation!",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/R.195fcd8a7a2171e72cfb09df8c82204a?rik=JEnEi2nNfwf5sA&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fsunset-beach-cp.jpg&ehk=6yg0sCNVC4Q2s8xrrgXZ5XIvJLpmkRc1eEBq%2bAk%2fUPE%3d&risl=&pid=ImgRaw&r=0"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "From start to finish, working with Trippy was a pleasure. Professional, knowledgeable and dedicated to making our trip perfect.",
-            "stars": 4,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://www.shesonthego.com/wp-content/uploads/2018/07/sunsetpier.jpg"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Impressive knowledge of destinations and a keen understanding of what travellers want. Thanks to them, our trip exceeded all expectations!!",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://wallpapercave.com/wp/2R6cMCr.jpg"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Thier personalized approach and willingness to cater to our needs made our vacation unforgettable. We'll definitely be booking through them again!!",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Kudos to the team for their prompt responses and meticulous planning. Our trip was seamless and we felt incredibly well taken care of.",
-            "stars": 4,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "A big thank you to Trippy for making our trip stress-free and memorable. Thier recommendations were spot on!",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Highly impressed by the attention to detail and the effort put into ensuring everything went smoothly. I can't recommend them enough!",
-            "stars": 5,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Exceptional service from a team that truly cares about their clients. We had an amazing trip to Europe thanks to their expertize and dedication.",
-            "stars": 4,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "While the overall experience was good, more communication before the trip would have been appreciated to clarify some details.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "The itinerary was well planned, but having more options for off-beaten-path experiences could add value to your packages.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "The booking process was smooth, but it would be great to have more user-friendly interface for selecting custom preferences online.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "The trip was enjoyable, yet providing a mobile app or online platform for easy access to travel documents and real-time updates would be convenient.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "Though the customer service was good, having extended support hours or a dedicated emergency contact during travel could benhance peace of mind.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "While the overall package was great, offering more flexible payment plans or discounts for repeat customers could incentivize loyalty.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
-        },
-        {
-            "Name": "Karthik D",
-            "Review": "The guides were knowledgeable, but encouraging them to engage more with travelers and share personal insights about the destinations would be great.",
-            "stars": 3,
-            "profileImg": "./myprofile.jpg",
-            "groupImg": "https://wallpapercave.com/wp/wp5582517.jpg"
-        }
-    ],
     "Destination": {
         "title": "Search Your Dream Destination",
-        "desc": "Fill in the fields below to find the best spot",
-        "desc_type": [
-            "All",
-            "Beach",
-            "Lake Park",
-            "Nature",
-            "City",
-            "Mountain",
-            "Historical"
-        ],
-        "desc-offers": [
+        "subTitle": "Fill in the fields below to find the best spot",
+        "destination-offers": [
             "3 days trip",
             "3 times food (veg & non-veg)",
             "2 times snacks"
@@ -1400,6 +1067,193 @@
             }
         ]
     },
+    "ChooseUs": {
+        "title": "Why Should You Choose Us",
+        "subTitle": "We have extensive knowledge and experience in the travel industry.",
+        "safety": [
+            {
+                "safetyImg": "",
+                "safetyTitle": "Safety and support",
+                "safetyTitleInfo": "Our top priority is the safety and well-being of our clients. We maintain high safety standards and have emergency support available during the trip."
+            },
+            {
+                "safetyImg": "https://cdn3.iconfinder.com/data/icons/travel-destination-001-line/68/Destination_map_gps_pin_location_place-512.png",
+                "safetyTitle": "Diverse Range of Destinations",
+                "safetyTitleInfo": "Whether it's a domestic tour or an international adventure, we cover a wide range of destinations to cater to different interests and proferences."
+            },
+            {
+                "safetyImg": "https://cdn2.iconfinder.com/data/icons/webinar-1/68/27-512.png",
+                "safetyTitle": "24/7 Customer Support",
+                "safetyTitleInfo": "Our dedicated customer support team is available round the clock to address any queries or concerns before during and after the trip."
+            }
+        ]
+    },
+    "ClientReview": [
+        {
+            "name": "Karthik D",
+            "review": "I recently went on a trip, and I must say it was an impressive experience. Their knowledgeable staff, hassle-free booking process, and well-curated itinerary exceeded my expectations.",
+            "stars": 5,
+            "email": "karthikdevale@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.Dm1IWxcbq3jXlaI-4mGdOgHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Andi",
+            "review": "Very easy to book and price promise was successful and altered invoice immediately.Very Efficient.",
+            "stars": 4,
+            "email": "Andi@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/R.5ae348c4a38e618b8773a0b23b66754c?rik=jj3QXLbeOqOHIg&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fbeach-sunset-evening-4k-u4.jpg&ehk=JplI1oxhwMi35uo4C0Fz11%2bcagDs0pdXB5Dhn8Bd94g%3d&risl=1&pid=ImgRaw&r=0"
+        },
+        {
+            "name": "Stanzy",
+            "review": "Very competitively priced, easy to use website and everything we were looking for.",
+            "stars": 5,
+            "email": "Stanzy@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://www.photographytalk.com/images/articles/2017_6/iStock-503791572.jpg"
+        },
+        {
+            "name": "Prince",
+            "review": "Absolutely fantastic experience with thhis agency! Their attention to detail made our trip seamless and unforgettable. Highly recommended!!",
+            "stars": 5,
+            "email": "Prince@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://wallpaperaccess.com/full/338765.jpg"
+        },
+        {
+            "name": "Kito",
+            "review": "The team went above and beyond to accommodate our preferences and create a tailor-made itinerary. A five-star service!",
+            "stars": 4,
+            "email": "Kito@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/R.f564cc8589f68be4690adc7a35f36da0?rik=%2b3PPs5qdMVpHhg&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f03%2fSunset-wallpaper-desktop.jpg&ehk=9v%2b%2fyX708Qq6bSvK8rs5oqPPFk0wCOBUq%2fCpW6ELKcA%3d&risl=1&pid=ImgRaw&r=0"
+        },
+        {
+            "name": "Manoj",
+            "review": "I've traveled extensively, and this agency stands out for their exceptional customer service and expertise. They turned our trip into a dream vacation!",
+            "stars": 5,
+            "email": "Manoj@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/R.195fcd8a7a2171e72cfb09df8c82204a?rik=JEnEi2nNfwf5sA&riu=http%3a%2f%2fhdqwalls.com%2fwallpapers%2fsunset-beach-cp.jpg&ehk=6yg0sCNVC4Q2s8xrrgXZ5XIvJLpmkRc1eEBq%2bAk%2fUPE%3d&risl=&pid=ImgRaw&r=0"
+        },
+        {
+            "name": "Srinivas",
+            "review": "From start to finish, working with Trippy was a pleasure. Professional, knowledgeable and dedicated to making our trip perfect.",
+            "stars": 4,
+            "email": "Srinivas@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://www.shesonthego.com/wp-content/uploads/2018/07/sunsetpier.jpg"
+        },
+        {
+            "name": "Vishwas",
+            "review": "Impressive knowledge of destinations and a keen understanding of what travellers want. Thanks to them, our trip exceeded all expectations!!",
+            "stars": 5,
+            "email": "Vishwas@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://wallpapercave.com/wp/2R6cMCr.jpg"
+        },
+        {
+            "name": "Raju",
+            "review": "Thier personalized approach and willingness to cater to our needs made our vacation unforgettable. We'll definitely be booking through them again!!",
+            "stars": 5,
+            "email": "Raju@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Veena",
+            "review": "Kudos to the team for their prompt responses and meticulous planning. Our trip was seamless and we felt incredibly well taken care of.",
+            "stars": 4,
+            "email": "Veena@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Rajesh",
+            "review": "A big thank you to Trippy for making our trip stress-free and memorable. Thier recommendations were spot on!",
+            "stars": 5,
+            "email": "Rajesh@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Ganesh",
+            "review": "Highly impressed by the attention to detail and the effort put into ensuring everything went smoothly. I can't recommend them enough!",
+            "stars": 5,
+            "email": "Ganesh@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Vidya",
+            "review": "Exceptional service from a team that truly cares about their clients. We had an amazing trip to Europe thanks to their expertize and dedication.",
+            "stars": 4,
+            "email": "Vidya@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Mandy",
+            "review": "While the overall experience was good, more communication before the trip would have been appreciated to clarify some details.",
+            "stars": 3,
+            "email": "Mandy@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Hema",
+            "review": "The itinerary was well planned, but having more options for off-beaten-path experiences could add value to your packages.",
+            "stars": 3,
+            "email": "Hema@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Priyanka",
+            "review": "The booking process was smooth, but it would be great to have more user-friendly interface for selecting custom preferences online.",
+            "stars": 3,
+            "email": "Priyanka@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Anusha",
+            "review": "The trip was enjoyable, yet providing a mobile app or online platform for easy access to travel documents and real-time updates would be convenient.",
+            "stars": 3,
+            "email": "Anusha@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Charu",
+            "review": "Though the customer service was good, having extended support hours or a dedicated emergency contact during travel could benhance peace of mind.",
+            "stars": 3,
+            "email": "Charu@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Manesh",
+            "review": "While the overall package was great, offering more flexible payment plans or discounts for repeat customers could incentivize loyalty.",
+            "stars": 3,
+            "email": "Manesh@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://th.bing.com/th/id/OIP.U5bi985e8B47Gg_Aibl7GwHaE7?rs=1&pid=ImgDetMain"
+        },
+        {
+            "name": "Laxmi",
+            "review": "The guides were knowledgeable, but encouraging them to engage more with travelers and share personal insights about the destinations would be great.",
+            "stars": 3,
+            "email": "Laxmi@gmail.com",
+            "profileImg": "./myprofile.jpg",
+            "groupImg": "https://wallpapercave.com/wp/wp5582517.jpg"
+        }
+    ],
+    "ContactUs": {
+        "Title": "Contact Us!",
+        "title-info": "Please fill and submit the form for any Querry our customer support team will connect with you within 24hrs."
+    },
     "Portfolio": {
         "Personal-Details": {
             "Name": "Karthik D",
@@ -1424,7 +1278,8 @@
             "MUI (Material UI)",
             "RWD (Responsive Web Design)",
             "Problem Solving",
-            "Tools Used : Vscode, Git & GitHub, BitBucket"
+            "Fast Learning",
+            "Tools Used : Vscode, Git & GitHub, BitBucket,Zira"
         ],
         "Experience": {
             "Company": "Infosys",
@@ -1470,628 +1325,631 @@
     },
     "PhoneNoValidation": [
         {
-            "Country": "China",
-            "PhoneNo Length": "13"
+            "country": "China",
+            "numberLength": "13"
         },
         {
-            "Country": "Mozambique",
-            "PhoneNo Length": "12"
+            "country": "Mozambique",
+            "numberLength": "12"
         },
         {
-            "Country": "Brazil",
-            "PhoneNo Length": "11"
+            "country": "Brazil",
+            "numberLength": "11"
         },
         {
-            "Country": "India",
-            "PhoneNo Length": "10"
+            "country": "India",
+            "numberLength": "10"
         },
         {
-            "Country": "United States",
-            "PhoneNo Length": "10"
+            "country": "United States",
+            "numberLength": "10"
         },
         {
-            "Country": "Pakistan",
-            "PhoneNo Length": "10"
+            "country": "Pakistan",
+            "numberLength": "10"
         },
         {
-            "Country": "Bangladesh",
-            "PhoneNo Length": "10"
+            "country": "Bangladesh",
+            "numberLength": "10"
         },
         {
-            "Country": "Russia",
-            "PhoneNo Length": "10"
+            "country": "Russia",
+            "numberLength": "10"
         },
         {
-            "Country": "Mexico",
-            "PhoneNo Length": "10"
+            "country": "Mexico",
+            "numberLength": "10"
         },
         {
-            "Country": "Japan",
-            "PhoneNo Length": "10"
+            "country": "Japan",
+            "numberLength": "10"
         },
         {
-            "Country": "Philippines",
-            "PhoneNo Length": "10"
+            "country": "Philippines",
+            "numberLength": "10"
         },
         {
-            "Country": "Egypt",
-            "PhoneNo Length": "10"
+            "country": "Egypt",
+            "numberLength": "10"
         },
         {
-            "Country": "Iran",
-            "PhoneNo Length": "10"
+            "country": "Iran",
+            "numberLength": "10"
         },
         {
-            "Country": "Turkey",
-            "PhoneNo Length": "10"
+            "country": "Turkey",
+            "numberLength": "10"
         },
         {
-            "Country": "Germany",
-            "PhoneNo Length": "10"
+            "country": "Germany",
+            "numberLength": "10"
         },
         {
-            "Country": "United Kingdom",
-            "PhoneNo Length": "10"
+            "country": "United Kingdom",
+            "numberLength": "10"
         },
         {
-            "Country": "Italy",
-            "PhoneNo Length": "10"
+            "country": "Italy",
+            "numberLength": "10"
         },
         {
-            "Country": "Kenya",
-            "PhoneNo Length": "10"
+            "country": "Kenya",
+            "numberLength": "10"
         },
         {
-            "Country": "Colombia",
-            "PhoneNo Length": "10"
+            "country": "Colombia",
+            "numberLength": "10"
         },
         {
-            "Country": "South Korea",
-            "PhoneNo Length": "10"
+            "country": "South Korea",
+            "numberLength": "10"
         },
         {
-            "Country": "Canada",
-            "PhoneNo Length": "10"
+            "country": "Canada",
+            "numberLength": "10"
         },
         {
-            "Country": "Nepal",
-            "PhoneNo Length": "10"
+            "country": "Nepal",
+            "numberLength": "10"
         },
         {
-            "Country": "Kazakhstan",
-            "PhoneNo Length": "10"
+            "country": "Kazakhstan",
+            "numberLength": "10"
         },
         {
-            "Country": "Romania",
-            "PhoneNo Length": "10"
+            "country": "Romania",
+            "numberLength": "10"
         },
         {
-            "Country": "Dominican Republic",
-            "PhoneNo Length": "10"
+            "country": "Dominican Republic",
+            "numberLength": "10"
         },
         {
-            "Country": "Greece",
-            "PhoneNo Length": "10"
+            "country": "Greece",
+            "numberLength": "10"
         },
         {
-            "Country": "Austria",
-            "PhoneNo Length": "10"
+            "country": "Austria",
+            "numberLength": "10"
         },
         {
-            "Country": "Libya",
-            "PhoneNo Length": "10"
+            "country": "Libya",
+            "numberLength": "10"
         },
         {
-            "Country": "Puerto Rico",
-            "PhoneNo Length": "10"
+            "country": "Puerto Rico",
+            "numberLength": "10"
         },
         {
-            "Country": "Jamaica",
-            "PhoneNo Length": "10"
+            "country": "Jamaica",
+            "numberLength": "10"
         },
         {
-            "Country": "Trinidad and Tobago",
-            "PhoneNo Length": "10"
+            "country": "Trinidad and Tobago",
+            "numberLength": "10"
         },
         {
-            "Country": "Bahamas",
-            "PhoneNo Length": "10"
+            "country": "Bahamas",
+            "numberLength": "10"
         },
         {
-            "Country": "Barbados",
-            "PhoneNo Length": "10"
+            "country": "Barbados",
+            "numberLength": "10"
         },
         {
-            "Country": "Saint Lucia",
-            "PhoneNo Length": "10"
+            "country": "Saint Lucia",
+            "numberLength": "10"
         },
         {
-            "Country": "Guam",
-            "PhoneNo Length": "10"
+            "country": "Guam",
+            "numberLength": "10"
         },
         {
-            "Country": "Grenada",
-            "PhoneNo Length": "10"
+            "country": "Grenada",
+            "numberLength": "10"
         },
         {
-            "Country": "Saint Vincent and the Grenadines",
-            "PhoneNo Length": "10"
+            "country": "Saint Vincent and the Grenadines",
+            "numberLength": "10"
         },
         {
-            "Country": "United States Virgin Islands",
-            "PhoneNo Length": "10"
+            "country": "United States Virgin Islands",
+            "numberLength": "10"
         },
         {
-            "Country": "Antigua and Barbuda",
-            "PhoneNo Length": "10"
+            "country": "Antigua and Barbuda",
+            "numberLength": "10"
         },
         {
-            "Country": "Isle of Man",
-            "PhoneNo Length": "10"
+            "country": "Isle of Man",
+            "numberLength": "10"
         },
         {
-            "Country": "Dominica",
-            "PhoneNo Length": "10"
+            "country": "Dominica",
+            "numberLength": "10"
         },
         {
-            "Country": "Cayman Islands",
-            "PhoneNo Length": "10"
+            "country": "Cayman Islands",
+            "numberLength": "10"
         },
         {
-            "Country": "Bermuda",
-            "PhoneNo Length": "10"
+            "country": "Bermuda",
+            "numberLength": "10"
         },
         {
-            "Country": "Guernsey",
-            "PhoneNo Length": "10"
+            "country": "Guernsey",
+            "numberLength": "10"
         },
         {
-            "Country": "Northern Mariana Islands",
-            "PhoneNo Length": "10"
+            "country": "Northern Mariana Islands",
+            "numberLength": "10"
         },
         {
-            "Country": "Saint Kitts and Nevis",
-            "PhoneNo Length": "10"
+            "country": "Saint Kitts and Nevis",
+            "numberLength": "10"
         },
         {
-            "Country": "Turks and Caicos Islands",
-            "PhoneNo Length": "10"
+            "country": "Turks and Caicos Islands",
+            "numberLength": "10"
         },
         {
-            "Country": "Sint Maarten",
-            "PhoneNo Length": "10"
+            "country": "Sint Maarten",
+            "numberLength": "10"
         },
         {
-            "Country": "American Samoa",
-            "PhoneNo Length": "10"
+            "country": "American Samoa",
+            "numberLength": "10"
         },
         {
-            "Country": "British Virgin Islands",
-            "PhoneNo Length": "10"
+            "country": "British Virgin Islands",
+            "numberLength": "10"
         },
         {
-            "Country": "Anguilla",
-            "PhoneNo Length": "10"
+            "country": "Anguilla",
+            "numberLength": "10"
         },
         {
-            "Country": "Montserrat",
-            "PhoneNo Length": "10"
+            "country": "Montserrat",
+            "numberLength": "10"
         },
         {
-            "Country": "Vatican City",
-            "PhoneNo Length": "10"
+            "country": "Vatican City",
+            "numberLength": "10"
         },
         {
-            "Country": "Indonesia",
-            "PhoneNo Length": "9"
+            "country": "Indonesia",
+            "numberLength": "9"
         },
         {
-            "Country": "Vietnam",
-            "PhoneNo Length": "9"
+            "country": "Vietnam",
+            "numberLength": "9"
         },
         {
-            "Country": "Thailand",
-            "PhoneNo Length": "9"
+            "country": "Thailand",
+            "numberLength": "9"
         },
         {
-            "Country": "South Africa",
-            "PhoneNo Length": "9"
+            "country": "South Africa",
+            "numberLength": "9"
         },
         {
-            "Country": "Spain",
-            "PhoneNo Length": "9"
+            "country": "Spain",
+            "numberLength": "9"
         },
         {
-            "Country": "Algeria",
-            "PhoneNo Length": "9"
+            "country": "Algeria",
+            "numberLength": "9"
         },
         {
-            "Country": "Afghanistan",
-            "PhoneNo Length": "9"
+            "country": "Afghanistan",
+            "numberLength": "9"
         },
         {
-            "Country": "Poland",
-            "PhoneNo Length": "9"
+            "country": "Poland",
+            "numberLength": "9"
         },
         {
-            "Country": "Ukraine",
-            "PhoneNo Length": "9"
+            "country": "Ukraine",
+            "numberLength": "9"
         },
         {
-            "Country": "Saudi Arabia",
-            "PhoneNo Length": "9"
+            "country": "Saudi Arabia",
+            "numberLength": "9"
         },
         {
-            "Country": "Yemen",
-            "PhoneNo Length": "9"
+            "country": "Yemen",
+            "numberLength": "9"
         },
         {
-            "Country": "Ghana",
-            "PhoneNo Length": "9"
+            "country": "Ghana",
+            "numberLength": "9"
         },
         {
-            "Country": "Peru",
-            "PhoneNo Length": "9"
+            "country": "Peru",
+            "numberLength": "9"
         },
         {
-            "Country": "Cameroon",
-            "PhoneNo Length": "9"
+            "country": "Cameroon",
+            "numberLength": "9"
         },
         {
-            "Country": "Australia",
-            "PhoneNo Length": "9"
+            "country": "Australia",
+            "numberLength": "9"
         },
         {
-            "Country": "Syria",
-            "PhoneNo Length": "9"
+            "country": "Syria",
+            "numberLength": "9"
         },
         {
-            "Country": "Taiwan",
-            "PhoneNo Length": "9"
+            "country": "Taiwan",
+            "numberLength": "9"
         },
         {
-            "Country": "Zambia",
-            "PhoneNo Length": "9"
+            "country": "Zambia",
+            "numberLength": "9"
         },
         {
-            "Country": "Chile",
-            "PhoneNo Length": "9"
+            "country": "Chile",
+            "numberLength": "9"
         },
         {
-            "Country": "Ecuador",
-            "PhoneNo Length": "9"
+            "country": "Ecuador",
+            "numberLength": "9"
         },
         {
-            "Country": "Netherlands",
-            "PhoneNo Length": "9"
+            "country": "Netherlands",
+            "numberLength": "9"
         },
         {
-            "Country": "Cambodia",
-            "PhoneNo Length": "9"
+            "country": "Cambodia",
+            "numberLength": "9"
         },
         {
-            "Country": "Zimbabwe",
-            "PhoneNo Length": "9"
+            "country": "Zimbabwe",
+            "numberLength": "9"
         },
         {
-            "Country": "Benin",
-            "PhoneNo Length": "9"
+            "country": "Benin",
+            "numberLength": "9"
         },
         {
-            "Country": "Belgium",
-            "PhoneNo Length": "9"
+            "country": "Belgium",
+            "numberLength": "9"
         },
         {
-            "Country": "Jordan",
-            "PhoneNo Length": "9"
+            "country": "Jordan",
+            "numberLength": "9"
         },
         {
-            "Country": "Czech Republic",
-            "PhoneNo Length": "9"
+            "country": "Czech Republic",
+            "numberLength": "9"
         },
         {
-            "Country": "Azerbaijan",
-            "PhoneNo Length": "9"
+            "country": "Azerbaijan",
+            "numberLength": "9"
         },
         {
-            "Country": "Portugal",
-            "PhoneNo Length": "9"
+            "country": "Portugal",
+            "numberLength": "9"
         },
         {
-            "Country": "Hungary",
-            "PhoneNo Length": "9"
+            "country": "Hungary",
+            "numberLength": "9"
         },
         {
-            "Country": "United Arab Emirates",
-            "PhoneNo Length": "9"
+            "country": "United Arab Emirates",
+            "numberLength": "9"
         },
         {
-            "Country": "Belarus",
-            "PhoneNo Length": "9"
+            "country": "Belarus",
+            "numberLength": "9"
         },
         {
-            "Country": "Israel",
-            "PhoneNo Length": "9"
+            "country": "Israel",
+            "numberLength": "9"
         },
         {
-            "Country": "Switzerland",
-            "PhoneNo Length": "9"
+            "country": "Switzerland",
+            "numberLength": "9"
         },
         {
-            "Country": "Paraguay",
-            "PhoneNo Length": "9"
+            "country": "Paraguay",
+            "numberLength": "9"
         },
         {
-            "Country": "Slovakia",
-            "PhoneNo Length": "9"
+            "country": "Slovakia",
+            "numberLength": "9"
         },
         {
-            "Country": "New Zealand",
-            "PhoneNo Length": "9"
+            "country": "New Zealand",
+            "numberLength": "9"
         },
         {
-            "Country": "Ireland",
-            "PhoneNo Length": "9"
+            "country": "Ireland",
+            "numberLength": "9"
         },
         {
-            "Country": "Croatia",
-            "PhoneNo Length": "9"
+            "country": "Croatia",
+            "numberLength": "9"
         },
         {
-            "Country": "Georgia",
-            "PhoneNo Length": "9"
+            "country": "Georgia",
+            "numberLength": "9"
         },
         {
-            "Country": "Luxembourg",
-            "PhoneNo Length": "9"
+            "country": "Luxembourg",
+            "numberLength": "9"
         },
         {
-            "Country": "Guadeloupe",
-            "PhoneNo Length": "9"
+            "country": "Guadeloupe",
+            "numberLength": "9"
         },
         {
-            "Country": "Martinique",
-            "PhoneNo Length": "9"
+            "country": "Martinique",
+            "numberLength": "9"
         },
         {
-            "Country": "French Guiana",
-            "PhoneNo Length": "9"
+            "country": "French Guiana",
+            "numberLength": "9"
         },
         {
-            "Country": "Nigeria",
-            "PhoneNo Length": "8"
+            "country": "Nigeria",
+            "numberLength": "8"
         },
         {
-            "Country": "Myanmar",
-            "PhoneNo Length": "8"
+            "country": "Myanmar",
+            "numberLength": "8"
         },
         {
-            "Country": "Niger",
-            "PhoneNo Length": "8"
+            "country": "Niger",
+            "numberLength": "8"
         },
         {
-            "Country": "Mali",
-            "PhoneNo Length": "8"
+            "country": "Mali",
+            "numberLength": "8"
         },
         {
-            "Country": "Burkina Faso",
-            "PhoneNo Length": "8"
+            "country": "Burkina Faso",
+            "numberLength": "8"
         },
         {
-            "Country": "Chad",
-            "PhoneNo Length": "8"
+            "country": "Chad",
+            "numberLength": "8"
         },
         {
-            "Country": "Somalia",
-            "PhoneNo Length": "8"
+            "country": "Somalia",
+            "numberLength": "8"
         },
         {
-            "Country": "Guatemala",
-            "PhoneNo Length": "8"
+            "country": "Guatemala",
+            "numberLength": "8"
         },
         {
-            "Country": "Tunisia",
-            "PhoneNo Length": "8"
+            "country": "Tunisia",
+            "numberLength": "8"
         },
         {
-            "Country": "Honduras",
-            "PhoneNo Length": "8"
+            "country": "Honduras",
+            "numberLength": "8"
         },
         {
-            "Country": "Togo",
-            "PhoneNo Length": "8"
+            "country": "Togo",
+            "numberLength": "8"
         },
         {
-            "Country": "Hong Kong",
-            "PhoneNo Length": "8"
+            "country": "Hong Kong",
+            "numberLength": "8"
         },
         {
-            "Country": "Nicaragua",
-            "PhoneNo Length": "8"
+            "country": "Nicaragua",
+            "numberLength": "8"
         },
         {
-            "Country": "Serbia",
-            "PhoneNo Length": "8"
+            "country": "Serbia",
+            "numberLength": "8"
         },
         {
-            "Country": "El Salvador",
-            "PhoneNo Length": "8"
+            "country": "El Salvador",
+            "numberLength": "8"
         },
         {
-            "Country": "Singapore",
-            "PhoneNo Length": "8"
+            "country": "Singapore",
+            "numberLength": "8"
         },
         {
-            "Country": "Denmark",
-            "PhoneNo Length": "8"
+            "country": "Denmark",
+            "numberLength": "8"
         },
         {
-            "Country": "Norway",
-            "PhoneNo Length": "8"
+            "country": "Norway",
+            "numberLength": "8"
         },
         {
-            "Country": "Costa Rica",
-            "PhoneNo Length": "8"
+            "country": "Costa Rica",
+            "numberLength": "8"
         },
         {
-            "Country": "Oman",
-            "PhoneNo Length": "8"
+            "country": "Oman",
+            "numberLength": "8"
         },
         {
-            "Country": "Panama",
-            "PhoneNo Length": "8"
+            "country": "Panama",
+            "numberLength": "8"
         },
         {
-            "Country": "Kuwait",
-            "PhoneNo Length": "8"
+            "country": "Kuwait",
+            "numberLength": "8"
         },
         {
-            "Country": "Moldova",
-            "PhoneNo Length": "8"
+            "country": "Moldova",
+            "numberLength": "8"
         },
         {
-            "Country": "Bosnia and Herzegovina",
-            "PhoneNo Length": "8"
+            "country": "Bosnia and Herzegovina",
+            "numberLength": "8"
         },
         {
-            "Country": "Armenia",
-            "PhoneNo Length": "8"
+            "country": "Armenia",
+            "numberLength": "8"
         },
         {
-            "Country": "Qatar",
-            "PhoneNo Length": "8"
+            "country": "Qatar",
+            "numberLength": "8"
         },
         {
-            "Country": "Lithuania",
-            "PhoneNo Length": "8"
+            "country": "Lithuania",
+            "numberLength": "8"
         },
         {
-            "Country": "North Macedonia",
-            "PhoneNo Length": "8"
+            "country": "North Macedonia",
+            "numberLength": "8"
         },
         {
-            "Country": "Latvia",
-            "PhoneNo Length": "8"
+            "country": "Latvia",
+            "numberLength": "8"
         },
         {
-            "Country": "Bahrain",
-            "PhoneNo Length": "8"
+            "country": "Bahrain",
+            "numberLength": "8"
         },
         {
-            "Country": "Estonia",
-            "PhoneNo Length": "8"
+            "country": "Estonia",
+            "numberLength": "8"
         },
         {
-            "Country": "Mauritius",
-            "PhoneNo Length": "8"
+            "country": "Mauritius",
+            "numberLength": "8"
         },
         {
-            "Country": "Cyprus",
-            "PhoneNo Length": "8"
+            "country": "Cyprus",
+            "numberLength": "8"
         },
         {
-            "Country": "Montenegro",
-            "PhoneNo Length": "8"
+            "country": "Montenegro",
+            "numberLength": "8"
         },
         {
-            "Country": "Malta",
-            "PhoneNo Length": "8"
+            "country": "Malta",
+            "numberLength": "8"
         },
         {
-            "Country": "Kiribati",
-            "PhoneNo Length": "8"
+            "country": "Kiribati",
+            "numberLength": "8"
         },
         {
-            "Country": "Malaysia",
-            "PhoneNo Length": "7"
+            "country": "Malaysia",
+            "numberLength": "7"
         },
         {
-            "Country": "Venezuela",
-            "PhoneNo Length": "7"
+            "country": "Venezuela",
+            "numberLength": "7"
         },
         {
-            "Country": "Sri Lanka",
-            "PhoneNo Length": "7"
+            "country": "Sri Lanka",
+            "numberLength": "7"
         },
         {
-            "Country": "Sweden",
-            "PhoneNo Length": "7"
+            "country": "Sweden",
+            "numberLength": "7"
         },
         {
-            "Country": "Liberia",
-            "PhoneNo Length": "7"
+            "country": "Liberia",
+            "numberLength": "7"
         },
         {
-            "Country": "Lebanon",
-            "PhoneNo Length": "7"
+            "country": "Lebanon",
+            "numberLength": "7"
         },
         {
-            "Country": "Gabon",
-            "PhoneNo Length": "7"
+            "country": "Gabon",
+            "numberLength": "7"
         },
         {
-            "Country": "Solomon Islands",
-            "PhoneNo Length": "7"
+            "country": "Solomon Islands",
+            "numberLength": "7"
         },
         {
-            "Country": "Maldives",
-            "PhoneNo Length": "7"
+            "country": "Maldives",
+            "numberLength": "7"
         },
         {
-            "Country": "Belize",
-            "PhoneNo Length": "7"
+            "country": "Belize",
+            "numberLength": "7"
         },
         {
-            "Country": "Micronesia",
-            "PhoneNo Length": "7"
+            "country": "Micronesia",
+            "numberLength": "7"
         },
         {
-            "Country": "Aruba",
-            "PhoneNo Length": "7"
+            "country": "Aruba",
+            "numberLength": "7"
         },
         {
-            "Country": "Marshall Islands",
-            "PhoneNo Length": "7"
+            "country": "Marshall Islands",
+            "numberLength": "7"
         },
         {
-            "Country": "Palau",
-            "PhoneNo Length": "7"
+            "country": "Palau",
+            "numberLength": "7"
         },
         {
-            "Country": "Tanzania",
-            "PhoneNo Length": "6"
+            "country": "Tanzania",
+            "numberLength": "6"
         },
         {
-            "Country": "French Polynesia",
-            "PhoneNo Length": "6"
+            "country": "French Polynesia",
+            "numberLength": "6"
         },
         {
-            "Country": "New Caledonia",
-            "PhoneNo Length": "6"
+            "country": "New Caledonia",
+            "numberLength": "6"
         },
         {
-            "Country": "Greenland",
-            "PhoneNo Length": "6"
+            "country": "Greenland",
+            "numberLength": "6"
         },
         {
-            "Country": "Samoa",
-            "PhoneNo Length": "5"
+            "country": "Samoa",
+            "numberLength": "5"
         },
         {
-            "Country": "Faroe Islands",
-            "PhoneNo Length": "5"
+            "country": "Faroe Islands",
+            "numberLength": "5"
         },
         {
-            "Country": "Cook Islands",
-            "PhoneNo Length": "5"
+            "country": "Cook Islands",
+            "numberLength": "5"
         },
         {
-            "Country": "Niue",
-            "PhoneNo Length": "4"
+            "country": "Niue",
+            "numberLength": "4"
         }
     ],
-    "ContactUs": {
-        "Title": "Contact Us!",
-        "title-info": "Please fill and submit the form for any Querry our customer support team will connect with you within 24hrs."
+    "Footer": {
+        "footer-info": "This Travel website will provide you the best deals to travel your dream destination. We also offer you the safe and best hotels for reasonable price."
+    },
+    "LabelData": {
+        "search":"Search",
+        "moreDetails": "More Details"
     }
 }

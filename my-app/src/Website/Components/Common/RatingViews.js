@@ -4,7 +4,7 @@ const RatingViews = (props) => {
   return (
     <div className="rating-views" id="Rating">
       <div className="rating-grid">
-        {Data.rating.map((item) => {
+        {Data.Rating.map((item) => {
           return (
             <span className="rating-block">
               <div className="rating-number">{item.ratingNumber}</div>

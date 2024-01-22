@@ -182,8 +182,8 @@
             overflow: hidden;
             transition: 1s ease-in-out;
 
-            @media (max-width: $desktop) {
-                max-height: 18.75rem;
+            @media (max-width: $mobile) {
+                max-height: 17rem;
             }
         }
 

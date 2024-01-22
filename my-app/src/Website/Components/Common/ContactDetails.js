@@ -30,7 +30,7 @@ const ContactDetails = (props) => {
         contactData.phoneNo?.length === 0 ? "Please Enter Your Number" : "",
     };
 
-    if ((error.name === "" && error.email === "") || error.phoneNo === "")
+    if (error.name === "" && (error.email === "" || error.phoneNo === ""))
       return setContactError(null), setcontactFormVarify(!contactFormVarify);
     return setContactError(error);
   };

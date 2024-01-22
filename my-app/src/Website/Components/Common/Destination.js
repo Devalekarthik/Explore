@@ -67,7 +67,7 @@ const Destination = (props) => {
     <>
       <div className="destination" id="Search Destination">
         <p className="destination-title">{Data.Destination.title}</p>
-        <p className="destination-subTitle">{Data.Destination.desc}</p>
+        <p className="destination-subTitle">{Data.Destination.subTitle}</p>
 
         <div className="destination-search">
           <Select
@@ -83,7 +83,7 @@ const Destination = (props) => {
             }`}
             disabled={searchBox !== "" ? false : true}
           >
-            Search
+            {Data.LabelData.search}
           </button>
         </div>
 
