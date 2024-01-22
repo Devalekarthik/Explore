@@ -1,6 +1,4 @@
 import HealthAndSafetyIcon from "@mui/icons-material/HealthAndSafety";
-import SunSet1 from "../../Images/SunSet1.jpg";
-import SunSet2 from "../../Images/SunSet2.jpg";
 
 const ChooseUs = (props) => {
   const { Data } = props;
@@ -8,8 +6,8 @@ const ChooseUs = (props) => {
   return (
     <div className="chooseUs" id="Reviews">
       <div className="chooseUs-imgs">
-        <img src={SunSet1} className="chooseUs-bgimg" />
-        <img src={SunSet2} className="chooseUs-smimg" />
+        <img src={Data.ChooseUs.chooseUsImg1} className="chooseUs-bgimg" />
+        <img src={Data.ChooseUs.chooseUsImg2} className="chooseUs-smimg" />
       </div>
       <div className="chooseUs-block">
         <div className="chooseUs-texts">
