@@ -13,10 +13,10 @@ const ChooseUs = (props) => {
       </div>
       <div className="chooseUs-block">
         <div className="chooseUs-texts">
-          <p className="chooseUs-title">{Data.chooseUs.title}</p>
-          <p className="chooseUs-subTitle">{Data.chooseUs.title_desc}</p>
+          <p className="chooseUs-title">{Data.ChooseUs.title}</p>
+          <p className="chooseUs-subTitle">{Data.ChooseUs.subTitle}</p>
         </div>
-        {Data.chooseUs.safety.map((item) => {
+        {Data.ChooseUs.safety.map((item) => {
           return (
             <div className="chooseUs-safety">
               <div className="chooseUs-safetyImages">
@@ -27,8 +27,8 @@ const ChooseUs = (props) => {
                 )}
               </div>
               <div className="chooseUs-safetyText">
-                <div className="chooseUs-safetyTitle">{item.safetyTextHead}</div>
-                <p className="chooseUs-safetyInfo">{item.safetyTextdesc}</p>
+                <div className="chooseUs-safetyTitle">{item.safetyTitle}</div>
+                <p className="chooseUs-safetyInfo">{item.safetyTitleInfo}</p>
               </div>
             </div>
           );

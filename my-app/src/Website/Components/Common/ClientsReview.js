@@ -10,7 +10,7 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const ClientsReview = (props) => {
   const { Data } = props;
 
-  let clientData = Data.clientReview.sort((a, b) => b.stars - a.stars);
+  let clientData = Data.ClientReview.sort((a, b) => b.stars - a.stars);
 
   let stars = (star) => {
     return (
@@ -71,16 +71,16 @@ const ClientsReview = (props) => {
                         </div>
                         <div className="clients-reviewTitle">
                           <span className="clients-reviewName">
-                            {item.Name} {stars(item.stars)}
+                            {item.name} {stars(item.stars)}
                           </span>
                           <div className="clients-reviewEmail">
-                            karthikdevale@gmail.com
+                            {item.email}
                           </div>
                         </div>
                       </div>
                     </AccordionSummary>
                     <AccordionDetails>
-                      <Typography>{item.Review}</Typography>
+                      <Typography>{item.review}</Typography>
                     </AccordionDetails>
                   </Accordion>
                 </div>
@@ -92,7 +92,9 @@ const ClientsReview = (props) => {
               className="clients-viewMoreBtn"
               onClick={() => setClientViewMore(!clientViewMore)}
             >
-              {clientViewMore ? "View Less" : "View More"}
+              {clientViewMore
+                ? Data.LabelData.viewLess
+                : Data.LabelData.viewMore}
             </button>
           </div>
         </div>

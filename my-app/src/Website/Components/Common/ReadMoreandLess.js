@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const ReadMoreandLess = (props) => {
-  const { text, Showmore, ShowLess } = props;
+  const { Data, text } = props;
   const [readMore, setReadMore] = useState(true);
 
   useEffect(() => {
@@ -12,7 +12,7 @@ const ReadMoreandLess = (props) => {
     <>
       {text?.substring(0, readMore ? text.length / 5 : text.length)}
       <span className="showText" onClick={() => setReadMore(!readMore)}>
-        ...{readMore ? `${Showmore}` : `${ShowLess}`}
+        ...{readMore ? Data.LabelData.readMore : Data.LabelData.readLess}
       </span>
     </>
   );

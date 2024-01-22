@@ -48,7 +48,7 @@ const Cards = (props) => {
                   data-bs-toggle="modal"
                   onClick={() => setSelectedCard([item])}
                 >
-                  More Details
+                  {Data.LabelData.moreDetails}
                 </button>
               </div>
             </div>

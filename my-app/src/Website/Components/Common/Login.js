@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 
 const Login = (props) => {
-  const { loginData, setLoginData, setLogOut } = props;
+  const { Data, loginData, setLoginData, setLogOut } = props;
 
   const [loginType, setLoginType] = useState("");
   const [loginError, setLoginError] = useState();
@@ -13,7 +13,7 @@ const Login = (props) => {
         {loginType === "register" && (
           <div class="form-group">
             <label for="recipient-name" class="col-form-label login-label">
-              Name :
+              {Data.LabelData.name} :
             </label>
             <input
               type="text"
@@ -30,7 +30,7 @@ const Login = (props) => {
         )}
         <div class="form-group">
           <label for="recipient-name" class="col-form-label login-label">
-            Email ID :
+            {Data.LabelData.emailID} :
           </label>
           <input
             type="text"
@@ -46,7 +46,7 @@ const Login = (props) => {
         </div>
         <div class="form-group">
           <label for="message-text" class="col-form-label login-label">
-            Password :
+            {Data.LabelData.password} :
           </label>
           <input
             type="password"
@@ -72,15 +72,13 @@ const Login = (props) => {
     const redgeEmail = /^[a-z0-9A-Z]+@[a-z]+\.[a-z]{2,3}$/;
 
     const error = {
-      name: loginData.name === "" ? "Please Enter Your Name" : "",
-      email: !redgeEmail.test(loginData.email)
-        ? "Please Enter Valid Email ID"
-        : "",
+      name: loginData.name === "" ? Data.ErrorLabel.name : "",
+      email: !redgeEmail.test(loginData.email) ? Data.ErrorLabel.email : "",
       password:
         loginData.password === ""
-          ? "Enter Password"
+          ? Data.ErrorLabel.enterPassword
           : loginData.password.length < 5
-          ? "Week Password"
+          ? Data.ErrorLabel.weekPassword
           : "",
     };
 
@@ -120,7 +118,7 @@ const Login = (props) => {
           <div class="modal-content">
             <div class="modal-header">
               <h5 class="modal-title" id="loginTitle">
-                Sign In
+                {Data.LabelData.signIn}
               </h5>
               <button
                 type="button"
@@ -143,7 +141,7 @@ const Login = (props) => {
                     aria-controls="pills-home"
                     aria-selected="true"
                   >
-                    Admin
+                    {Data.LabelData.admin}
                   </a>
                 </li>
                 <li class="nav-item" onClick={() => setLoginType("register")}>
@@ -156,7 +154,7 @@ const Login = (props) => {
                     aria-controls="pills-profile"
                     aria-selected="false"
                   >
-                    Register
+                    {Data.LabelData.register}
                   </a>
                 </li>
               </ul>
@@ -194,7 +192,9 @@ const Login = (props) => {
                 data-dismiss={loginError === null && loginValid ? "modal" : ""}
                 aria-label="Close"
               >
-                {loginError === null && loginValid ? "Sign In" : "Verify"}
+                {loginError === null && loginValid
+                  ? Data.LabelData.signIn
+                  : Data.LabelData.verify}
               </button>
             </div>
           </div>

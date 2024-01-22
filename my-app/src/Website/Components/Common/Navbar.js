@@ -18,6 +18,7 @@ const Navbar = (props) => {
   const [logOutSucces, setlogOutSucces] = useState(false);
 
   const loginDataDetails = {
+    Data: Data,
     loginData: loginData,
     setLoginData: setLoginData,
     setLogOut: setLogOut,
@@ -26,7 +27,7 @@ const Navbar = (props) => {
   return (
     <>
       <nav className="navbar-block">
-        <span className="navbar-logo">{Data.header.company}</span>
+        <span className="navbar-logo">{Data.Header.company}</span>
         <div
           className="navbar-menuIcon"
           onClick={() => setNavbarIcon(!navbarIcon)}
@@ -34,7 +35,7 @@ const Navbar = (props) => {
           {navbarIcon ? <DehazeIcon /> : <CancelIcon />}
         </div>
         <div className={`navbar-menu ${navbarIcon ? "" : "navbar-mobile"}`}>
-          {Data.header["nav-name"].map((item) => (
+          {Data.Header["nav-name"].map((item) => (
             <div>
               <Link
                 activeClass="active"
@@ -68,7 +69,7 @@ const Navbar = (props) => {
                   setNavbarIcon(!navbarIcon))
             }
           >
-            {logOut ? "Sign Out" : "Sign In"}
+            {logOut ? Data.LabelData.signOut : Data.LabelData.signIn}
           </button>
         </div>
       </nav>

@@ -22,15 +22,13 @@ const ContactDetails = (props) => {
     const redgeEmail = /^[a-z0-9A-Z]+@[a-z]+\.[a-z]{2,3}$/;
 
     const error = {
-      name: contactData.name === "" ? "Please Enter Your Name " : "",
-      email: !redgeEmail.test(contactData.email)
-        ? "Please Enter Valid Email ID"
-        : "",
+      name: contactData.name === "" ? Data.ErrorLabel.name : "",
+      email: !redgeEmail.test(contactData.email) ? Data.ErrorLabel.email : "",
       phoneNo:
-        contactData.phoneNo?.length === 0 ? "Please Enter Your Number" : "",
+        contactData.phoneNo?.length === 0 ? Data.ErrorLabel.mobileNo : "",
     };
 
-    if ((error.name === "" && error.email === "") || error.phoneNo === "")
+    if (error.name === "" && (error.email === "" || error.phoneNo === ""))
       return setContactError(null), setcontactFormVarify(!contactFormVarify);
     return setContactError(error);
   };
@@ -54,7 +52,7 @@ const ContactDetails = (props) => {
               name="name"
               class="form-control"
               aria-describedby="emailHelp"
-              placeholder="Enter Name"
+              placeholder={Data.PlaceHolderLabel.name}
               value={contactData.name}
               onChange={(e) => handleContactInput(e)}
             />
@@ -65,7 +63,7 @@ const ContactDetails = (props) => {
               type="email"
               name="email"
               class="form-control"
-              placeholder="Enter Email"
+              placeholder={Data.PlaceHolderLabel.email}
               value={contactData.email}
               onChange={(e) => handleContactInput(e)}
             />
@@ -76,7 +74,7 @@ const ContactDetails = (props) => {
               type="number"
               name="phoneNo"
               class="form-control"
-              placeholder="Enter Mobile No"
+              placeholder={Data.PlaceHolderLabel.mobileNo}
               value={contactData.phoneNo}
               onChange={(e) => handleContactInput(e)}
             />
@@ -85,7 +83,7 @@ const ContactDetails = (props) => {
             )}
             <textarea
               class="form-control"
-              placeholder="Message"
+              placeholder={Data.PlaceHolderLabel.message}
               rows="2"
               name="message"
               value={contactData.message}
@@ -111,7 +109,9 @@ const ContactDetails = (props) => {
                     : contactDataValidation()
                 }
               >
-                {contactError === null ? "Submit" : "Varify Details"}
+                {contactError === null
+                  ? Data.LabelData.submit
+                  : Data.LabelData.varifyDetails}
               </button>
             </div>
           </div>

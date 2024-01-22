@@ -67,11 +67,11 @@ const Destination = (props) => {
     <>
       <div className="destination" id="Search Destination">
         <p className="destination-title">{Data.Destination.title}</p>
-        <p className="destination-subTitle">{Data.Destination.desc}</p>
+        <p className="destination-subTitle">{Data.Destination.subTitle}</p>
 
         <div className="destination-search">
           <Select
-            placeholder="Select Country..."
+            placeholder={Data.PlaceHolderLabel.selectCountry}
             isSearchable={true}
             options={countryOption}
             onChange={(e) => setSearchBox(e.value)}
@@ -83,7 +83,7 @@ const Destination = (props) => {
             }`}
             disabled={searchBox !== "" ? false : true}
           >
-            Search
+            {Data.LabelData.search}
           </button>
         </div>
 
@@ -134,7 +134,9 @@ const Destination = (props) => {
             }`}
             onClick={() => setDestinationViewMore(!destinationViewMore)}
           >
-            {destinationViewMore ? "View Less" : "View More"}
+            {destinationViewMore
+              ? Data.LabelData.viewLess
+              : Data.LabelData.viewMore}
           </button>
         </div>
       </div>

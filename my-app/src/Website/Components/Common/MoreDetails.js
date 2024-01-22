@@ -29,16 +29,16 @@ const MoreDetails = (props) => {
 
   const [detailsCountry, setDetailsCountry] = useState("");
 
-  const descOffers = Data.Destination?.["desc-offers"];
+  const descOffers = Data.Destination?.["destination-offers"];
   const hotelsOffers = Data.Destination?.["hotels-offers"];
 
   const AllCountry = Data.PhoneNoValidation.sort((a, b) =>
-    a.Country.localeCompare(b.Country)
+    a.country.localeCompare(b.country)
   );
 
   const AllCountryOption = AllCountry.map((item) => ({
-    label: item.Country,
-    value: item.Country,
+    label: item.country,
+    value: item.country,
   }));
 
   const dataValidation = () => {
@@ -47,27 +47,29 @@ const MoreDetails = (props) => {
     const currentDate = new Date();
     const selectedDate = new Date(inputData.TDate);
     const PhoneNoLength = AllCountry.filter(
-      (item) => item.Country === detailsCountry
-    )[0]?.["PhoneNo Length"];
+      (item) => item.country === detailsCountry
+    )[0]?.numberLength;
 
     const error = {
-      Fname: inputData.Fname === "" ? "Please Enter Your First Name" : "",
-      Email: !redgeEmail.test(inputData.Email) ? "Invalid Email" : "",
-      Country: detailsCountry === "" ? "Please Select Your Country" : "",
+      Fname: inputData.Fname === "" ? Data.ErrorLabel.name : "",
+      Email: !redgeEmail.test(inputData.Email)
+        ? Data.ErrorLabel.invalidEmail
+        : "",
+      Country: detailsCountry === "" ? Data.ErrorLabel.selectCountry : "",
       MobileNo:
         detailsCountry === ""
-          ? "Select Country to varify Mobile number"
+          ? Data.ErrorLabel.verifyMobileNo
           : inputData.MobileNo?.length === Number(PhoneNoLength)
           ? ""
-          : "Invalid Number",
+          : Data.ErrorLabel.invalidMobileNo,
       TDate:
         inputData.TDate === ""
-          ? "Please Enter Date of Trip"
+          ? Data.ErrorLabel.enterDate
           : selectedDate - currentDate <= 0
-          ? "Date is Expired"
+          ? Data.ErrorLabel.expiredDate
           : "",
-      Members: inputData?.Members === "" ? "Please Enter Total Members" : "",
-      Rooms: inputData?.Rooms === "" ? "Please Enter Rooms Required" : "",
+      Members: inputData?.Members === "" ? Data.ErrorLabel.members : "",
+      Rooms: inputData?.Rooms === "" ? Data.ErrorLabel.rooms : "",
     };
 
     if (
@@ -155,23 +157,23 @@ const MoreDetails = (props) => {
                 </div>
                 <div className="moreDetails-readMore">
                   {id === "places" && (
-                    <ReadMoreandLess
-                      text={selectedCard[0]?.desc}
-                      Showmore="Read More"
-                      ShowLess="Read Less"
-                    />
+                    <ReadMoreandLess Data={Data} text={selectedCard[0]?.desc} />
                   )}
                 </div>
                 <div className="moreDetails-info">
                   <div>
-                    <h3>Price</h3>
+                    <h3>{Data.LabelData.price}</h3>
                   </div>
                   <div>
                     <h3>{selectedCard[0]?.["avg-cost"]}/-</h3>
                   </div>
                 </div>
                 <div className="moreDetails-cardDetails">
-                  <h3>{id === "places" ? "Trip Details" : "Hotel Details"}</h3>
+                  <h3>
+                    {id === "places"
+                      ? Data.LabelData.tripDetails
+                      : Data.LabelData.hotelDetails}
+                  </h3>
                   {id === "places" ? (
                     <>
                       {descOffers.map((item) => (
@@ -187,7 +189,7 @@ const MoreDetails = (props) => {
                   )}
                 </div>
                 <p className="moreDetails-alertMessage">
-                  For more details please fill the form{" "}
+                  {Data.LabelData.formoredetailspleasefilltheform}{" "}
                 </p>
               </div>
             </div>
@@ -197,7 +199,7 @@ const MoreDetails = (props) => {
                 data-bs-target={`#${id}2`}
                 data-bs-toggle="modal"
               >
-                Form
+                {Data.LabelData.form}
               </button>
             </div>
           </div>
@@ -214,7 +216,7 @@ const MoreDetails = (props) => {
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id={`${id}Label2`}>
-                Client Details
+                {Data.LabelData.clientDetails}
               </h1>
               <button
                 type="button"
@@ -230,7 +232,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="text"
-                    placeholder="First Name"
+                    placeholder={Data.PlaceHolderLabel.name}
                     name="Fname"
                     onChange={handleData}
                     value={inputData.Fname}
@@ -246,7 +248,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="email"
-                    placeholder="email Id"
+                    placeholder={Data.PlaceHolderLabel.email}
                     name="Email"
                     onChange={handleData}
                     value={inputData.Email}
@@ -261,7 +263,7 @@ const MoreDetails = (props) => {
                 </div>
                 <div className="moreDetails-formInput">
                   <Select
-                    placeholder="Select Country..."
+                    placeholder={Data.PlaceHolderLabel.selectCountry}
                     isSearchable={true}
                     options={AllCountryOption}
                     onChange={(e) => setDetailsCountry(e.value)}
@@ -277,7 +279,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="number"
-                    placeholder="Phone Number"
+                    placeholder={Data.PlaceHolderLabel.mobileNo}
                     name="MobileNo"
                     onChange={handleData}
                     value={inputData.MobileNo}
@@ -293,7 +295,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="date"
-                    placeholder="Date of Travel"
+                    placeholder={Data.PlaceHolderLabel.dateTravel}
                     name="TDate"
                     onChange={handleData}
                     value={inputData.TDate}
@@ -310,7 +312,9 @@ const MoreDetails = (props) => {
                   <input
                     type="number"
                     placeholder={
-                      id === "places" ? "Total Members" : "Rooms Required"
+                      id === "places"
+                        ? Data.PlaceHolderLabel.totalMembers
+                        : Data.PlaceHolderLabel.roomsRequired
                     }
                     name={id === "places" ? "Members" : "Rooms"}
                     onChange={handleData}
@@ -327,17 +331,18 @@ const MoreDetails = (props) => {
                   )}
                 </div>
                 <textarea
-                  placeholder="Specific Requirement"
+                  placeholder={Data.PlaceHolderLabel.specificRequirement}
                   className="moreDetails-textarea"
                 />
                 {error ? (
                   <p className="moreDetails-errorVarify">
-                    Please Enter All <StarRoundedIcon /> Forms
+                    {Data.LabelData.pleaseEnterAll} <StarRoundedIcon />{" "}
+                    {Data.LabelData.form}
                   </p>
                 ) : (
                   varified && (
                     <p className="moreDetails-successVarify">
-                      Form is varified{" "}
+                      {Data.LabelData.formisvarified}{" "}
                     </p>
                   )
                 )}
@@ -349,7 +354,7 @@ const MoreDetails = (props) => {
                 data-bs-target={`#${id}`}
                 data-bs-toggle="modal"
               >
-                Back to Details
+                {Data.LabelData.backtoDetails}
               </button>
               <button
                 class={varified ? "btn btn-success" : "btn btn-primary"}
@@ -357,7 +362,9 @@ const MoreDetails = (props) => {
                 onClick={!varified ? dataValidation : handleBooking}
                 data-bs-toggle={error === null ? "modal" : ""}
               >
-                {!varified ? "Varify Forms" : "Book Now"}
+                {!varified
+                  ? Data.LabelData.verifyForms
+                  : Data.LabelData.bookNow}
               </button>
             </div>
           </div>
@@ -384,18 +391,17 @@ const MoreDetails = (props) => {
             </div>
             <div class="modal-body">
               <p>
-                <h1>Thank you!</h1>
-                Our Customer Support team will connect with you in next 24hrs.
+                <h1>{Data.LabelData.thankyou}</h1>
+                {Data.LabelData.thankyouInfo}
               </p>
               {id === "places" && (
                 <>
                   <p className="moreDetails-noteInfo">
-                    <h2>Note:</h2>
-                    We give much important to customers safety and comfort so we
-                    offer our customer best hotels of there own choice.
+                    <h2>{Data.LabelData.note}:</h2>
+                    {Data.LabelData.noteInfo}
                   </p>
                   <p className="moreDetails-bookHotel">
-                    So please visit our special offers block to book the Hotels.
+                    {Data.LabelData.visitHotels}
                   </p>
                   <button
                     class="btn btn-primary"
@@ -412,7 +418,7 @@ const MoreDetails = (props) => {
                       offset={-150}
                       duration={1000}
                     >
-                      Book Hotel
+                      {Data.LabelData.bookHotel}
                     </Link>
                   </button>
                 </>

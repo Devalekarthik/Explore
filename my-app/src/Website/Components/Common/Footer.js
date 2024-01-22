@@ -26,9 +26,9 @@ const Footer = (props) => {
     const error = {
       email:
         subEmail.email?.length === 0
-          ? "Please Enter Email Id"
+          ? Data.ErrorLabel.enterEmail
           : !redgeEmail.test(subEmail.email)
-          ? "Please Enter Valid Email ID"
+          ? Data.ErrorLabel.email
           : "",
     };
 
@@ -45,30 +45,28 @@ const Footer = (props) => {
   return (
     <div className="footer">
       <div className="footer-company">
-        <div className="footer-title">{Data.header.company}</div>
-        <p className="footer-subTitle">Choose your favourite destination.</p>
-        <p className="footer-info">
-          This Travel website will provide you the best deals to travel your
-          dream destination. We also offer you the safe and best hotels for
-          reasonable price.
-        </p>
+        <div className="footer-title">{Data.Header.company}</div>
+        <p className="footer-subTitle">{Data.Header.subTitle}</p>
+        <p className="footer-info">{Data.Footer["footer-info"]}</p>
       </div>
       <div className="footer-connections">
         <div className="footer-subscribtion">
-          <div className="footer-connectionTitle">Keep Connected</div>
+          <div className="footer-connectionTitle">
+            {Data.LabelData.keepConnected}
+          </div>
           <div class="form-group">
             <label
               for="recipient-name"
               class="col-form-label footer-emailLabel"
             >
-              SUBSCRIBE
+              {Data.LabelData.subscribe}
             </label>
             <input
               type="text"
               class="form-control"
               id="recipient-name"
               name="email"
-              placeholder="Enter Email Id"
+              placeholder={Data.PlaceHolderLabel.email}
               value={subEmail.email}
               onChange={(e) => handlefooteremail(e)}
             />
@@ -76,7 +74,9 @@ const Footer = (props) => {
               <p className="footer-error">*{footerError?.email}</p>
             )}
             {emailSuccess && (
-              <p className="footer-success">Subscription Successful</p>
+              <p className="footer-success">
+                {Data.LabelData.subscriptionSuccessful}
+              </p>
             )}
             <button
               onClick={() =>
@@ -84,12 +84,14 @@ const Footer = (props) => {
               }
               className="footer-subscribeBtn"
             >
-              SUBSCRIBE
+              {Data.LabelData.subscribe}
             </button>
           </div>
         </div>
         <div className="footer-contactInfo">
-          <div className="footer-connectionTitle">Contact Info</div>
+          <div className="footer-connectionTitle">
+            {Data.LabelData.contactInfo}
+          </div>
           <p className="footer-tagsInfo">
             <li>
               <PhoneAndroidRoundedIcon />{" "}

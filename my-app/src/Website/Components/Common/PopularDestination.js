@@ -7,18 +7,19 @@ const PopularDestination = (props) => {
   return (
     <div className="popular-destination">
       <div className="popular-wrapper" id="Popular Destination">
-        <p className="popular-title">{Data.home.desc["desc-title"]}</p>
-        <div className="popular-subTitle">{Data.home.desc["desc-info"]}</div>
-        {Data.home["travel-places"].map((item) => {
+        <p className="popular-title">{Data.PopularDestination.title}</p>
+        <div className="popular-subTitle">
+          {Data.PopularDestination.subTitle}
+        </div>
+        {Data.PopularDestination.travelPlaces.map((item) => {
           return (
             <div className="popularBlock">
               <div className="popularBlock-text">
                 <div className="popularBlock-title">{item.title}</div>
                 <p className="popularBlock-infoMobile">
                   <ReadMoreandLess
+                    Data={Data}
                     text={item.info}
-                    Showmore="Read More"
-                    ShowLess="Read Less"
                   />
                 </p>
                 <p className="popularBlock-info">{item.info}</p>

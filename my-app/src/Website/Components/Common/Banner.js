@@ -7,10 +7,10 @@ const Banner = (prop) => {
   return (
     <div className="banner">
       <video src={HomeVideo} className="banner-video" autoPlay loop muted />
-      {Data?.home?.title && (
+      {Data?.Header?.title && (
         <div className="banner-info">
-          <div className="banner-title">{Data?.home?.title}</div>
-          <p className="banner-text">{Data?.home?.text}</p>
+          <div className="banner-title">{Data?.Header?.title}</div>
+          <p className="banner-text">{Data?.Header?.subTitle}</p>
         </div>
       )}
     </div>
