@@ -51,23 +51,25 @@ const MoreDetails = (props) => {
     )[0]?.numberLength;
 
     const error = {
-      Fname: inputData.Fname === "" ? "Please Enter Your First Name" : "",
-      Email: !redgeEmail.test(inputData.Email) ? "Invalid Email" : "",
-      Country: detailsCountry === "" ? "Please Select Your Country" : "",
+      Fname: inputData.Fname === "" ? Data.ErrorLabel.name : "",
+      Email: !redgeEmail.test(inputData.Email)
+        ? Data.ErrorLabel.invalidEmail
+        : "",
+      Country: detailsCountry === "" ? Data.ErrorLabel.selectCountry : "",
       MobileNo:
         detailsCountry === ""
-          ? "Select Country to varify Mobile number"
+          ? Data.ErrorLabel.verifyMobileNo
           : inputData.MobileNo?.length === Number(PhoneNoLength)
           ? ""
-          : "Invalid Number",
+          : Data.ErrorLabel.invalidMobileNo,
       TDate:
         inputData.TDate === ""
-          ? "Please Enter Date of Trip"
+          ? Data.ErrorLabel.enterDate
           : selectedDate - currentDate <= 0
-          ? "Date is Expired"
+          ? Data.ErrorLabel.expiredDate
           : "",
-      Members: inputData?.Members === "" ? "Please Enter Total Members" : "",
-      Rooms: inputData?.Rooms === "" ? "Please Enter Rooms Required" : "",
+      Members: inputData?.Members === "" ? Data.ErrorLabel.members : "",
+      Rooms: inputData?.Rooms === "" ? Data.ErrorLabel.rooms : "",
     };
 
     if (
@@ -230,7 +232,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="text"
-                    placeholder={Data.placeHolderLabel.name}
+                    placeholder={Data.PlaceHolderLabel.name}
                     name="Fname"
                     onChange={handleData}
                     value={inputData.Fname}
@@ -246,7 +248,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="email"
-                    placeholder={Data.placeHolderLabel.email}
+                    placeholder={Data.PlaceHolderLabel.email}
                     name="Email"
                     onChange={handleData}
                     value={inputData.Email}
@@ -261,7 +263,7 @@ const MoreDetails = (props) => {
                 </div>
                 <div className="moreDetails-formInput">
                   <Select
-                    placeholder={Data.placeHolderLabel.selectCountry}
+                    placeholder={Data.PlaceHolderLabel.selectCountry}
                     isSearchable={true}
                     options={AllCountryOption}
                     onChange={(e) => setDetailsCountry(e.value)}
@@ -277,7 +279,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="number"
-                    placeholder={Data.placeHolderLabel.mobileNo}
+                    placeholder={Data.PlaceHolderLabel.mobileNo}
                     name="MobileNo"
                     onChange={handleData}
                     value={inputData.MobileNo}
@@ -293,7 +295,7 @@ const MoreDetails = (props) => {
                 <div className="moreDetails-formInput">
                   <input
                     type="date"
-                    placeholder={Data.placeHolderLabel.dateTravel}
+                    placeholder={Data.PlaceHolderLabel.dateTravel}
                     name="TDate"
                     onChange={handleData}
                     value={inputData.TDate}
@@ -311,8 +313,8 @@ const MoreDetails = (props) => {
                     type="number"
                     placeholder={
                       id === "places"
-                        ? Data.placeHolderLabel.totalMembers
-                        : Data.placeHolderLabel.roomsRequired
+                        ? Data.PlaceHolderLabel.totalMembers
+                        : Data.PlaceHolderLabel.roomsRequired
                     }
                     name={id === "places" ? "Members" : "Rooms"}
                     onChange={handleData}
@@ -329,7 +331,7 @@ const MoreDetails = (props) => {
                   )}
                 </div>
                 <textarea
-                  placeholder={Data.placeHolderLabel.specificRequirement}
+                  placeholder={Data.PlaceHolderLabel.specificRequirement}
                   className="moreDetails-textarea"
                 />
                 {error ? (

@@ -72,15 +72,13 @@ const Login = (props) => {
     const redgeEmail = /^[a-z0-9A-Z]+@[a-z]+\.[a-z]{2,3}$/;
 
     const error = {
-      name: loginData.name === "" ? "Please Enter Your Name" : "",
-      email: !redgeEmail.test(loginData.email)
-        ? "Please Enter Valid Email ID"
-        : "",
+      name: loginData.name === "" ? Data.ErrorLabel.name : "",
+      email: !redgeEmail.test(loginData.email) ? Data.ErrorLabel.email : "",
       password:
         loginData.password === ""
-          ? "Enter Password"
+          ? Data.ErrorLabel.enterPassword
           : loginData.password.length < 5
-          ? "Week Password"
+          ? Data.ErrorLabel.weekPassword
           : "",
     };
 

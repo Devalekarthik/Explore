@@ -1994,7 +1994,7 @@
         "visitHotels": "So please visit our special offers block to book the Hotels.",
         "bookHotel": "Book Hotel"
     },
-    "placeHolderLabel": {
+    "PlaceHolderLabel": {
         "name": "Enter Name",
         "email": "Enter Email Id",
         "mobileNo": "Enter Mobile No",
@@ -2004,5 +2004,21 @@
         "totalMembers": "Total Members",
         "roomsRequired": "Rooms Required",
         "specificRequirement": "Specific Requirement"
+    },
+    "ErrorLabel": {
+        "name": "Please Enter Your Name",
+        "enterEmail": "Please Enter Email Id",
+        "email": "Please Enter Valid Email ID",
+        "invalidEmail": "Invalid Email",
+        "mobileNo": "Please Enter Your Number",
+        "verifyMobileNo": "Select Country to varify Mobile number",
+        "invalidMobileNo": "Invalid Number",
+        "enterPassword": "Enter Password",
+        "weekPassword": "Week Password",
+        "selectCountry": "Please Select Your Country",
+        "enterDate": "Please Enter Date of Trip",
+        "expiredDate": "Date is Expired",
+        "members": "Please Enter Total Members",
+        "rooms": "Please Enter Rooms Required"
     }
 }

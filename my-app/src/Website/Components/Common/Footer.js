@@ -26,9 +26,9 @@ const Footer = (props) => {
     const error = {
       email:
         subEmail.email?.length === 0
-          ? "Please Enter Email Id"
+          ? Data.ErrorLabel.enterEmail
           : !redgeEmail.test(subEmail.email)
-          ? "Please Enter Valid Email ID"
+          ? Data.ErrorLabel.email
           : "",
     };
 
@@ -66,7 +66,7 @@ const Footer = (props) => {
               class="form-control"
               id="recipient-name"
               name="email"
-              placeholder={Data.placeHolderLabel.email}
+              placeholder={Data.PlaceHolderLabel.email}
               value={subEmail.email}
               onChange={(e) => handlefooteremail(e)}
             />
