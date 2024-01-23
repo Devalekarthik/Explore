@@ -18,7 +18,6 @@ const MoreDetails = (props) => {
     Rooms: "",
   });
   const [error, setError] = useState();
-  const [varified, setVarified] = useState(false);
 
   const handleData = (e) => {
     setInputData({
@@ -80,7 +79,7 @@ const MoreDetails = (props) => {
       error.TDate === "" &&
       (id === "places" ? error.Members : error.Rooms) === ""
     ) {
-      return setError(null), setVarified(!varified);
+      return setError(null);
     }
 
     return setError(error);
@@ -103,8 +102,11 @@ const MoreDetails = (props) => {
       Rooms: "",
     });
     setError("");
-    setVarified(false);
   }, [selectedCard]);
+
+  useEffect(() => {
+    setError("");
+  }, [inputData]);
 
   return (
     <div className="moreDetails">
@@ -236,7 +238,6 @@ const MoreDetails = (props) => {
                     name="Fname"
                     onChange={handleData}
                     value={inputData.Fname}
-                    disabled={!varified ? false : true}
                   />
                   {error?.Fname && (
                     <p className="moreDetails-errorTag">
@@ -252,7 +253,6 @@ const MoreDetails = (props) => {
                     name="Email"
                     onChange={handleData}
                     value={inputData.Email}
-                    disabled={!varified ? false : true}
                   />
                   {error?.Email && (
                     <p className="moreDetails-errorTag">
@@ -267,7 +267,6 @@ const MoreDetails = (props) => {
                     isSearchable={true}
                     options={AllCountryOption}
                     onChange={(e) => setDetailsCountry(e.value)}
-                    isDisabled={!varified ? false : true}
                   />
                   {error?.Country && (
                     <p className="moreDetails-errorTag">
@@ -283,7 +282,6 @@ const MoreDetails = (props) => {
                     name="MobileNo"
                     onChange={handleData}
                     value={inputData.MobileNo}
-                    disabled={!varified ? false : true}
                   />
                   {error?.MobileNo && (
                     <p className="moreDetails-errorTag">
@@ -299,7 +297,6 @@ const MoreDetails = (props) => {
                     name="TDate"
                     onChange={handleData}
                     value={inputData.TDate}
-                    disabled={!varified ? false : true}
                     className="moreDetails-formDate"
                   />
                   {error?.TDate && (
@@ -322,7 +319,6 @@ const MoreDetails = (props) => {
                     value={
                       id === "places" ? inputData.Members : inputData.Rooms
                     }
-                    disabled={!varified ? false : true}
                   />
                   {(id === "places" ? error?.Members : error?.Rooms) && (
                     <p className="moreDetails-errorTag">
@@ -341,7 +337,7 @@ const MoreDetails = (props) => {
                     {Data.LabelData.form}
                   </p>
                 ) : (
-                  varified && (
+                  error === null && (
                     <p className="moreDetails-successVarify">
                       {Data.LabelData.formisvarified}{" "}
                     </p>
@@ -358,14 +354,14 @@ const MoreDetails = (props) => {
                 {Data.LabelData.backtoDetails}
               </button>
               <button
-                class={varified ? "btn btn-success" : "btn btn-primary"}
+                class={error === null ? "btn btn-success" : "btn btn-primary"}
                 data-bs-target={`#${id}3`}
-                onClick={!varified ? dataValidation : handleBooking}
+                onClick={error === null ? handleBooking : dataValidation}
                 data-bs-toggle={error === null ? "modal" : ""}
               >
-                {!varified
-                  ? Data.LabelData.verifyForms
-                  : Data.LabelData.bookNow}
+                {error === null
+                  ? Data.LabelData.bookNow
+                  : Data.LabelData.verifyForms}
               </button>
             </div>
           </div>

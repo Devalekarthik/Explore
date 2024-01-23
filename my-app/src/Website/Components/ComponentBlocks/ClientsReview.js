@@ -104,7 +104,7 @@ const ClientsReview = (props) => {
             className={`client-pic ${clientViewMore && "clients-viewMorePic"} `}
           />
           <img
-            src="./ClientReview.PNG"
+            src="./ClientReview/ClientReview.PNG"
             className={`client-bgPic ${
               clientViewMore && "clients-viewMoreBgPic"
             }`}
