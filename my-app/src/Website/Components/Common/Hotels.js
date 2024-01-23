@@ -36,7 +36,7 @@ const Hotels = (props) => {
   return (
     <div className="hotels" id="Hotels">
       <div className="hotels-offers">
-        <img src="hotelsPlanImg.jpg" className="hotels-bgimg" />
+        <img src="./Hotel/hotelsPlanImg.jpg" className="hotels-bgimg" />
         <span className="hotels-specialTag">
           {Data.LabelData.specialOffers}
         </span>

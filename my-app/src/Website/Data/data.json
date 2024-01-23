@@ -1287,7 +1287,7 @@
     "Portfolio": {
         "Personal-Details": {
             "Name": "Karthik D",
-            "Img": "./myprofile.jpg",
+            "Img": "./Profile/myprofile.jpg",
             "Role": "System Engineer",
             "Designation": "(Front-End, React Developer)",
             "Mobile-No": "+91 9742534213",

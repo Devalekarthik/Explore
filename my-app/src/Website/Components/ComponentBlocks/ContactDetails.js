@@ -41,7 +41,7 @@ const ContactDetails = (props) => {
     <div className="contact" id="Contact">
       <div className="contact-details">
         <div className="contact-img">
-          <img src="./ContactUs.jpg" className="contact-image" />
+          <img src="./ContactUs/ContactUs.jpg" className="contact-image" />
         </div>
         <div className="contact-form">
           <div className="contact-title">{Data.ContactUs.Title}</div>
