@@ -92,31 +92,31 @@
                 "hotels": [
                     {
                         "place": "The Oberoi Amarvilas",
-                        "Img": "https://149827848.v2.pressablecdn.com/wp-content/uploads/2022/06/amarvilas1.jpg",
+                        "Img": "./Hotel/India/Amarvilas.jpg",
                         "rating": 4.8,
                         "avg-cost": "60,000"
                     },
                     {
                         "place": "Hotel Pratap",
-                        "Img": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/6e/4e/71/getlstd-property-photo.jpg?w=600&h=-1&s=1",
+                        "Img": "./Hotel/India/Pratap.jpg",
                         "rating": 3.9,
                         "avg-cost": "5,000"
                     },
                     {
                         "place": "Hotel Atulyaa Taj",
-                        "Img": "https://i.travelapi.com/lodging/8000000/7840000/7835800/7835798/c668b4d6_z.jpg",
+                        "Img":  "./Hotel/India/AtulyaaTaj.png",
                         "rating": 4.0,
                         "avg-cost": "10,000"
                     },
                     {
                         "place": "Tajview, Agra - IHCL SeleQtions",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/1/0/27/648/715/Facade_P.jpg",
+                        "Img": "./Hotel/India/Tajview.jpg",
                         "rating": 4.4,
                         "avg-cost": "22,000"
                     },
                     {
                         "place": "Howard Plaza The Fern",
-                        "Img": "http://www.cfmedia.vfmleonardo.com/imageRepo/1/0/34/211/369/_AKP3378_P.jpg",
+                        "Img":  "./Hotel/India/HowardPlaza.jpg",
                         "rating": 4.2,
                         "avg-cost": "15,000"
                     }
@@ -133,19 +133,19 @@
                 "hotels": [
                     {
                         "place": "Hotel Grand Cabbana By LevelUp Hotels & Resorts",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/401151586.jpg?k=1850060a0193b464ca7abf3e30372b50c45ff526b0a17f73b1b1ef9ae6bd370c&o=",
+                        "Img": "./Hotel/India/GrandCabbana.jpg",
                         "rating": 4.0,
                         "avg-cost": "2,500"
                     },
                     {
                         "place": "Sawera Grand",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/388510430.jpg?k=6749aeb191656068d40a7c5ed0c490d70a9903b4a2e982964f269e3b6cba15bc&o=",
+                        "Img": "./Hotel/India/SaweraGrand.jpg",
                         "rating": 4.2,
                         "avg-cost": "3,500"
                     },
                     {
                         "place": "Regenta Central",
-                        "Img": "https://media-cdn.tripadvisor.com/media/photo-s/0b/86/9a/a5/hotel-facade.jpg",
+                        "Img": "./Hotel/India/RegentaCentral.jpg",
                         "rating": 4.9,
                         "avg-cost": "7,000"
                     }
@@ -162,25 +162,25 @@
                 "hotels": [
                     {
                         "place": "Godwin Hotels",
-                        "Img": "https://i.travelapi.com/lodging/4000000/3940000/3934400/3934328/bf3bd795_z.jpg",
+                        "Img": "./Hotel/India/Godwin.png",
                         "rating": 3.9,
                         "avg-cost": "2,500"
                     },
                     {
                         "place": "The Park New Delhi",
-                        "Img": "https://www.theparkhotels.com/images/site-specific/navi-mumbai/home/navi-mumbai-night-view.jpg",
+                        "Img": "./Hotel/India/Park.jpg",
                         "rating": 4.2,
                         "avg-cost": "8,000"
                     },
                     {
                         "place": "The Lodhi",
-                        "Img": "https://www.greatsmallhotels.com/photos/57898_the-lodhi_.jpg",
+                        "Img": "./Hotel/India/Lodhi.jpg",
                         "rating": 4.6,
                         "avg-cost": "22,000"
                     },
                     {
                         "place": "The Imperial",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/64758896.jpg?k=0bc582bc999d95252459f934c8d06fce64769be4a4f96be2815708ce309c234c&o=",
+                        "Img": "./Hotel/India/Imperial.jpg",
                         "rating": 4.7,
                         "avg-cost": "25,000"
                     }
@@ -197,31 +197,31 @@
                 "hotels": [
                     {
                         "place": "Radisson Blu Plaza Hotel, Mysore",
-                        "Img": "https://a.mktgcdn.com/p/obnIIHzr00Rm0kl_oYf-6S0LrMqCeFrt8lmqWafB_Gk/3839x2559.jpg",
+                        "Img": "./Hotel/India/Radisson.jpg",
                         "rating": 4.5,
                         "avg-cost": "9,000"
                     },
                     {
                         "place": "Ginger Mysore",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1024x768/47782076.jpg?k=7584d6be74bc7ab00432734e852c3e73af227ec3f1de9f19c0bbeb29bb1058db&o=",
+                        "Img": "./Hotel/India/Ginger.jpg",
                         "rating": 3.8,
                         "avg-cost": "3,500"
                     },
                     {
                         "place": "Hotel Lok Sagar",
-                        "Img": "https://i.travelapi.com/hotels/24000000/23940000/23938500/23938493/7abc018d_z.jpg",
+                        "Img": "./Hotel/India/LokSagar.png",
                         "rating": 4.6,
                         "avg-cost": "5,000"
                     },
                     {
                         "place": "Sandesh The Prince",
-                        "Img": "https://media.hrs.com/media/image/31/40/b2/Sandesh_the_Prince-Mysore-Hotel_outdoor_area-217877_600x600.jpg",
+                        "Img": "./Hotel/India/Sandesh.jpg",
                         "rating": 4.1,
                         "avg-cost": "3,000"
                     },
                     {
                         "place": "Hotel Southern Star Mysuru",
-                        "Img": "https://i.travelapi.com/lodging/1000000/10000/3400/3385/94458451_z.jpg",
+                        "Img": "./Hotel/India/SouthernStar.png",
                         "rating": 4.2,
                         "avg-cost": "5,000"
                     }
@@ -238,25 +238,25 @@
                 "hotels": [
                     {
                         "place": "Umaid Residency - A Regal Heritage Home",
-                        "Img": "https://i.travelapi.com/lodging/8000000/7500000/7495500/7495463/b421ebad_z.jpg",
+                        "Img": "./Hotel/India/UmaidResidency.png",
                         "rating": 4.1,
                         "avg-cost": "3,500"
                     },
                     {
                         "place": "Hotel Amer View",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/101039565.jpg?k=f3bb3fdbdf472f989af740adceedf39cd085ebb2bb118677a4dc2dbfe1723ea0&o=",
+                        "Img": "./Hotel/India/AmerView.jpg",
                         "rating": 4.1,
                         "avg-cost": "2,500"
                     },
                     {
                         "place": "Amer Valley",
-                        "Img": "https://m.weddingz.in/wedz-img/images/bac2777cc8ea6d26cb72a488243a5b62/park-regis-park-regis.jpg?imwidth=300",
+                        "Img": "./Hotel/India/AmerValley.png",
                         "rating": 3.9,
                         "avg-cost": "2,000"
                     },
                     {
                         "place": "Trident Jaipur",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/32617580.jpg?k=e26294a2cfbc4aa416f1118f7986fbd3060c6cf54b9f589df44a5f247cb0a90b&o=",
+                        "Img": "./Hotel/India/Trident.jpg",
                         "rating": 4.4,
                         "avg-cost": "8,000"
                     }
@@ -273,31 +273,31 @@
                 "hotels": [
                     {
                         "place": "Kyriad Prestige Calangute Goa by OTHPL",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/202993107.jpg?k=cb10aae3ce523377c8e4fa2e8ce444d4a10d9a7f70d385b98d7fbc4cda51b0e9&o=",
+                        "Img": "./Hotel/India/Kyriad.jpg",
                         "rating": 4.1,
                         "avg-cost": "7,500"
                     },
                     {
                         "place": "Acron Waterfront Resort",
-                        "Img": "https://cdn0.weddingwire.in/vendor/8936/3_2/960/jpg/22282073-1080633492040137-5856632465356605451-n_15_78936.webp",
+                        "Img": "./Hotel/India/AcronWaterfront.png",
                         "rating": 4.3,
                         "avg-cost": "8,000"
                     },
                     {
                         "place": "DoubleTree by Hilton Hotel Goa - Arpora - Baga",
-                        "Img": "https://im.whatshot.in/img/2020/Jul/maxresdefault-1594906339.jpg",
+                        "Img": "./Hotel/India/DoubleTree.jpg",
                         "rating": 4.5,
                         "avg-cost": "15,000"
                     },
                     {
                         "place": "Resort Rio, Goa",
-                        "Img": "https://q-xx.bstatic.com/xdata/images/hotel/max1280x900/94162918.jpg?k=2fd5032751981a332ef9288f34be55ada020c9387abe8fd250d5167983e84e60&o=",
+                        "Img": "./Hotel/India/ResortRio.jpg",
                         "rating": 4.4,
                         "avg-cost": "10,000"
                     },
                     {
                         "place": "Paparazzi Resort",
-                        "Img": "https://i.travelapi.com/lodging/12000000/11530000/11529100/11529092/b1ee4d1f_z.jpg",
+                        "Img": "./Hotel/India/Paparazzi.jpg",
                         "rating": 3.2,
                         "avg-cost": "4,500"
                     }
