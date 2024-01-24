@@ -153,6 +153,24 @@
         scroll-behavior: auto;
         transition: 1s ease-in-out;
 
+        &::-webkit-scrollbar {
+            width: 0.3125rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
         @media (max-width: $mobile) {
             max-height: 17rem;
         }
@@ -213,12 +231,6 @@
 
         .destination-cards1 {
             display: none;
-        }
-    }
-
-    .destination-viewMoreBlockScroll {
-        @media (min-width: $mobile) {
-            right: 0.625rem;
         }
     }
 }

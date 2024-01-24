@@ -85,13 +85,7 @@ const Hotels = (props) => {
         >
           <Cards {...hotelsCardsData} />
         </div>
-        <div
-          className={`hotels-cardsviewMoreBlock ${
-            hotelsViewMore &&
-            hotelsList.length > 1 &&
-            "hotels-cardsviewMoreBlockScroll"
-          }`}
-        >
+        <div className="hotels-cardsviewMoreBlock">
           <button
             className={`hotels-viewMoreBtn
             ${
