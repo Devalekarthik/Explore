@@ -1,11 +1,14 @@
 .footer {
-    padding: 2rem 3rem;
+    padding: 2rem 0rem 1rem 3rem;
     background-color: black;
     color: white;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 1rem;
+
+    @media (max-width: $desktop) {
+        padding-right: 3rem;
+    }
 
     @media (max-width: $tabs) {
         gap: 0rem;
