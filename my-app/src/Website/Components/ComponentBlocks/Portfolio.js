@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import PhoneAndroidRoundedIcon from "@mui/icons-material/PhoneAndroidRounded";
 import MailOutlinedIcon from "@mui/icons-material/MailOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -11,22 +11,47 @@ import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const Portfolio = (props) => {
   const { Data } = props;
 
+  const [selectedPortfolioCard, setSelectedPortfolioCard] =
+    useState("Career Objective");
+
+  const handlePortfolio = (title) => {
+    setSelectedPortfolioCard(title === selectedPortfolioCard ? null : title);
+  };
+
   const accordion = (title, details) => {
     return (
-      <div className="portfolio-accordion">
-        <Accordion
-          defaultExpanded={title === "Career Objective" ? true : false}
-        >
-          <AccordionSummary
-            expandIcon={<ExpandMoreIcon />}
-            aria-controls="panel1a-content"
-            id="panel1a-header"
+      <>
+        <div className="portfolio-accordion">
+          <Accordion
+            defaultExpanded={title === "Career Objective" ? true : false}
           >
-            <div className="accordion-title">{title}</div>
-          </AccordionSummary>
-          <AccordionDetails>{details}</AccordionDetails>
-        </Accordion>
-      </div>
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <div className="accordion-title">{title}</div>
+            </AccordionSummary>
+            <AccordionDetails>{details}</AccordionDetails>
+          </Accordion>
+        </div>
+        <div className="portfolio-accordion-mobile">
+          <Accordion
+            expanded={selectedPortfolioCard === title}
+            defaultExpanded={title === "Career Objective" ? true : false}
+            onChange={() => handlePortfolio(title)}
+          >
+            <AccordionSummary
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+              id="panel1a-header"
+            >
+              <div className="accordion-title">{title}</div>
+            </AccordionSummary>
+            <AccordionDetails>{details}</AccordionDetails>
+          </Accordion>
+        </div>
+      </>
     );
   };
 
