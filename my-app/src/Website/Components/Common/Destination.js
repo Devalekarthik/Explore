@@ -112,13 +112,7 @@ const Destination = (props) => {
         >
           <Cards {...destinationCardData} />
         </div>
-        <div
-          className={`destination-viewMoreBlock ${
-            destinationViewMore &&
-            destination.length > 1 &&
-            "destination-viewMoreBlockScroll"
-          }`}
-        >
+        <div className="destination-viewMoreBlock">
           <button
             className={`destination-viewMoreBtn
             ${

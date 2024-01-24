@@ -18,6 +18,24 @@
         max-height: 18.75rem;
         flex-direction: row;
         overflow: auto;
+
+        &::-webkit-scrollbar {
+            width: 0.3125rem;
+        }
+
+        &::-webkit-scrollbar-track {
+            background: black;
+        }
+
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: white;
+        }
+
+        /* Handle on hover */
+        &::-webkit-scrollbar-thumb:hover {
+            background: white;
+        }
     }
 
     .footer-company {
