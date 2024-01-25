@@ -419,7 +419,9 @@
         }
 
         .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded:last-of-type,
-        .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type {
+        .css-1elwnq4-MuiPaper-root-MuiAccordion-root:last-of-type,
+        .css-1wz20g3.Mui-expanded:last-of-type,
+        .css-1wz20g3.Mui-expanded:first-of-type {
             border-radius: 2.5rem;
 
             &:hover {
@@ -428,7 +430,9 @@
         }
 
         .css-1c35hjw-MuiPaper-root-MuiAccordion-root:last-of-type,
-        .css-1c35hjw-MuiPaper-root-MuiAccordion-root:first-of-type {
+        .css-1c35hjw-MuiPaper-root-MuiAccordion-root:first-of-type,
+        .css-1wz20g3:last-of-type,
+        .css-1wz20g3:first-of-type {
             border-radius: 2.5rem;
 
             &:hover {
@@ -436,7 +440,8 @@
             }
         }
 
-        .css-o4b71y-MuiAccordionSummary-content {
+        .css-o4b71y-MuiAccordionSummary-content,
+        .css-17o5nyn {
             justify-content: center;
 
             @media (max-width: $mobile) {
@@ -444,11 +449,13 @@
             }
         }
 
-        .css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
+        .css-o4b71y-MuiAccordionSummary-content.Mui-expanded,
+        .css-17o5nyn.Mui-expanded {
             margin: 0;
         }
 
-        .css-15v22id-MuiAccordionDetails-root {
+        .css-15v22id-MuiAccordionDetails-root,
+        .css-u7qq7e {
             padding-top: 0;
         }
     }

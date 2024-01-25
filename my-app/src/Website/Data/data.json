@@ -1291,7 +1291,7 @@
             "Website": {
                 "Title": "Website",
                 "Name": "EXPLORE",
-                "Link": "#"
+                "Link": "https://explore-bykd.netlify.app/"
             },
             "Website-Desc": {
                 "Desc-Title": "Description",
