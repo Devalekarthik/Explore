@@ -1125,7 +1125,7 @@
             "stars": 5,
             "email": "Devale@gmail.com",
             "profileImg": "./ClientProfiles/myprofile.jpg",
-            "groupImg": "https://assets.vogue.com/photos/5a0e02ac78cc853f90f61c50/master/w_1600%2Cc_limit/13-shiretoko-national-park.jpg"
+            "groupImg": "./ClientReview/Devale.png"
         },
         {
             "name": "Andi",
@@ -1133,7 +1133,7 @@
             "stars": 4,
             "email": "Andi@gmail.com",
             "profileImg": "./ClientProfiles/Andi.png",
-            "groupImg": "https://cdn.thecrazytourist.com/wp-content/uploads/2019/03/ccimage-shutterstock_1043813965.jpg"
+            "groupImg": "./ClientReview/Andi.jpg"
         },
         {
             "name": "Stanzy",
@@ -1141,7 +1141,7 @@
             "stars": 5,
             "email": "Stanzy@gmail.com",
             "profileImg": "./ClientProfiles/Stanzy.jpg",
-            "groupImg": "https://www.urlaubstracker.at/wp-content/uploads/2019/05/usa-san-diego-sonnenuntergang.jpg"
+            "groupImg": "./ClientReview/Stanzy.jpg"
         },
         {
             "name": "Prince",
@@ -1149,7 +1149,7 @@
             "stars": 5,
             "email": "Prince@gmail.com",
             "profileImg": "./ClientProfiles/Prince.png",
-            "groupImg": "https://th.bing.com/th/id/R.5f76f4659dc4a700b62ccdc2cbae1b42?rik=9CiM4X2PSzxf6g&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2ff%2fb%2fd%2f699341-las-vegas-wallpaper-1920x1440-4k.jpg&ehk=bqRXP%2f%2fRIa2oGBE0n06DMIbndkXLm2Nx5IixTBlxgFs%3d&risl=&pid=ImgRaw&r=0"
+            "groupImg": "./ClientReview/Prince.jpg"
         },
         {
             "name": "Kito",
@@ -1157,7 +1157,7 @@
             "stars": 4,
             "email": "Kito@gmail.com",
             "profileImg": "./ClientProfiles/Kito.png",
-            "groupImg": "https://media.kasperskycontenthub.com/wp-content/uploads/sites/67/2014/04/16162557/san-francisco-2.jpg"
+            "groupImg": "./ClientReview/Kito.jpg"
         },
         {
             "name": "Manoj",
@@ -1165,7 +1165,7 @@
             "stars": 5,
             "email": "Manoj@gmail.com",
             "profileImg": "./ClientProfiles/Manoj.png",
-            "groupImg": "https://blog.japanwondertravel.com/wp-content/uploads/2018/12/sorasak-_UIN-pFfJ7c-unsplash.jpg"
+            "groupImg": "./ClientReview/Manoj.jpg"
         },
         {
             "name": "Srinivas",
@@ -1173,7 +1173,7 @@
             "stars": 4,
             "email": "Srinivas@gmail.com",
             "profileImg": "./ClientProfiles/Srinivas.jpg",
-            "groupImg": "https://www.touropia.com/gfx/b/2019/08/Pompeii-1.jpg"
+            "groupImg": "./ClientReview/Srinivas.jpg"
         },
         {
             "name": "Vishwas",
@@ -1181,7 +1181,7 @@
             "stars": 5,
             "email": "Vishwas@gmail.com",
             "profileImg": "./ClientProfiles/Vishwas.jpg",
-            "groupImg": "https://www.tripsavvy.com/thmb/oupy5RPoUnO_Jl8i4S4Fj-0-yus=/2096x1431/filters:fill(auto,1)/GettyImages-682383228-596662ef3df78c160ee5533a.jpg"
+            "groupImg": "./ClientReview/Vishwas.jpg"
         },
         {
             "name": "Raju",
@@ -1189,7 +1189,7 @@
             "stars": 5,
             "email": "Raju@gmail.com",
             "profileImg": "./ClientProfiles/Raju.png",
-            "groupImg": "https://www.goodfreephotos.com/albums/italy/other-italy/the-leaning-tower-of-pisa.jpg"
+            "groupImg": "./ClientReview/Raju.jpg"
         },
         {
             "name": "Veena",
@@ -1197,7 +1197,7 @@
             "stars": 4,
             "email": "Veena@gmail.com",
             "profileImg": "./ClientProfiles/Veena.jpg",
-            "groupImg": "https://www.diegoverger.com/img/2017/9272-palace-versailles-france-cour-marbre-cour-royale.jpg"
+            "groupImg": "./ClientReview/Veena.jpg"
         },
         {
             "name": "Rajesh",
@@ -1205,7 +1205,7 @@
             "stars": 5,
             "email": "Rajesh@gmail.com",
             "profileImg": "./ClientProfiles/Rajesh.jpg",
-            "groupImg": "https://static2.tripoto.com/media/filter/nl/img/617621/TripDocument/1554567186_20190406_211937.jpg"
+            "groupImg": "./ClientReview/Rajesh.jpg"
         },
         {
             "name": "Ganesh",
@@ -1213,7 +1213,7 @@
             "stars": 5,
             "email": "Ganesh@gmail.com",
             "profileImg": "./ClientProfiles/Ganesh.jpg",
-            "groupImg": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Sleeping_Beauty_Castle_2019.jpg/1200px-Sleeping_Beauty_Castle_2019.jpg"
+            "groupImg": "./ClientReview/Ganesh.jpg"
         },
         {
             "name": "Vidya",
@@ -1221,7 +1221,7 @@
             "stars": 4,
             "email": "Vidya@gmail.com",
             "profileImg": "./ClientProfiles/Vidya.jpg",
-            "groupImg": "https://wallpapercave.com/wp/wp8551437.jpg"
+            "groupImg": "./ClientReview/Vidya.png"
         },
         {
             "name": "Priyanka",
@@ -1229,7 +1229,7 @@
             "stars": 3,
             "email": "Priyanka@gmail.com",
             "profileImg": "./ClientProfiles/Priyanka.jpg",
-            "groupImg": "https://www.stefanoviola.net/wp-content/uploads/2012/12/brooklyn_sunset.jpg"
+            "groupImg": "./ClientReview/Priyanka.jpg"
         },
         {
             "name": "Anusha",
@@ -1237,7 +1237,7 @@
             "stars": 3,
             "email": "Anusha@gmail.com",
             "profileImg": "./ClientProfiles/Anusha.jpg",
-            "groupImg": "https://thumbs.dreamstime.com/b/amber-fort-jaipur-india-november-also-know-as-amer-high-hill-overlooks-maota-lake-67672037.jpg"
+            "groupImg": "./ClientReview/Anusha.png"
         },
         {
             "name": "Charu",
@@ -1245,7 +1245,7 @@
             "stars": 3,
             "email": "Charu@gmail.com",
             "profileImg": "./ClientProfiles/Charu.jpg",
-            "groupImg": "https://www.japan-guide.com/g22/nagoya_00.jpg"
+            "groupImg": "./ClientReview/Charu.jpg"
         }
     ],
     "ContactUs": {
@@ -1291,7 +1291,7 @@
             "Website": {
                 "Title": "Website",
                 "Name": "EXPLORE",
-                "Link": "#"
+                "Link": "https://explore-bykd.netlify.app/"
             },
             "Website-Desc": {
                 "Desc-Title": "Description",
