@@ -1,6 +1,6 @@
 {
     "Header": {
-        "company": "Trippy",
+        "company": "EXPLORE",
         "title": "Your Journey Your Story",
         "subTitle": "Choose Your Favourite Destination",
         "bannerVideo": "./BannerVideo/HomePage.mp4",
@@ -1169,7 +1169,7 @@
         },
         {
             "name": "Srinivas",
-            "review": "From start to finish, working with Trippy was a pleasure. Professional, knowledgeable and dedicated to making our trip perfect.",
+            "review": "From start to finish, working with EXPLORE was a pleasure. Professional, knowledgeable and dedicated to making our trip perfect.",
             "stars": 4,
             "email": "Srinivas@gmail.com",
             "profileImg": "./ClientProfiles/Srinivas.jpg",
@@ -1201,7 +1201,7 @@
         },
         {
             "name": "Rajesh",
-            "review": "A big thank you to Trippy for making our trip stress-free and memorable. Thier recommendations were spot on!",
+            "review": "A big thank you to EXPLORE for making our trip stress-free and memorable. Thier recommendations were spot on!",
             "stars": 5,
             "email": "Rajesh@gmail.com",
             "profileImg": "./ClientProfiles/Rajesh.jpg",
@@ -1290,7 +1290,7 @@
         "Projects": {
             "Website": {
                 "Title": "Website",
-                "Name": "Trippy",
+                "Name": "EXPLORE",
                 "Link": "#"
             },
             "Website-Desc": {
