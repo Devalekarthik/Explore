@@ -9,10 +9,10 @@
                 "tab": "Rating"
             },
             {
-                "tab": "Popular Destination"
+                "tab": "Popular Destinations"
             },
             {
-                "tab": "Search Destination"
+                "tab": "Search Destinations"
             },
             {
                 "tab": "Hotels"
@@ -47,7 +47,7 @@
         }
     ],
     "PopularDestination": {
-        "title": "Popular Destination",
+        "title": "Popular Destinations",
         "subTitle": "Tours give you the opportunity to explore",
         "travelPlaces": [
             {
@@ -65,7 +65,7 @@
         ]
     },
     "Destination": {
-        "title": "Search Your Dream Destination",
+        "title": "Search Your Dream Destinations",
         "subTitle": "Fill in the field below to find the best destination",
         "destination-offers": [
             "3 days trip",

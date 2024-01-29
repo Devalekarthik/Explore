@@ -65,7 +65,7 @@ const Destination = (props) => {
 
   return (
     <>
-      <div className="destination" id="Search Destination">
+      <div className="destination" id="Search Destinations">
         <p className="destination-title">{Data.Destination.title}</p>
         <p className="destination-subTitle">{Data.Destination.subTitle}</p>
 
