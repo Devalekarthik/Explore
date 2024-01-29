@@ -6,7 +6,7 @@ const PopularDestination = (props) => {
 
   return (
     <div className="popular-destination">
-      <div className="popular-wrapper" id="Popular Destination">
+      <div className="popular-wrapper" id="Popular Destinations">
         <p className="popular-title">{Data.PopularDestination.title}</p>
         <div className="popular-subTitle">
           {Data.PopularDestination.subTitle}

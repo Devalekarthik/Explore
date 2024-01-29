@@ -62,7 +62,7 @@
         .hotels-offersblock {
             display: flex;
             flex-direction: column;
-            margin-top: 3.25rem;
+            margin-top: 4rem;
             transition: 1s ease-in-out;
 
             @media (max-width: $desktop) {
@@ -176,6 +176,11 @@
             display: block;
         }
 
+        .hotels-cardsNote {
+            color: red;
+            margin: 0;
+        }
+
         .hotels-cards {
             max-height: 18.75rem;
             scroll-behavior: auto;
@@ -209,6 +214,10 @@
             max-height: 35.625rem;
             overflow: auto;
             transition: 1s ease-in-out;
+
+            @media (max-width: $mobile) {
+                max-height: 32rem;
+            }
         }
 
         .hotels-cardsviewMoreBlock {

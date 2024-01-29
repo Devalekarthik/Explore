@@ -9,10 +9,10 @@
                 "tab": "Rating"
             },
             {
-                "tab": "Popular Destination"
+                "tab": "Popular Destinations"
             },
             {
-                "tab": "Search Destination"
+                "tab": "Search Destinations"
             },
             {
                 "tab": "Hotels"
@@ -47,7 +47,7 @@
         }
     ],
     "PopularDestination": {
-        "title": "Popular Destination",
+        "title": "Popular Destinations",
         "subTitle": "Tours give you the opportunity to explore",
         "travelPlaces": [
             {
@@ -65,7 +65,7 @@
         ]
     },
     "Destination": {
-        "title": "Search Your Dream Destination",
+        "title": "Search Your Dream Destinations",
         "subTitle": "Fill in the field below to find the best destination",
         "destination-offers": [
             "3 days trip",
@@ -1989,7 +1989,8 @@
         "note": "Note",
         "noteInfo": "We give much important to customers safety and comfort so we offer our customer best hotels of there own choice.",
         "visitHotels": "So please visit our special offers block to book the Hotels.",
-        "bookHotel": "Book Hotel"
+        "bookHotel": "Book Hotel",
+        "selectNote": "Please Click or Hover on Cards for More Details"
     },
     "PlaceHolderLabel": {
         "name": "Enter Name",
@@ -2000,7 +2001,8 @@
         "dateTravel": "Date of Travel",
         "totalMembers": "Total Members",
         "roomsRequired": "Rooms Required",
-        "specificRequirement": "Specific Requirement"
+        "specificRequirement": "Specific Requirement",
+        "optional":"(Optional)"
     },
     "ErrorLabel": {
         "name": "Please Enter Your Name",

@@ -76,6 +76,7 @@ const Hotels = (props) => {
         </div>
       </div>
       <div className="hotels-cardsBlock">
+        <p className="hotels-cardsNote">{Data.LabelData.selectNote}</p>
         <div
           className={`hotels-cards ${
             hotelsViewMore && hotelsList.length > 1
