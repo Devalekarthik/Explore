@@ -2001,7 +2001,8 @@
         "dateTravel": "Date of Travel",
         "totalMembers": "Total Members",
         "roomsRequired": "Rooms Required",
-        "specificRequirement": "Specific Requirement"
+        "specificRequirement": "Specific Requirement",
+        "optional":"(Optional)"
     },
     "ErrorLabel": {
         "name": "Please Enter Your Name",

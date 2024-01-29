@@ -24,11 +24,9 @@ const ContactDetails = (props) => {
     const error = {
       name: contactData.name === "" ? Data.ErrorLabel.name : "",
       email: !redgeEmail.test(contactData.email) ? Data.ErrorLabel.email : "",
-      phoneNo:
-        contactData.phoneNo?.length === 0 ? Data.ErrorLabel.mobileNo : "",
     };
 
-    if (error.name === "" && (error.email === "" || error.phoneNo === ""))
+    if (error.name === "" && error.email === "")
       return setContactError(null), setcontactFormVarify(!contactFormVarify);
     return setContactError(error);
   };
@@ -74,13 +72,10 @@ const ContactDetails = (props) => {
               type="number"
               name="phoneNo"
               class="form-control"
-              placeholder={Data.PlaceHolderLabel.mobileNo}
+              placeholder={`${Data.PlaceHolderLabel.mobileNo} ${Data.PlaceHolderLabel.optional}`}
               value={contactData.phoneNo}
               onChange={(e) => handleContactInput(e)}
             />
-            {contactError?.phoneNo && (
-              <p className="contact-error">*{contactError?.phoneNo}</p>
-            )}
             <textarea
               class="form-control"
               placeholder={Data.PlaceHolderLabel.message}
