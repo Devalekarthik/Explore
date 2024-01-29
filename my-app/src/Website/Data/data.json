@@ -1989,7 +1989,8 @@
         "note": "Note",
         "noteInfo": "We give much important to customers safety and comfort so we offer our customer best hotels of there own choice.",
         "visitHotels": "So please visit our special offers block to book the Hotels.",
-        "bookHotel": "Book Hotel"
+        "bookHotel": "Book Hotel",
+        "selectNote": "Please Click or Hover on Cards for More Details"
     },
     "PlaceHolderLabel": {
         "name": "Enter Name",

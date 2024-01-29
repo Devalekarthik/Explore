@@ -101,6 +101,7 @@ const Destination = (props) => {
             );
           })}
         </div>
+        <p className="destination-cardsNote">{Data.LabelData.selectNote}</p>
         <div
           className={`destination-cards 
           ${

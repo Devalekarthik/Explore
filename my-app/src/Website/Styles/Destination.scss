@@ -147,6 +147,11 @@
         }
     }
 
+    .destination-cardsNote {
+        color: red;
+        margin: 0;
+    }
+
     .destination-cards {
         max-height: 18.75rem;
         overflow: hidden;
@@ -180,6 +185,10 @@
         max-height: 35.625rem;
         overflow: auto;
         transition: 1s ease-in-out;
+
+        @media (max-width: $mobile) {
+            max-height: 32rem;
+        }
     }
 
     .destination-viewMoreBlock {
