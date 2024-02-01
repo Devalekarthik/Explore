@@ -4,6 +4,7 @@
         "title": "Your Journey Your Story",
         "subTitle": "Choose Your Favourite Destination",
         "bannerVideo": "./BannerVideo/HomePage.mp4",
+        "bannerImg": "./BannerVideo/BannerImg.png",
         "nav-name": [
             {
                 "tab": "Rating"
@@ -1124,7 +1125,7 @@
             "review": "I recently went on a trip, and I must say it was an impressive experience. Their knowledgeable staff, hassle-free booking process, and well-curated itinerary exceeded my expectations.",
             "stars": 5,
             "email": "Devale@gmail.com",
-            "profileImg": "./ClientProfiles/myprofile.jpg",
+            "profileImg": "./ClientProfiles/Devale.png",
             "groupImg": "./ClientReview/Devale.png"
         },
         {
@@ -1148,7 +1149,7 @@
             "review": "Absolutely fantastic experience with thhis agency! Their attention to detail made our trip seamless and unforgettable. Highly recommended!!",
             "stars": 5,
             "email": "Prince@gmail.com",
-            "profileImg": "./ClientProfiles/Prince.png",
+            "profileImg": "./ClientProfiles/Prince.jpg",
             "groupImg": "./ClientReview/Prince.jpg"
         },
         {
@@ -1265,7 +1266,7 @@
             "LinkedIn-Link": "https://www.linkedin.com/in/karthik-d-192285190"
         },
         "Career Objective": [
-            "I'm a motivated Front-End Web-Developer with 1.9 years of experience in IT industry. Proficient in HTML,CSS,Javascript, Bootstrap, MUI,RWD(Resposive web design), and with knowledge of cutting-edge technologies like React-JS. Seeking a challenging position to utilize my skills in developing interactive, user-friendly websites.Committed to staying current and with modern web technologies and trends to deliver innovative solutions to meet client needs."
+            "I'm a motivated Front-End Web-Developer with 2 years of experience in IT industry. Proficient in HTML, CSS, JavaScript, Bootstrap, MUI, RWD (Responsive web design), and with knowledge of cutting-edge technologies like REACT-JS. Seeking a challenging position to utilize my skills in developing interactive, user-friendly websites. Committed to staying current and with modern web technologies and trends to deliver innovative solutions to meet client needs."
         ],
         "Skills": [
             "HTML",
@@ -1281,10 +1282,10 @@
         ],
         "Experience": {
             "Company": "Infosys",
-            "Years": "1.9 Years",
+            "Years": "2 Years",
             "Desc": [
-                "Working in Infosys PVTLTD, Bangalore as a UI developer since march 2020.",
-                "In my current Project working as a React Developer(UI developer) where we have built a completely user-friendly website by working with a team of 10 developers. And this website is completely Responsive as it can be access from Desktop/Tab/Mobile, with proper alignment of the design in which user is viewing."
+                "Working in Infosys Ltd, Bangalore as a UI developer since march 2022.",
+                "In my current Project working as a React Developer (UI Developer) where we have built a completely user-friendly website by working with a team of 10 developers. And this website is completely responsive as it can be access from Desktop/Tab/Mobile, with proper alignment of the design in which user is viewing."
             ]
         },
         "Projects": {
@@ -1296,10 +1297,10 @@
             "Website-Desc": {
                 "Desc-Title": "Description",
                 "Desc": [
-                    "This website is a Travel website where people can book there favorite destination and near by Hotels to there destination.",
-                    "This Website is a User-Friendly and it's completely a Responsive website where User can access from Destop/Tab/Mobile, with proper alignment of the design in which user is viewing.",
-                    "This website contain Dynamic Coding completely where the data is coming in the form of JSON format. If in case we have to add or delete data we can do it easily no need to alter the codes just change in JSON and everything will be done according.",
-                    "In this website I have majorly taken care of DRC(Don't repeat code) process, Re-Useable components and code optimisation. So that we can reuse the common components and reduce the size of the website."
+                    "This website is a travel website where people can book their favourite destinations and nearby hotels to their destinations.",
+                    "This website is a user-friendly and it's completely a responsive website where user can access from Desktop/Tab/Mobile, with proper alignment of the design in which user is viewing.",
+                    "This website contains Dynamic Coding completely where the data is coming in the form of JSON format. If in case we have to add or delete data we can do it easily no need to alter the codes just change in JSON and everything will be done according.",
+                    "In this website I have majorly taken care of DRC (Don't repeat code) process, Re-Useable components and code optimisation. So that we can reuse the common components and reduce the size of the website."
                 ]
             }
         },
@@ -1311,7 +1312,7 @@
             "Marati"
         ],
         "Education": {
-            "College": "MS Ramaiah Institute Of Technologies",
+            "College": "MS Ramaiah Institute Of Technology",
             "Branch": "Civil Engineering",
             "CGPA": "8.34",
             "Location": "Bangalore"
@@ -2002,7 +2003,7 @@
         "totalMembers": "Total Members",
         "roomsRequired": "Rooms Required",
         "specificRequirement": "Specific Requirement",
-        "optional":"(Optional)"
+        "optional": "(Optional)"
     },
     "ErrorLabel": {
         "name": "Please Enter Your Name",
